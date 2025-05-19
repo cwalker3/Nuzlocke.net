@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  level_cap: 1
+  game: one
+  number: 1
+
+two:
+  name: MyString
+  level_cap: 1
+  game: two
+  number: 1

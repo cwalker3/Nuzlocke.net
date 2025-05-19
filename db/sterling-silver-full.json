@@ -1,0 +1,1241 @@
+{
+  "splits": [
+    {
+  "name": "Falkner",
+  "cap": 17,
+  "areas": [
+    {
+      "name": "New Bark Town",
+      "area_pokemon": [
+        {
+          "method": "Gift",
+          "level": 5,
+          "area_pokemon": [
+            {"species": "Chikorita", "chance": null},
+            {"species": "Cyndaquil", "chance": null},
+            {"species": "Totodile", "chance": null}
+          ]
+        },
+        {
+          "method": "Old Rod",
+          "level": 10,
+          "area_pokemon": [
+            {"species": "Surskit", "chance": 60},
+            {"species": "Finneon", "chance": 35},
+            {"species": "Mantyke", "chance": 5}
+          ]
+        },
+        {
+          "method": "Surf",
+          "level": 20,
+          "area_pokemon": [
+            {"species": "Krabby", "chance": 60},
+            {"species": "Psyduck", "chance": 30},
+            {"species": "Tentacool", "chance": 10}
+          ]
+        }
+      ],
+      "items": [
+        {"item": "Rare Candy", "quantity": 995, "source": "Elm's assistant"},
+        {"item": "Max Repel", "quantity": 995, "source": "Elm's assistant"},
+        {"item": "Full Restore", "quantity": 995, "source": "Elm's assistant"},
+        {"item": "Max Potion", "quantity": 995, "source": "Elm's assistant"},
+        {"item": "Max Elixir", "quantity": 995, "source": "Elm's assistant"},
+        {"item": "Poké Ball", "quantity": 995, "source": "Elm's assistant"},
+        {"item": "Oran Berry", "quantity": 10, "source": "Elm's assistant"},
+        {"item": "Chesto Berry", "quantity": 2, "source": "Elm's assistant"},
+        {"item": "Honey", "quantity": 99, "source": "Elm's assistant"},
+        {"item": "Flame Orb", "quantity": 2, "source": "Elm's assistant"},
+        {"item": "Toxic Orb", "quantity": 2, "source": "Elm's assistant"}
+      ]
+    },
+    {
+      "name": "Cherrygrove City",
+      "area_pokemon": [
+        {
+          "method": "Old Rod",
+          "level": 10,
+          "area_pokemon": [
+            {"species": "Goldeen", "chance": 60},
+            {"species": "Poliwag", "chance": 30},
+            {"species": "Magikarp", "chance": 5},
+            {"species": "Tentacool", "chance": 5}
+          ]
+        },
+        {
+          "method": "Surf",
+          "level": 20,
+          "area_pokemon": [
+            {"species": "Horsea", "chance": 60},
+            {"species": "Feebas", "chance": 35},
+            {"species": "Qwilfish", "chance": 5}
+          ]
+        }
+      ],
+      "items": [
+        {"item": "Old Rod", "quantity": 1, "source": "Fisherman in Pokemon Center"}
+      ],
+      "trainers": [
+        {
+          "name": "Rival 1 - Chikorita",
+          "type": "Mandatory",
+          "notes": "Player chose Chikorita",
+          "trainer_pokemon": [
+            {
+              "species": "Cyndaquil",
+              "gender": "m",
+              "level": 5,
+              "moves": ["Tackle", "Leer", "Fire Spin", null]
+            }
+          ]
+        },
+        {
+          "name": "Rival 1 - Cyndaquil",
+          "type": "Mandatory",
+          "notes": "Player chose Cyndaquil",
+          "trainer_pokemon": [
+            {
+              "species": "Totodile",
+              "gender": "m",
+              "level": 5,
+              "moves": ["Scratch", "Leer", "Water Gun", null]
+            }
+          ]
+        },
+        {
+          "name": "Rival 1 - Totodile",
+          "type": "Mandatory",
+          "notes": "Player chose Totodile",
+          "trainer_pokemon": [
+            {
+              "species": "Chikorita",
+              "gender": "m",
+              "level": 5,
+              "moves": ["Tackle", "Growl", "Mega Drain", null]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Route 29",
+      "area_pokemon": [
+        {
+          "method": "Grass",
+          "level": 4,
+          "area_pokemon": [
+            {"species": "Starly", "chance": 20},
+            {"species": "Sentret", "chance": 20},
+            {"species": "Shinx", "chance": 10},
+            {"species": "Zigzagoon", "chance": 10},
+            {"species": "Kricketot", "chance": 10},
+            {"species": "Hoothoot", "chance": 10},
+            {"species": "Rattata", "chance": 5},
+            {"species": "Taillow", "chance": 5},
+            {"species": "Poochyena", "chance": 4},
+            {"species": "Bidoof", "chance": 4},
+            {"species": "Pidgey", "chance": 1},
+            {"species": "Wurmple", "chance": 1}
+          ]
+        }
+      ],
+      "items": [
+        {"item": "Pecha Berry", "quantity": 1, "source": "Northeastern end of the route"}
+      ]
+    },
+    {
+    "name": "Route 46",
+    "area_pokemon": [
+      {
+        "method": "Grass",
+        "level": 4,
+        "area_pokemon": [
+          {"species": "Geodude", "chance": 20},
+          {"species": "Spearow", "chance": 20},
+          {"species": "Onix", "chance": 10},
+          {"species": "Caterpie", "chance": 10},
+          {"species": "Weedle", "chance": 10},
+          {"species": "Ledyba", "chance": 10},
+          {"species": "Pidgey", "chance": 5},
+          {"species": "Rattata", "chance": 5},
+          {"species": "Budew", "chance": 4},
+          {"species": "Ralts", "chance": 4},
+          {"species": "Skorupi", "chance": 1},
+          {"species": "Pichu", "chance": 1}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 30",
+    "area_pokemon": [
+      {
+        "method": "Grass",
+        "level": 4,
+        "area_pokemon": [
+          {"species": "Numel", "chance": 30},
+          {"species": "Sunkern", "chance": 30},
+          {"species": "Growlithe", "chance": 20},
+          {"species": "Slugma", "chance": 10},
+          {"species": "Charmander", "chance": 5},
+          {"species": "Torchic", "chance": 5}
+        ]
+      },
+      {
+        "method": "Old Rod",
+        "level": 10,
+        "area_pokemon": [
+          {"species": "Surskit", "chance": 60},
+          {"species": "Remoraid", "chance": 30},
+          {"species": "Tentacool", "chance": 10}
+        ]
+      },
+      {
+        "method": "Surf",
+        "level": 20,
+        "area_pokemon": [
+          {"species": "Corphish", "chance": 60},
+          {"species": "Chinchou", "chance": 30},
+          {"species": "Shellder", "chance": 10}
+        ]
+      }
+    ],
+    "trainers": [
+      {
+        "name": "Youngster Papaya",
+        "type": "Mandatory",
+        "trainer_pokemon": [
+          {
+            "species": "Starly",
+            "gender": "m",
+            "level": 10,
+            "moves": ["Wing Attack", "Quick Attack", "Growl", "Thief"]
+          }
+        ]
+      },
+      {
+        "name": "Youngster Mikey",
+        "type": "Mandatory",
+        "trainer_pokemon": [
+          {
+            "species": "Pidgey",
+            "gender": "m",
+            "level": 10,
+            "moves": ["Tackle", "Peck", null, null]
+          },
+          {
+            "species": "Rattata",
+            "gender": "m",
+            "level": 11,
+            "moves": ["Bite", "Quick Attack", null, null]
+          }
+        ]
+      },
+      {
+        "name": "Bug Catcher Don",
+        "type": "Mandatory",
+        "trainer_pokemon": [
+          {
+            "species": "Caterpie",
+            "gender": "m",
+            "level": 9,
+            "moves": ["String Shot", "Mega Drain", "Leech Life", null]
+          },
+          {
+            "species": "Weedle",
+            "gender": "m",
+            "level": 9,
+            "moves": ["Poison Tail", "Leech Life", null, null]
+          },
+          {
+            "species": "Shedinja",
+            "gender": "m",
+            "level": 10,
+            "moves": ["Endeavor", "Faint Attack", "Tackle", "Shadow Sneak"]
+          },
+          {
+            "species": "Wormadam",
+            "gender": "m",
+            "level": 10,
+            "moves": ["Tackle", "Bug Bite", "Protect", null]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 31",
+    "area_pokemon": [
+      {
+        "method": "Grass",
+        "level": 4,
+        "area_pokemon": [
+          {"species": "Psyduck", "chance": 30},
+          {"species": "Krabby", "chance": 30},
+          {"species": "Corphish", "chance": 20},
+          {"species": "Finneon", "chance": 10},
+          {"species": "Squirtle", "chance": 5},
+          {"species": "Mudkip", "chance": 5}
+        ]
+      },
+      {
+        "method": "Old Rod",
+        "level": 10,
+        "area_pokemon": [
+          {"species": "Barboach", "chance": 60},
+          {"species": "Carvanha", "chance": 30},
+          {"species": "Wingull", "chance": 5},
+          {"species": "Slowpoke", "chance": 5}
+        ]
+      },
+      {
+        "method": "Surf",
+        "level": 20,
+        "area_pokemon": [
+          {"species": "Carvanha", "chance": 60},
+          {"species": "Chinchou", "chance": 30},
+          {"species": "Barboach", "chance": 10}
+        ]
+      }
+    ],
+    "items": [
+      {"item": "TM09 Bullet Seed", "quantity": 1, "source": "Entrance to Dark Cave"},
+      {"item": "Silk Scarf", "quantity": 1, "source": "Below the first ledge"},
+      {"item": "Exp. Share", "quantity": 1, "source": "Gift from Lyra before Violet City"}
+    ],
+    "trainers": [
+      {
+        "name": "Sinnoh Leader Candice",
+        "type": "Mandatory",
+        "notes": "PERMA HAIL",
+        "trainer_pokemon": [
+          {
+            "species": "Sneasel",
+            "gender": "f",
+            "level": 10,
+            "moves": ["Ice Shard", "Tackle", "Rock Tomb", null]
+          },
+          {
+            "species": "Swinub",
+            "gender": "f",
+            "level": 10,
+            "moves": ["Rock Tomb", "Ice Shard", "HP Ground", null]
+          },
+          {
+            "species": "Snover",
+            "gender": "f",
+            "level": 10,
+            "moves": ["Razor Leaf", "Leer", "Ingrain", "Icy Wind"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dark Cave",
+    "area_pokemon": [
+      {
+        "method": "Cave",
+        "level": 6,
+        "area_pokemon": [
+          {"species": "Geodude", "chance": 20},
+          {"species": "Zubat", "chance": 20},
+          {"species": "Sandshrew", "chance": 10},
+          {"species": "Mankey", "chance": 10},
+          {"species": "Nidoran-M", "chance": 10},
+          {"species": "Nidoran-F", "chance": 10},
+          {"species": "Spinarak", "chance": 5},
+          {"species": "Phanpy", "chance": 5},
+          {"species": "Gligar", "chance": 5},
+          {"species": "Dunsparce", "chance": 5}
+        ]
+      },
+      {
+        "method": "Old Rod",
+        "level": 10,
+        "area_pokemon": [
+          {"species": "Kabuto", "chance": 60},
+          {"species": "Omanyte", "chance": 30},
+          {"species": "Anorith", "chance": 5},
+          {"species": "Lileep", "chance": 5}
+        ]
+      },
+      {
+        "method": "Surf",
+        "level": 20,
+        "area_pokemon": [
+          {"species": "Remoraid", "chance": 60},
+          {"species": "Surskit", "chance": 35},
+          {"species": "Feebas", "chance": 5}
+        ]
+      }
+    ],
+    "items": [
+      {"item": "TM54 False Swipe", "quantity": 1, "source": "1F"}
+    ]
+  },
+  {
+    "name": "Violet City",
+    "area_pokemon": [
+      {
+        "method": "Old Rod",
+        "level": 10,
+        "area_pokemon": [
+          {"species": "Luvdisc", "chance": 60},
+          {"species": "Azurill", "chance": 40}
+        ]
+      },
+      {
+        "method": "Surf",
+        "level": 20,
+        "area_pokemon": [
+          {"species": "Staryu", "chance": 60},
+          {"species": "Lileep", "chance": 40}
+        ]
+      }
+    ],
+    "items": [
+      {"item": "Heart Scale", "quantity": 1, "source": "Pathway behind the Pokemon Center"},
+      {"item": "TM73 Thunder Wave", "quantity": 1, "source": "Surf northeast area"},
+      {"item": "PP Up", "quantity": 1, "source": "Surf northwest area"}
+    ]
+  },
+    {
+    "name": "Sprout Tower",
+    "area_pokemon": [
+      {
+        "method": "Floor",
+        "level": 8,
+        "area_pokemon": [
+          {"species": "Cacnea", "chance": 20},
+          {"species": "Seedot", "chance": 20},
+          {"species": "Oddish", "chance": 10},
+          {"species": "Tangela", "chance": 10},
+          {"species": "Exeggcute", "chance": 10},
+          {"species": "Paras", "chance": 10},
+          {"species": "Bellsprout", "chance": 10},
+          {"species": "Bulbasaur", "chance": 5},
+          {"species": "Treecko", "chance": 5}
+        ]
+      }
+    ],
+    "trainers": [
+      {
+        "name": "Sage Nico",
+        "type": "Mandatory",
+        "trainer_pokemon": [
+          {"species": "Sentret", "gender": "m", "level": 11, "moves": ["Assist", "Quick Attack", "Sand-Attack", null]},
+          {"species": "Sunkern", "gender": "m", "level": 11, "moves": ["Mega Drain", "Synthesis", "Leech Seed", null]},
+          {"species": "Wurmple", "gender": "m", "level": 11, "item": "Poison Barb", "moves": ["Tackle", "Poison Sting", "Electroweb", null]}
+        ]
+      },
+      {
+        "name": "Sage Chow",
+        "type": "Mandatory",
+        "trainer_pokemon": [
+          {"species": "Igglybuff", "gender": "m", "level": 11, "moves": ["Present", null, null, null]},
+          {"species": "Poochyena", "gender": "m", "level": 11, "moves": ["Bite", "Rock Smash", "Mud-Slap", null]},
+          {"species": "Bellsprout", "gender": "m", "level": 12, "moves": ["Cut", "Poison Tail", "Leech Life", null]}
+        ]
+      },
+      {
+        "name": "Sage Edmond",
+        "type": "Mandatory",
+        "trainer_pokemon": [
+          {"species": "Snubbull", "gender": "m", "level": 12, "moves": ["Pay Day", "Bite", "Bulldoze", null]},
+          {"species": "Staryu", "gender": "m", "level": 12, "moves": ["Water Pulse", "Psybeam", "Flash", "Camouflage"]},
+          {"species": "Paras", "gender": "m", "level": 12, "item": "SilverPowder", "moves": ["Spore", "Aerial Ace", "Secret Power", "Mega Drain"]}
+        ]
+      },
+      {
+        "name": "Sage Jin",
+        "type": "Mandatory",
+        "trainer_pokemon": [
+          {"species": "Luvdisc", "gender": "m", "level": 12, "moves": ["Icy Wind", "Dive", "TOXIC", "Sweet Kiss"]},
+          {"species": "Nincada", "gender": "m", "level": 12, "item": "Miracle Seed", "moves": ["Giga Drain", "Dig", "HP Flying", null]}
+        ]
+      },
+      {
+        "name": "Sage Neal",
+        "type": "Mandatory",
+        "notes": "Double Battle with Sage Troy",
+        "trainer_pokemon": [
+          {"species": "Wailmer", "gender": "m", "level": 13, "moves": ["Water Pulse", "Icy Wind", "Uproar", "Rock Tomb"]},
+          {"species": "Pichu", "gender": "m", "level": 13, "moves": ["Thunder Wave", "Electroweb", "Thief", "Sweet Kiss"]}
+        ]
+      },
+      {
+        "name": "Sage Troy",
+        "type": "Mandatory",
+        "notes": "Double Battle with Sage Neal",
+        "trainer_pokemon": [
+          {"species": "Clefairy", "gender": "m", "level": 13, "item": "Leppa Berry", "moves": ["METRONOME", null, null, null]},
+          {"species": "Taillow", "gender": "m", "level": 13, "item": "Silk Scarf", "moves": ["Quick Attack", "Mud-Slap", "Peck", null]}
+        ]
+      },
+      {
+        "name": "Elder Li",
+        "type": "Mandatory",
+        "notes": "Reward: Muscle Band x1",
+        "trainer_pokemon": [
+          {"species": "Houndour", "gender": "m", "level": 13, "item": "Black Glasses", "moves": ["Bite", "Flame Wheel", "Dig", "Leer"]},
+          {"species": "Weepinbell", "gender": "m", "level": 13, "item": "Black Sludge", "moves": ["Razor Leaf", "Growth", "SLEEP POWDER", "Acid"]},
+          {"species": "Mankey", "gender": "m", "level": 13, "item": "Life Orb", "ability": "Vital Spirit", "moves": ["Endure", "Karate Chop", "Rock Tomb", "Thunder Punch"]},
+          {"species": "Hoothoot", "gender": "m", "level": 14, "item": "Charti Berry", "moves": ["YAWN", "Uproar", "Faint Attack", "Night Shade"]},
+          {"species": "Magnemite", "level": 14, "item": "Metal Coat", "moves": ["Electroweb", "Mirror Shot", "SonicBoom", "Thunder Wave"]}
+        ]
+      }
+    ],
+    "items": [
+      {"item": "Muscle Band", "quantity": 1, "source": "Elder Li"}
+    ]
+  },
+  {
+    "name": "Route 36",
+    "items": [
+      {"item": "HM06 Rock Smash", "quantity": 1, "source": "Dude near the sign"}
+    ]
+  },
+    {
+    "name": "Ruins of Alph",
+    "area_pokemon": [
+      {
+        "method": "Cave",
+        "level": 10,
+        "area_pokemon": [
+          {"species": "Unown", "chance": 100}
+        ]
+      },
+      {
+        "method": "Grass",
+        "level": 14,
+        "area_pokemon": [
+          {"species": "Natu", "chance": 20},
+          {"species": "Kadabra", "chance": 20},
+          {"species": "Drowzee", "chance": 10},
+          {"species": "Bronzor", "chance": 10},
+          {"species": "Chingling", "chance": 10},
+          {"species": "Kirlia", "chance": 10},
+          {"species": "Spoink", "chance": 5},
+          {"species": "Meditite", "chance": 5},
+          {"species": "Solrock", "chance": 4},
+          {"species": "Lunatone", "chance": 4},
+          {"species": "Baltoy", "chance": 1},
+          {"species": "Unown", "chance": 1}
+        ]
+      },
+      {
+        "method": "Old Rod",
+        "level": 10,
+        "area_pokemon": [
+          {"species": "Buizel", "chance": 60},
+          {"species": "Shellos", "chance": 30},
+          {"species": "Wooper", "chance": 9},
+          {"species": "Mantyke", "chance": 1}
+        ]
+      },
+      {
+        "method": "Surf",
+        "level": 20,
+        "area_pokemon": [
+          {"species": "Wooper", "chance": 90},
+          {"species": "Dratini", "chance": 10}
+        ]
+      }
+    ],
+    "items": [
+      {"item": "Berry Juice", "quantity": 1, "source": "Near the northern pond (no Surf required)"}
+    ]
+  },
+  {
+    "name": "Route 32",
+    "area_pokemon": [
+      {
+        "method": "Grass",
+        "level": 10,
+        "area_pokemon": [
+          {"species": "Mareep", "chance": 20},
+          {"species": "Ekans", "chance": 20},
+          {"species": "Shinx", "chance": 10},
+          {"species": "Electrike", "chance": 10},
+          {"species": "Buizel", "chance": 10},
+          {"species": "Vulpix", "chance": 10},
+          {"species": "Makuhita", "chance": 5},
+          {"species": "Machop", "chance": 5},
+          {"species": "Tyrogue", "chance": 4},
+          {"species": "Swablu", "chance": 4},
+          {"species": "Chingling", "chance": 1},
+          {"species": "Meowth", "chance": 1}
+        ]
+      },
+      {
+        "method": "Old Rod",
+        "level": 10,
+        "area_pokemon": [
+          {"species": "Seel", "chance": 60},
+          {"species": "Grimer", "chance": 30},
+          {"species": "Slugma", "chance": 10}
+        ]
+      },
+      {
+        "method": "Surf",
+        "level": 20,
+        "area_pokemon": [
+          {"species": "Chinchou", "chance": 60},
+          {"species": "Goldeen", "chance": 30},
+          {"species": "Slugma", "chance": 10}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Violet Gym",
+    "trainers": [
+      {
+        "name": "Bird Keeper Abe",
+        "type": "Mandatory",
+        "trainer_pokemon": [
+          {"species": "Spearow", "gender": "m", "level": 15, "moves": ["Pluck", "Leer", "Fury Attack", "Pursuit"]},
+          {"species": "Venomoth", "gender": "m", "level": 13, "moves": ["SLEEP POWDER", "Twineedle", "Air Cutter", null]},
+          {"species": "Lombre", "gender": "m", "level": 14, "moves": ["Fake Out", "Bubble Beam", "Giga Drain", "Icy Wind"]},
+          {"species": "Stantler", "gender": "m", "level": 13, "moves": ["HYPNOSIS", "Mud-Slap", "Confusion", "Shadow Sneak"]}
+        ]
+      },
+      {
+        "name": "Bird Keeper Rod",
+        "type": "Mandatory",
+        "trainer_pokemon": [
+          {"species": "Pidgey", "gender": "m", "level": 15, "moves": ["HP Flying", "Sand-Attack", "Hyper Voice", "Electroweb"]},
+          {"species": "Hoothoot", "gender": "m", "level": 16, "item": "Leftovers", "moves": ["HYPNOSIS", "Body Slam", "Roost", "Whirlwind"]},
+          {"species": "Doduo", "gender": "m", "level": 15, "moves": ["Quick Attack", "Pluck", "Double Hit", "Flame Wheel"]},
+          {"species": "Yanma", "gender": "m", "level": 12, "moves": ["Aerial Ace", "ANCIENTPOWER", "U-turn", "Detect"]},
+          {"species": "Baltoy", "level": 13, "moves": ["Psybeam", "Rock Tomb", "SELFDESTRUCT", "HP Water"]}
+        ]
+      },
+      {
+        "name": "Gym Leader Falkner",
+        "type": "Mandatory",
+        "trainer_pokemon": [
+          {"species": "Staravia", "gender": "m", "level": 16, "item": "Cheri Berry", "ability": "Intimidate", "moves": ["Quick Attack", "U-turn", "Aerial Ace", "Rock Smash"]},
+          {"species": "Gligar", "gender": "m", "level": 16, "item": "Yache Berry", "ability": "Poison Heal", "moves": ["Rock Tomb", "Knock Off", "Bulldoze", "Wing Attack"]},
+          {"species": "Prinplup", "gender": "m", "level": 16, "item": "Sharp Beak", "ability": "Torrent", "moves": ["Pluck", "Water Pulse", "Steel Wing", "YAWN"]},
+          {"species": "Murkrow", "gender": "m", "level": 16, "item": "Charti Berry", "ability": "SUPER LUCK", "moves": ["Icy Wind", "Aerial Ace", "Shadow Claw", "HP Dark"]},
+          {"species": "Pidgeotto", "gender": "m", "level": 17, "item": "Oran Berry", "ability": "Quick Feet", "moves": ["Quick Attack", "HP Grass", "Shock Wave", "Air Cutter"]}
+        ]
+      }
+    ],
+    "items": [
+      {"item": "TM88 Pluck", "quantity": 1, "source": "Gym Leader Falkner"},
+      {"item": "Oran Berry", "quantity": 10, "source": "Gym Leader Falkner"},
+      {"item": "Chesto Berry", "quantity": 10, "source": "Gym Leader Falkner"},
+      {"item": "Rawst Berry", "quantity": 10, "source": "Gym Leader Falkner"},
+      {"item": "Cheri Berry", "quantity": 10, "source": "Gym Leader Falkner"},
+      {"item": "Pecha Berry", "quantity": 10, "source": "Gym Leader Falkner"}
+    ]
+  }
+ ]
+    },
+    {
+      "name": "Bugsy",
+      "cap": 24,
+      "areas": [
+        {
+          "name": "Route 29",
+          "items": [
+            {"item": "TwistedSpoon", "quantity": 1, "source": "Tuscany (Week Sibling)"}
+          ]
+        },
+        {
+          "name": "Route 32",
+          "trainers": [
+            {
+              "name": "Youngster Albert",
+              "type": "Mandatory",
+              "trainer_pokemon": [
+                {"species": "Jigglypuff", "gender": "m", "level": 16, "moves": ["Sing", "Present", "TOXIC", "Recover"]},
+                {"species": "Gastly", "gender": "m", "level": 16, "moves": ["Shadow Sneak", "Acid", "Mega Drain", null]},
+                {"species": "Togetic", "gender": "m", "level": 17, "moves": ["METRONOME", "Encore", null, null]}
+              ]
+            },
+            {
+              "name": "Picnicker Liz",
+              "type": "Optional",
+              "trainer_pokemon": [
+                {"species": "Bibarel", "gender": "f", "level": 17, "moves": ["Body Slam", "Waterfall", "Rock Slide", "Curse"]},
+                {"species": "Cranidos", "gender": "f", "level": 16, "moves": ["Rock Tomb", "Iron Head", "Thunder Punch", "Zen Headbutt"]}
+              ]
+            },
+            {
+              "name": "Fisherman Justin",
+              "type": "Mandatory",
+              "notes": "Double Battle with Fisherman Henry",
+              "trainer_pokemon": [
+                {"species": "Buizel", "gender": "m", "level": 18, "moves": ["Volt Switch", "Brine", "Aqua Jet", "Ice Punch"]},
+                {"species": "Quagsire", "gender": "m", "level": 17, "moves": ["Mud Bomb", "Amnesia", "Slam", "HP Water"]}
+              ]
+            },
+            {
+              "name": "Fisherman Henry",
+              "type": "Mandatory",
+              "notes": "Double Battle with Fisherman Justin",
+              "trainer_pokemon": [
+                {"species": "Psyduck", "gender": "m", "level": 17, "moves": ["Psybeam", "Water Pulse", "Disable", "Tail Whip"]},
+                {"species": "Poliwhirl", "gender": "m", "level": 17, "moves": ["RAIN DANCE", "Double Kick", "YAWN", "BubbleBeam"]},
+                {"species": "Staryu", "gender": null, "level": 17, "moves": ["Water Pulse", "Camouflage", "Recover", "Icy Wind"]}
+              ]
+            },
+            {
+              "name": "Fisherman Ralph",
+              "type": "Optional",
+              "trainer_pokemon": [
+                {"species": "Goldeen", "gender": "m", "level": 17, "moves": ["Megahorn", "Drill Run", "Ice Beam", "Waterfall"]},
+                {"species": "Nidorino", "gender": "m", "level": 18, "moves": ["Double Kick", "Bulldoze", "Body Slam", "Poison Tail"]}
+              ]
+            },
+            {
+              "name": "Youngster Gordon",
+              "type": "Optional",
+              "notes": "Mandatory if going for TM83 or TM86",
+              "trainer_pokemon": [
+                {"species": "Azumarill", "gender": "m", "level": 22, "moves": ["Icy Wind", "Rock Smash", "Body Slam", "Aqua Jet"]},
+                {"species": "Loudred", "gender": "m", "level": 22, "moves": ["Howl", "Bite", "Stomp", "HP Ghost"]},
+                {"species": "Noctowl", "gender": "m", "level": 22, "moves": ["Whirlwind", "Night Shade", "Roost", "Air Cutter"]}
+              ]
+            },
+            {
+              "name": "Camper Roland",
+              "type": "Optional",
+              "notes": "Mandatory if going for TM86",
+              "trainer_pokemon": [
+                {"species": "Linoone", "gender": "f", "level": 22, "moves": ["Headbutt", "Bite", "Bulldoze", "Sand-Attack"]},
+                {"species": "Ninjask", "gender": "f", "level": 23, "moves": ["U-turn", "Wing Attack", "Karate Chop", "Double Team"]},
+                {"species": "Gyarados", "gender": "f", "level": 21, "moves": ["Flail", "Bite", "Aqua Jet", "Ice Fang"]}
+              ]
+            },
+            {
+              "name": "Bird Keeper Peter",
+              "type": "Optional",
+              "trainer_pokemon": [
+                {"species": "Pidgeotto", "gender": "m", "level": 18, "moves": ["Quick Attack", "HP Dragon", "Shock Wave", "Whirlwind"]},
+                {"species": "Fearow", "gender": "m", "level": 17, "moves": ["Steel Wing", "Assurance", "Dig", "PURSUIT"]},
+                {"species": "Farfetch’d", "gender": "m", "level": 17, "item": "Stick", "moves": ["Quick Attack", "Aerial Ace", "Cut", "Karate Chop"]}
+              ]
+            }
+          ],
+          "items": [
+            {"item": "TM83 Natural Gift", "quantity": 1, "source": "Behind the Shieldons - after defeating Youngster Gordon"},
+            {"item": "TM86 Grass Knot", "quantity": 1, "source": "After defeating Youngster Gordon and Camper Roland"},
+            {"item": "Poison Barb", "quantity": 1, "source": "Frieda (Week Sibling) above the Pokemon Center"},
+            {"item": "Shell Bell", "quantity": 1, "source": "After Bird Keeper Peter (requires Rock Smash)"}
+          ]
+        },
+        {
+          "name": "Violet City",
+          "items": [
+            {"item": "Mystery Egg (Togepi)", "quantity": 1, "source": "Violet PokeMart"}
+          ]
+        },
+        {
+          "name": "Route 36",
+          "items": [
+            {"item": "Hard Stone", "quantity": 1, "source": "Arthur (Week Sibling)"}
+          ]
+        },
+        {
+      "name": "Union Cave",
+      "area_pokemon": [
+        {
+          "method": "Cave",
+          "level": null,
+          "area_pokemon": [
+            {"species": "Geodude", "chance": 20},
+            {"species": "Zubat", "chance": 20},
+            {"species": "Phanpy", "chance": 10},
+            {"species": "Bonsly", "chance": 10},
+            {"species": "Makuhita", "chance": 10},
+            {"species": "Sandshrew", "chance": 10},
+            {"species": "Magby", "chance": 5},
+            {"species": "Elekid", "chance": 5},
+            {"species": "Whismur", "chance": 4},
+            {"species": "Onix", "chance": 4},
+            {"species": "Wynaut", "chance": 1},
+            {"species": "Shellos", "chance": 1}
+          ]
+        },
+        {
+          "method": "Old Rod",
+          "level": 10,
+          "area_pokemon": [
+            {"species": "Magikarp", "chance": 60},
+            {"species": "Zubat", "chance": 30},
+            {"species": "Wooper", "chance": 10}
+          ]
+        },
+        {
+          "method": "Surf",
+          "level": 20,
+          "area_pokemon": [
+            {"species": "Remoraid", "chance": 60},
+            {"species": "Krabby", "chance": 40}
+          ]
+        }
+      ],
+      "items": [
+        {"item": "TM39 Rock Tomb", "quantity": 1, "source": "B1F western land patch"},
+        {"item": "Lagging Tail", "quantity": 1, "source": "B1F northern land patch"},
+        {"item": "Great Ball", "quantity": 2, "source": "1F"},
+        {"item": "TM03 Water Pulse", "quantity": 1, "source": "1F"}
+      ],
+      "trainers": [
+        {
+          "name": "Firebreather Ray",
+          "type": "Optional",
+          "notes": "Mandatory if going for TM39 Rock Tomb on B1F",
+          "trainer_pokemon": [
+            {"species": "Vulpix", "gender": "f", "level": 19, "moves": ["HP Fire", "Shadow Ball", "Earth Power", "Extrasensory"]},
+            {"species": "Kirlia", "gender": "f", "level": 19, "moves": ["HP Fire", "Psybeam", "OMINOUS WIND", "Electroweb"]},
+            {"species": "Sealeo", "gender": "m", "level": 19, "moves": ["Super Fang", "Roar", "Ice Shard", "Fire Fang"]}
+          ]
+        },
+        {
+          "name": "Hiker Daniel",
+          "type": "Mandatory",
+          "trainer_pokemon": [
+            {"species": "Wormadam", "gender": "m", "level": 18, "moves": ["Bulldoze", "Psybeam", "Bug Bite", "HP Fighting"]},
+            {"species": "Vigoroth", "gender": "m", "level": 18, "moves": ["YAWN", "Karate Chop", "Endure", "Reversal"]},
+            {"species": "TRAPINCH", "gender": "m", "level": 19, "moves": ["Faint Attack", "Bulldoze", "SANDSTORM", "Bug Bite"]},
+            {"species": "Shieldon", "gender": "m", "level": 19, "moves": ["Harden", "Gyro Ball", "Rock Slide", "Slack Off"]}
+          ]
+        },
+        {
+          "name": "Hiker Russel",
+          "type": "Mandatory",
+          "trainer_pokemon": [
+            {"species": "Dunsparce", "gender": "m", "level": 18, "moves": ["Glare", "Headbutt", "Dig", "Spite"]},
+            {"species": "Baltoy", "level": 19, "moves": ["Psybeam", "HP Ground", "Night Shade", "SANDSTORM"]},
+            {"species": "Onix", "gender": "m", "level": 19, "moves": ["Dig", "Rock Tomb", "SELFDESTRUCT", null]},
+            {"species": "Grotle", "gender": "m", "level": 19, "moves": ["Body Slam", "Seed Bomb", "Curse", "Crunch"]}
+          ]
+        },
+        {
+          "name": "Firebreather Bill",
+          "type": "Mandatory",
+          "trainer_pokemon": [
+            {"species": "Koffing", "gender": "m", "level": 20, "moves": ["Thunderbolt", "Flamethrower", "Sludge Bomb", "Ice Beam"]},
+            {"species": "Monferno", "gender": "m", "level": 19, "moves": ["Brick Break", "Flame Wheel", "Knock Off", "Leer"]}
+          ]
+        },
+        {
+          "name": "Poke Maniac Larry",
+          "type": "Mandatory",
+          "trainer_pokemon": [
+            {"species": "Slowpoke", "gender": "m", "level": 21, "moves": ["YAWN", "Growl", "BubbleBeam", "HP Psychic"]},
+            {"species": "Mightyena", "gender": "m", "level": 20, "moves": ["Thief", "Poison Fang", "Ice Fang", "Bite"]},
+            {"species": "Breloom", "gender": "m", "level": 20, "moves": ["Mach Punch", "Mega Drain", "Stun Spore", "Leech Seed"]}
+          ]
+        }
+      ]
+        },
+        {
+          "name": "Route 33",
+          "area_pokemon": [
+            {
+              "method": "Grass",
+              "level": 11,
+              "area_pokemon": [
+                {"species": "Hoppip", "chance": 20},
+                {"species": "Ekans", "chance": 20},
+                {"species": "Turtwig", "chance": 10},
+                {"species": "Mime Jr.", "chance": 10},
+                {"species": "Wooper", "chance": 10},
+                {"species": "Whismur", "chance": 10},
+                {"species": "Magby", "chance": 5},
+                {"species": "Makuhita", "chance": 5},
+                {"species": "Croagunk", "chance": 5},
+                {"species": "Onix", "chance": 4},
+                {"species": "Wynaut", "chance": 1}
+              ]
+            }
+          ],
+          "trainers": [
+            {
+              "name": "Sinnoh Leader Maylene",
+              "type": "Mandatory",
+              "notes": "Reward: Light Clay + 2x Persim Berries",
+              "trainer_pokemon": [
+                {"species": "Meditite", "level": 21, "item": "Silk Scarf", "ability": "Pure Power", "moves": ["Fake Out", "Detect", "Psycho Cut", "Drain Punch"]},
+                {"species": "Machoke", "level": 21, "item": "Berry Juice", "ability": "No Guard", "moves": ["Bulldoze", "Body Slam", "Payback", "Brick Break"]},
+                {"species": "Graveler", "level": 21, "item": "Focus Sash", "ability": "Rock Head", "moves": ["Rock Slide", "Bulldoze", "Rock Smash", "SELFDESTRUCT"]},
+                {"species": "Lucario", "level": 21, "item": "Lum Berry", "ability": "Adaptability", "moves": ["Thunder Punch", "Bone Rush", "Mach Punch", "HP Fire"]}
+              ]
+            }
+          ],
+          "items": [
+            {"item": "Light Clay", "quantity": 1, "source": "Sinnoh Leader Maylene"},
+            {"item": "Persim Berry", "quantity": 2, "source": "Sinnoh Leader Maylene"}
+          ]
+        },
+        {
+          "name": "Ilex Forest",
+          "area_pokemon": [
+            {
+              "method": "Floor",
+              "level": 12,
+              "area_pokemon": [
+                {"species": "Kricketot", "chance": 20},
+                {"species": "Venonat", "chance": 20},
+                {"species": "Volbeat", "chance": 10},
+                {"species": "Illumise", "chance": 10},
+                {"species": "Pineco", "chance": 10},
+                {"species": "Slakoth", "chance": 10},
+                {"species": "Yanma", "chance": 5},
+                {"species": "Shroomish", "chance": 5},
+                {"species": "Burmy", "chance": 4},
+                {"species": "Stantler", "chance": 4},
+                {"species": "Combee", "chance": 1},
+                {"species": "Scyther", "chance": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Slowpoke Well",
+          "area_pokemon": [
+            {
+              "method": "Cave",
+              "level": 11,
+              "area_pokemon": [
+                {"species": "Zubat", "chance": 20},
+                {"species": "Slowpoke", "chance": 20},
+                {"species": "Poliwag", "chance": 10},
+                {"species": "Marill", "chance": 10},
+                {"species": "Wooper", "chance": 10},
+                {"species": "Grimer", "chance": 10},
+                {"species": "Gulpin", "chance": 5},
+                {"species": "Lotad", "chance": 5},
+                {"species": "Geodude", "chance": 5},
+                {"species": "Phanpy", "chance": 5}
+              ]
+            },
+            {
+              "method": "Old Rod",
+              "level": 10,
+              "area_pokemon": [
+                {"species": "Slowpoke", "chance": 60},
+                {"species": "Lotad", "chance": 30},
+                {"species": "Surskit", "chance": 10}
+              ]
+            },
+            {
+              "method": "Surf",
+              "level": 20,
+              "area_pokemon": [
+                {"species": "Chinchou", "chance": 60},
+                {"species": "Wailmer", "chance": 30},
+                {"species": "Relicanth", "chance": 10}
+              ]
+            }
+          ],
+          "items": [
+            {"item": "Quick Claw", "quantity": 1, "source": "After Grunt 2 on 1F"},
+            {"item": "Heart Scale", "quantity": 1, "source": "1F (requires Strength + Surf)"},
+            {"item": "TM20 Safeguard", "quantity": 1, "source": "B1F (requires Strength + Surf)"}
+          ],
+          "trainers": [
+            {
+              "name": "Team Rocket Grunt 101",
+              "type": "Mandatory",
+              "trainer_pokemon": [
+                {"species": "Raticate", "gender": "m", "level": 20, "moves": ["Quick Attack", "Crunch", "Hyper Fang", "Fire Fang"]},
+                {"species": "Carvanha", "gender": "m", "level": 21, "moves": ["Ice Fang", "SWAGGER", "Aqua Jet", "Bite"]},
+                {"species": "Graveler", "gender": "m", "level": 20, "moves": ["SELFDESTRUCT", null, null, null]}
+              ]
+            },
+            {
+              "name": "Team Rocket Grunt 13",
+              "type": "Mandatory",
+              "trainer_pokemon": [
+                {"species": "Golbat", "gender": "f", "level": 21, "moves": ["Wing Attack", "Bite", "Confuse Ray", "Giga Drain"]},
+                {"species": "Ekans", "gender": "f", "level": 21, "moves": ["Crunch", "Glare", "Thunder Fang", "Poison Tail"]},
+                {"species": "Numel", "gender": "m", "level": 21, "moves": ["Bulldoze", "Take Down", "Flame Wheel", "Rock Tomb"]}
+              ]
+            },
+            {
+              "name": "Team Rocket Grunt 12",
+              "type": "Mandatory",
+              "trainer_pokemon": [
+                {"species": "Aipom", "gender": "m", "level": 21, "moves": ["Double-Slap", "Quick Attack", "Double Kick", "Water Pulse"]},
+                {"species": "Luxio", "gender": "m", "level": 22, "moves": ["Crunch", "Ice Fang", "Thunder Fang", "Fire Fang"]}
+              ]
+            },
+            {
+              "name": "Rocket Executive Proton",
+              "type": "Mandatory",
+              "notes": "RISKY",
+              "trainer_pokemon": [
+                {"species": "Golbat", "gender": "m", "level": 22, "ability": "SHADOW TAG", "moves": ["HP Poison", "Pluck", "Bite", "Shadow Ball"]},
+                {"species": "Koffing", "gender": "m", "level": 22, "moves": ["TOXIC", "Thunderbolt", "Flamethrower", "Acid"]},
+                {"species": "Ivysaur", "gender": "m", "level": 22, "moves": ["HP Bug", "Protect", "Leech Seed", "Giga Drain"]},
+                {"species": "Houndour", "gender": "m", "level": 22, "moves": ["Fire Fang", "Crunch", "Night Shade", "Roar"]},
+                {"species": "Voltorb", "level": 22, "moves": ["SELFDESTRUCT", "Magnet Rise", "Shock Wave", "Magnet Bomb"]}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Azalea Gym",
+          "trainers": [
+            {
+              "name": "Bug Catcher Al",
+              "type": "Mandatory",
+              "trainer_pokemon": [
+                {"species": "Gligar", "gender": "m", "level": 21, "item": "Razor Fang", "moves": ["Bulldoze", "Ice Fang", "Rock Slide", null]},
+                {"species": "Shuckle", "gender": "m", "level": 21, "item": "Leftovers", "moves": ["SANDSTORM", "Curse", "TOXIC", "Rock Tomb"]}
+              ]
+            },
+            {
+              "name": "Bug Catcher Benny",
+              "type": "Mandatory",
+              "trainer_pokemon": [
+                {"species": "Butterfree", "gender": "m", "level": 21, "moves": ["U-turn", "RAIN DANCE", "Psybeam", "Air Cutter"]},
+                {"species": "Ariados", "gender": "m", "level": 21, "moves": ["Bug Bite", "Shadow Sneak", "Electroweb", "Poison Fang"]},
+                {"species": "Beedrill", "gender": "m", "level": 21, "moves": ["Twineedle", "Cut", "Focus Energy", "Fury Attack"]}
+              ]
+            },
+            {
+              "name": "Twins Amy & Mimi",
+              "type": "Mandatory",
+              "notes": "Double Battle",
+              "trainer_pokemon": [
+                {"species": "Volbeat", "gender": "f", "level": 20, "moves": ["Flash", "Moonlight", "Quick Attack", "Electroweb"]},
+                {"species": "Beautifly", "gender": "f", "level": 20, "moves": ["Mega Drain", "Morning Sun", "HP Flying", "Icy Wind"]},
+                {"species": "Dustox", "gender": "f", "level": 20, "moves": ["Psybeam", "Moonlight", "Protect", "Light Screen"]},
+                {"species": "Ledian", "gender": "f", "level": 22, "moves": ["Mach Punch", "U-turn", "Aerial Ace", "Reflect"]},
+                {"species": "Kricketune", "gender": "f", "level": 20, "moves": ["Rock Tomb", "Rock Smash", "X-Scissor", "Hyper Voice"]}
+              ]
+            },
+            {
+              "name": "Bug Catcher Josh",
+              "type": "Mandatory",
+              "trainer_pokemon": [
+                {"species": "Parasect", "gender": "m", "level": 23, "moves": ["X-Scissor", "Stun Spore", "Spore", "Cut"]},
+                {"species": "Vespiquen", "gender": "f", "level": 20, "moves": ["Attack Order", "Bulldoze", null, null]}
+              ]
+            },
+            {
+              "name": "Gym Leader Bugsy",
+              "type": "Mandatory",
+              "trainer_pokemon": [
+                {"species": "Illumise", "gender": "f", "level": 23, "item": "Chesto Berry", "ability": "Tinted Lens", "moves": ["Psybeam", "Water Pulse", "HP Bug", "Shock Wave"]},
+                {"species": "Pinsir", "gender": "f", "level": 23, "item": "Muscle Band", "ability": "Mold Breaker", "moves": ["U-turn", "Brick Break", "X-Scissor", "Faint Attack"]},
+                {"species": "Anorith", "gender": "m", "level": 23, "item": "Passho Berry", "ability": "Hyper Cutter", "moves": ["Leech Life", "Rock Tomb", "Aqua Jet", "Rock Slide"]},
+                {"species": "Vibrava", "gender": "f", "level": 23, "item": "Yache Berry", "ability": "Levitate", "moves": ["U-turn", "DragonBreath", "Crunch", "Rock Tomb"]},
+                {"species": "Heracross", "gender": "f", "level": 23, "item": "Coba Berry", "ability": "Skill Link", "moves": ["Bullet Seed", "Pin Missile", "Arm Thrust", "Aerial Ace"]},
+                {"species": "Scyther", "gender": "f", "level": 24, "item": "Charti Berry", "ability": "Technician", "moves": ["Quick Attack", "U-turn", "Wing Attack", "Cut"]}
+              ]
+            }
+          ],
+          "items": [
+            {"item": "TM89 U-turn", "quantity": 1, "source": "Gym Leader Bugsy"},
+            {"item": "Oran Berry", "quantity": 900, "source": "Gym Leader Bugsy"},
+            {"item": "Chesto Berry", "quantity": 900, "source": "Gym Leader Bugsy"},
+            {"item": "Rawst Berry", "quantity": 900, "source": "Gym Leader Bugsy"},
+            {"item": "Cheri Berry", "quantity": 900, "source": "Gym Leader Bugsy"},
+            {"item": "Pecha Berry", "quantity": 900, "source": "Gym Leader Bugsy"}
+          ]
+        }
+      ]
+    },
+    {
+      "split": "Whitney",
+      "cap": 29,
+      "areas": [
+        {
+      "name": "Azalea Town",
+      "items": [
+        {"item": "Charcoal", "quantity": 1, "source": "Scientist in the southeastern house after receiving HM01 Cut"}
+      ],
+      "trainers": [
+            {
+              "name": "Rival 2 - Chikorita",
+              "type": "Mandatory",
+              "notes": "Player chose Chikorita",
+              "trainer_pokemon": [
+                {"species": "Haunter", "gender": "m", "level": 24, "moves": ["Sucker Punch", "OMINOUS WIND", "Giga Drain", "Icy Wind"]},
+                {"species": "Golbat", "gender": "m", "level": 24, "moves": ["Taunt", "Roost", "U-turn", "Air Slash"]},
+                {"species": "Magnemite", "level": 24, "moves": ["Magnet Bomb", "Volt Switch", "Aurora Beam", "HP Grass"]},
+                {"species": "Sneasel", "gender": "m", "level": 24, "moves": ["Icy Wind", "Ice Shard", "Bite", "Brick Break"]},
+                {"species": "Quilava", "gender": "m", "level": 25, "moves": ["Defense Curl", "HP Ground", "Flame Wheel", "Quick Attack"]}
+              ]
+            },
+            {
+              "name": "Rival 2 - Cyndaquil",
+              "type": "Mandatory",
+              "notes": "Player chose Cyndaquil",
+              "trainer_pokemon": [
+                {"species": "Haunter", "gender": "m", "level": 24, "moves": ["Sucker Punch", "OMINOUS WIND", "Giga Drain", "Icy Wind"]},
+                {"species": "Golbat", "gender": "m", "level": 24, "moves": ["Taunt", "Roost", "U-turn", "Air Slash"]},
+                {"species": "Magnemite", "level": 24, "moves": ["Magnet Bomb", "Volt Switch", "Aurora Beam", "HP Grass"]},
+                {"species": "Sneasel", "gender": "m", "level": 24, "moves": ["Icy Wind", "Ice Shard", "Bite", "Brick Break"]},
+                {"species": "Croconaw", "gender": "m", "level": 25, "moves": ["Ice Fang", "Bite", "Rock Slide", "Aqua Jet"]}
+              ]
+            },
+            {
+              "name": "Rival 2 - Totodile",
+              "type": "Mandatory",
+              "notes": "Player chose Totodile",
+              "trainer_pokemon": [
+                {"species": "Haunter", "gender": "m", "level": 24, "moves": ["Sucker Punch", "OMINOUS WIND", "Giga Drain", "Icy Wind"]},
+                {"species": "Golbat", "gender": "m", "level": 24, "moves": ["Taunt", "Roost", "U-turn", "Air Slash"]},
+                {"species": "Magnemite", "level": 24, "moves": ["Magnet Bomb", "Volt Switch", "Aurora Beam", "HP Grass"]},
+                {"species": "Sneasel", "gender": "m", "level": 24, "moves": ["Icy Wind", "Ice Shard", "Bite", "Brick Break"]},
+                {"species": "Bayleef", "gender": "m", "level": 25, "moves": ["Synthesis", "Nature Power", "Magical Leaf", "HP Psychic"]}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ilex Forest",
+          "area_pokemon": [
+            {
+              "method": "Old Rod",
+              "level": 10,
+              "area_pokemon": [
+                {"species": "Surskit", "chance": 60},
+                {"species": "Krabby", "chance": 30},
+                {"species": "Magikarp", "chance": 5},
+                {"species": "Corsola", "chance": 5}
+              ]
+            },
+            {
+              "method": "Surf",
+              "level": 20,
+              "area_pokemon": [
+                {"species": "Qwilfish", "chance": 60},
+                {"species": "Seaking", "chance": 30},
+                {"species": "Lapras", "chance": 10}
+              ]
+            }
+          ],
+          "items": [
+            {"item": "Black Belt", "quantity": 1, "source": "Where Gardenia originally exists in SGSS"},
+            {"item": "TM41 Torment", "quantity": 1, "source": "Northeast corner near Kimono Girl near the exit"}
+          ],
+          "trainers": [
+            {
+              "name": "Sinnoh Leader Gardenia",
+              "type": "Mandatory",
+              "notes": "Reward: Big Root x1, Persim Berry x900, Aspear Berry x900",
+              "trainer_pokemon": [
+                {"species": "Ludicolo", "gender": "f", "level": 26, "item": "Damp Rock", "ability": "Swift Swim", "moves": ["Fake Out", "RAIN DANCE", "BubbleBeam", "Leech Seed"]},
+                {"species": "Voltorb", "level": 26, "item": "Lum Berry", "ability": "Volt Absorb", "moves": ["Volt Switch", "Energy Ball", "Mirror Shot", "HP Fire"]},
+                {"species": "Lileep", "gender": "f", "level": 26, "item": "Chople Berry", "ability": "Water Absorb", "moves": ["Brine", "Rock Slide", "Recover", "STEALTH ROCK"]},
+                {"species": "Mothim", "gender": "m", "level": 26, "item": "FOCUS SASH", "ability": "Compound Eyes", "moves": ["Air Cutter", "Magical Leaf", "HP Bug", "Icy Wind"]},
+                {"species": "Roserade", "gender": "f", "level": 26, "item": "Sitrus Berry", "ability": "Technician", "moves": ["Grass Knot", "Water Pulse", "Extrasensory", "Poison Jab"]}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Route 34",
+          "area_pokemon": [
+            {
+              "method": "Grass",
+              "level": 18,
+              "area_pokemon": [
+                {"species": "Geodude", "chance": 20},
+                {"species": "Zubat", "chance": 20},
+                {"species": "Ponyta", "chance": 10},
+                {"species": "Glameow", "chance": 10},
+                {"species": "Bibarel", "chance": 10},
+                {"species": "Stunky", "chance": 10},
+                {"species": "Teddiursa", "chance": 5},
+                {"species": "Drowzee", "chance": 5},
+                {"species": "Elekid", "chance": 5},
+                {"species": "Magby", "chance": 5}
+              ]
+            },
+            {
+              "method": "Old Rod",
+              "level": 10,
+              "area_pokemon": [
+                {"species": "Krabby", "chance": 65},
+                {"species": "Goldeen", "chance": 35}
+              ]
+            },
+            {
+              "method": "Surf",
+              "level": 20,
+              "area_pokemon": [
+                {"species": "Seel", "chance": 60},
+                {"species": "Spheal", "chance": 40}
+              ]
+            }
+          ],
+          "items": [
+            {"item": "TM63 Embargo", "quantity": 1, "source": "Just before entering Goldenrod City"},
+            {"item": "Heart Scale", "quantity": 1, "source": "Accessible via Surf"},
+            {"item": "Leftovers", "quantity": 1, "source": "Accessible via Surf, behind the 8v6"}
+          ],
+          "trainers": [
+            {
+              "name": "Youngster Samuel",
+              "type": "Mandatory",
+              "trainer_pokemon": [
+                {"species": "Linoone", "gender": "m", "level": 24, "moves": ["Headbutt", "Bite", "Bulldoze", "ExtremeSpeed"]},
+                {"species": "Ninjask", "gender": "m", "level": 26, "moves": ["U-turn", "Wing Attack", "Karate Chop", "Double Team"]},
+                {"species": "Gyarados", "gender": "m", "level": 23, "moves": ["Flail", "Bite", "Aqua Jet", "Ice Fang"]},
+                {"species": "Arbok", "gender": "m", "level": 24, "moves": ["Thunder Fang", "Glare", "Bite", "Stockpile"]}
+              ]
+            },
+            {
+              "name": "Pokefan Brandon",
+              "type": "Mandatory",
+              "trainer_pokemon": [
+                {"species": "Lairon", "gender": "m", "level": 26, "moves": ["Rock Slide", "Surf", "Thunderbolt", "Ice Beam"]},
+                {"species": "Houndour", "gender": "m", "level": 25, "moves": ["Crunch", "Fire Fang", "Iron Tail", "PURSUIT"]},
+                {"species": "Pikachu", "gender": "m", "level": 26, "moves": ["Surf", "Rock Smash", "Volt Switch", "Quick Attack"]},
+                {"species": "Tangela", "gender": "m", "level": 26, "moves": ["Flamethrower", "ANCIENTPOWER", "Giga Drain", "Bulldoze"]}
+              ]
+            },
+            {
+              "name": "Camper Todd",
+              "type": "Mandatory",
+              "trainer_pokemon": [
+                {"species": "Plusle", "gender": "m", "level": 26, "moves": ["Thunderbolt", "Attract", "Thunder Wave", "Signal Beam"]},
+                {"species": "Fearow", "gender": "m", "level": 25, "moves": ["Aerial Ace", "Quick Attack", "Secret Power", "Steel Wing"]},
+                {"species": "Nidorina", "gender": "f", "level": 27, "moves": ["Drill Run", "Sludge Bomb", "Shadow Ball", "BubbleBeam"]},
+                {"species": "Monferno", "gender": "m", "level": 26, "moves": ["Bulk Up", "Fire Punch", "Quick Attack", "Brick Break"]}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Goldenrod City",
+          "area_pokemon": [
+            {
+              "method": "Grass",
+              "level": 20,
+              "area_pokemon": [
+                {"species": "Electrike", "chance": 20},
+                {"species": "Burmy", "chance": 20},
+                {"species": "Mime Jr.", "chance": 10},
+                {"species": "Flaaffy", "chance": 10},
+                {"species": "Bonsly", "chance": 10},
+                {"species": "Pichu", "chance": 10},
+                {"species": "Cleffa", "chance": 5},
+                {"species": "Buizel", "chance": 5},
+                {"species": "Rhyhorn", "chance": 5},
+                {"species": "Onix", "chance": 4},
+                {"species": "Yanma", "chance": 1}
+              ]
+            }
+          ],
+          "items": [
+            {"item": "Light Ball", "quantity": 1, "source": "Left of the Global Terminal"}
+          ]
+        }
+      ]
+    }
+  ]
+}

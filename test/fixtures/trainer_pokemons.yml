@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  trainer: one
+  ivs: 1
+  nature: MyString
+  moves: MyString
+  item: MyString
+
+two:
+  trainer: two
+  ivs: 1
+  nature: MyString
+  moves: MyString
+  item: MyString

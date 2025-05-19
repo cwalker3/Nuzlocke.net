@@ -1,0 +1,9 @@
+<% if session[:user_id].nil? %>
+    <%= button_to 'Log in with Twitch', '/auth/twitch', data: { turbo: :false } %>
+<% else %>
+  <p> 
+    <%=  "Hello #{current_user.name}" %>
+  </p>
+  <%= button_to 'Log out', '/logout', method: :delete %>
+<% end %>
+<%= react_component 'HelloWorld', { name: 'Cory' } %>

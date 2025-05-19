@@ -1,0 +1,1228 @@
+{
+  "areas": [
+    {
+      "name": "New Bark Town",
+      "encounter_methods": [
+        {
+          "method": "Old Rod",
+          "level": 10,
+          "encounters": [
+            { "species": "Surskit", "chance": 60 },
+            { "species": "Finneon", "chance": 35 },
+            { "species": "Mantyke", "chance": 5 }
+          ]
+        },
+        {
+          "method": "Surf",
+          "level": 20,
+          "encounters": [
+            { "species": "Krabby",    "chance": 60 },
+            { "species": "Psyduck",   "chance": 30 },
+            { "species": "Tentacool", "chance": 10 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cherrygrove City",
+      "level": 20,
+      "encounter_methods": [
+        {
+          "method": "Old Rod",
+          "encounters": [
+            { "species": "Goldeen", "chance": 60 },
+            { "species": "Poliwag", "chance": 30 },
+            { "species": "Magikarp", "chance": 5 },
+            { "species": "Tentacool", "chance": 5 }
+          ]
+        },
+        {
+          "method": "Surf",
+          "encounters": [
+            { "species": "Horsea",  "chance": 60 },
+            { "species": "Feebas",  "chance": 35 },
+            { "species": "Qwilfish",  "chance": 5 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Route 29",
+      "encounter_methods": [
+        {
+          "method": "Grass",
+          "level": 4,
+          "encounters": [
+            { "species": "Starly",   "chance": 20 },
+            { "species": "Sentret",   "chance": 20 },
+            { "species": "Shinx",     "chance": 10 },
+            { "species": "Zigzagoon", "chance": 10 },
+            { "species": "Kricketot", "chance": 10 },
+            { "species": "Hoothoot",  "chance": 10 },
+            { "species": "Rattata",   "chance": 5  },
+            { "species": "Taillow",   "chance": 5  },
+            { "species": "Poochyena", "chance": 4  },
+            { "species": "Bidoof",    "chance": 4  },
+            { "species": "Pidgey",    "chance": 1  },
+            { "species": "Wurmple",   "chance": 1  }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Route 46",
+      "encounter_methods": [
+        {
+          "method": "Grass",
+          "level": 4,
+          "encounters": [
+            { "species": "Geodude",  "chance": 20 },
+            { "species": "Spearow",  "chance": 20 },
+            { "species": "Onix",     "chance": 10 },
+            { "species": "Caterpie", "chance": 10 },
+            { "species": "Weedle",   "chance": 10 },
+            { "species": "Ledyba",   "chance": 10 },
+            { "species": "Pidgey",   "chance": 5  },
+            { "species": "Rattata",  "chance": 5  },
+            { "species": "Budew",    "chance": 4  },
+            { "species": "Ralts",    "chance": 4  },
+            { "species": "Skorupi",  "chance": 1  },
+            { "species": "Pichu",    "chance": 1  }
+          ]
+        }
+      ]
+    },    
+    {
+      "name": "Route 30",
+      "encounter_methods": [
+        {
+          "method": "Grass",
+          "level": 4,
+          "encounters": [
+            { "species": "Numel",      "chance": 30 },
+            { "species": "Sunkern",    "chance": 30 },
+            { "species": "Growlithe",  "chance": 20 },
+            { "species": "Slugma",     "chance": 10 },
+            { "species": "Charmander", "chance": 5  },
+            { "species": "Torchic",    "chance": 5  }
+          ]
+        },
+        {
+          "method": "Old Rod",
+          "level": 10,
+          "encounters": [
+            { "species": "Surskit",   "chance": 60 },
+            { "species": "Remoraid",  "chance": 30 },
+            { "species": "Tentacool", "chance": 10 }
+          ]
+        },
+        {
+          "method": "Surf",
+          "level": 20,
+          "encounters": [
+            { "species": "Corphish",  "chance": 60 },
+            { "species": "Chinchou",  "chance": 30 },
+            { "species": "Shellder",  "chance": 10 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Route 31",
+      "encounter_methods": [
+        {
+          "method": "Grass",
+          "level": 4,
+          "encounters": [
+            { "species": "Psyduck",   "chance": 30 },
+            { "species": "Krabby",    "chance": 30 },
+            { "species": "Corphish",  "chance": 20 },
+            { "species": "Finneon",   "chance": 10 },
+            { "species": "Squirtle",  "chance": 5  },
+            { "species": "Mudkip",    "chance": 5  }
+          ]
+        },
+        {
+          "method": "Old Rod",
+          "level": 10,
+          "encounters": [
+            { "species": "Barboach",  "chance": 60 },
+            { "species": "Carvanha",  "chance": 30 },
+            { "species": "Wingull",   "chance": 5  },
+            { "species": "Slowpoke",  "chance": 5  }
+          ]
+        },
+        {
+          "method": "Surf",
+          "level": 20,
+          "encounters": [
+            { "species": "Carvanha",  "chance": 60 },
+            { "species": "Chinchou",  "chance": 30 },
+            { "species": "Barboach",  "chance": 10 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dark Cave",
+      "encounter_methods": [
+        {
+          "method": "Cave [Room 1]",
+          "level": 6,
+          "encounters": [
+            { "species": "Geodude",   "chance": 20 },
+            { "species": "Zubat",     "chance": 20 },
+            { "species": "Sandshrew", "chance": 10 },
+            { "species": "Mankey",    "chance": 10 },
+            { "species": "Nidoran-M", "chance": 10 },
+            { "species": "Nidoran-F", "chance": 10 },
+            { "species": "Spinarak",  "chance": 5  },
+            { "species": "Phanpy",    "chance": 5  },
+            { "species": "Gligar",    "chance": 5  },
+            { "species": "Dunsparce", "chance": 5  }
+          ]
+        },
+        {
+          "method": "Old Rod [Room 1]",
+          "level": 10,
+          "encounters": [
+            { "species": "Kabuto",  "chance": 60 },
+            { "species": "Omanyte", "chance": 30 },
+            { "species": "Anorith", "chance": 5  },
+            { "species": "Lileep",  "chance": 5  }
+          ]
+        },
+        {
+          "method": "Surf",
+          "level": 20,
+          "encounters": [
+            { "species": "Remoraid", "chance": 60 },
+            { "species": "Surskit",  "chance": 35 },
+            { "species": "Feebas",   "chance": 5  }
+          ]
+        },
+        {
+          "method": "Old Rod [Room 2]",
+          "level": 10,
+          "encounters": [
+            { "species": "Carvanha", "chance": 60 },
+            { "species": "Corphish",  "chance": 30 },
+            { "species": "Kabuto",    "chance": 5  },
+            { "species": "Omanyte",   "chance": 5  }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Violet City",
+      "encounter_methods": [
+        {
+          "method": "Old Rod",
+          "level": 10,
+          "encounters": [
+            { "species": "Luvdisc", "chance": 60 },
+            { "species": "Azurill", "chance": 40 }
+          ]
+        },
+        {
+          "method": "Surf",
+          "level": 20,
+          "encounters": [
+            { "species": "Staryu", "chance": 60 },
+            { "species": "Lileep", "chance": 40 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sprout Tower",
+      "encounter_methods": [
+        {
+          "method": "Floor",
+          "level": 8,
+          "encounters": [
+            { "species": "Cacnea", "chance": 20 },
+            { "species": "Seedot", "chance": 20 },
+            { "species": "Oddish", "chance": 10 },
+            { "species": "Tangela", "chance": 10 },
+            { "species": "Exeggcute", "chance": 10 },
+            { "species": "Paras", "chance": 10 },
+            { "species": "Bellsprout", "chance": 10 },
+            { "species": "Bulbasaur", "chance": 5 },
+            { "species": "Treecko", "chance": 5 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ruins of Alph",
+      "encounter_methods": [
+        {
+          "method": "Cave [all]",
+          "level": 10,
+          "encounters": [
+            { "species": "Unown", "chance": 100 }
+          ]
+        },
+        {
+          "method": "Grass *requires Surf*",
+          "level": 14,
+          "encounters": [
+            { "species": "Natu", "chance": 20 },
+            { "species": "Kadabra", "chance": 20 },
+            { "species": "Drowzee", "chance": 10 },
+            { "species": "Bronzor", "chance": 10 },
+            { "species": "Chingling", "chance": 10 },
+            { "species": "Kirlia", "chance": 10 },
+            { "species": "Spoink", "chance": 5 },
+            { "species": "Meditite", "chance": 5 },
+            { "species": "Solrock", "chance": 4 },
+            { "species": "Lunatone", "chance": 4 },
+            { "species": "Baltoy", "chance": 1 },
+            { "species": "Unown", "chance": 1 }
+          ]
+        },
+        {
+          "method": "Old Rod",
+          "level": 10,
+          "encounters": [
+            { "species": "Buizel", "chance": 60 },
+            { "species": "Shellos", "chance": 30 },
+            { "species": "Wooper", "chance": 9 },
+            { "species": "Mantyke", "chance": 1 }
+          ]
+        },
+        {
+          "method": "Surf",
+          "level": 20,
+          "encounters": [
+            { "species": "Wooper", "chance": 90 },
+            { "species": "Dratini", "chance": 10 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Route 32",
+      "encounter_methods": [
+        {
+          "method": "Grass",
+          "level": 10,
+          "encounters": [
+            { "species": "Mareep", "chance": 20 },
+            { "species": "Ekans", "chance": 20 },
+            { "species": "Shinx", "chance": 10 },
+            { "species": "Electrike", "chance": 10 },
+            { "species": "Buizel", "chance": 10 },
+            { "species": "Vulpix", "chance": 10 },
+            { "species": "Makuhita", "chance": 5 },
+            { "species": "Machop", "chance": 5 },
+            { "species": "Tyrogue", "chance": 4 },
+            { "species": "Swablu", "chance": 4 },
+            { "species": "Chingling", "chance": 1 },
+            { "species": "Meowth", "chance": 1 }
+          ]
+        },
+        {
+          "method": "Old Rod",
+          "level": 10,
+          "encounters": [
+            { "species": "Seel", "chance": 60 },
+            { "species": "Grimer", "chance": 30 },
+            { "species": "Slugma", "chance": 10 }
+          ]
+        },
+        {
+          "method": "Surf",
+          "level": 20,
+          "encounters": [
+            { "species": "Chinchou", "chance": 60 },
+            { "species": "Goldeen", "chance": 30 },
+            { "species": "Slugma", "chance": 10 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Union Cave",
+      "encounter_methods": [
+        {
+          "method": "Cave [both floors]",
+          "encounters": [
+            { "species": "Geodude",  "chance": 20 },
+            { "species": "Zubat",    "chance": 20 },
+            { "species": "Phanpy",   "chance": 10 },
+            { "species": "Bonsly",   "chance": 10 },
+            { "species": "Makuhita", "chance": 10 },
+            { "species": "Sandshrew","chance": 10 },
+            { "species": "Magby",    "chance": 5  },
+            { "species": "Elekid",   "chance": 5  },
+            { "species": "Whismur",  "chance": 4  },
+            { "species": "Onix",     "chance": 4  },
+            { "species": "Wynaut",   "chance": 1  },
+            { "species": "Shellos",  "chance": 1  }
+          ]
+        },
+        {
+          "method": "Old Rod [both floors]",
+          "level": 10,
+          "encounters": [
+            { "species": "Magikarp", "chance": 60 },
+            { "species": "Zubat",    "chance": 30 },
+            { "species": "Wooper",   "chance": 10 }
+          ]
+        },
+        {
+          "method": "Surf",
+          "level": 20,
+          "encounters": [
+            { "species": "Remoraid", "chance": 60 },
+            { "species": "Krabby",   "chance": 40 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Route 33",
+      "encounter_methods": [
+        {
+          "method": "Grass",
+          "level": 11,
+          "encounters": [
+            { "species": "Hoppip",  "chance": 20 },
+            { "species": "Ekans",   "chance": 20 },
+            { "species": "Turtwig", "chance": 10 },
+            { "species": "Mime Jr.", "chance": 10 },
+            { "species": "Wooper",  "chance": 10 },
+            { "species": "Whismur", "chance": 10 },
+            { "species": "Magby",   "chance": 5  },
+            { "species": "Makuhita","chance": 5  },
+            { "species": "Croagunk","chance": 5  },
+            { "species": "Onix",    "chance": 4  },
+            { "species": "Wynaut",  "chance": 1  }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ilex Forest",
+      "encounter_methods": [
+        {
+          "method": "Floor",
+          "level": 12,
+          "encounters": [
+            { "species": "Kricketot","chance": 20 },
+            { "species": "Venonat",  "chance": 20 },
+            { "species": "Volbeat",  "chance": 10 },
+            { "species": "Illumise", "chance": 10 },
+            { "species": "Pineco",   "chance": 10 },
+            { "species": "Slakoth",  "chance": 10 },
+            { "species": "Yanma",    "chance": 5  },
+            { "species": "Shroomish","chance": 5  },
+            { "species": "Burmy",    "chance": 4  },
+            { "species": "Stantler", "chance": 4  },
+            { "species": "Combee",   "chance": 1  },
+            { "species": "Scyther",  "chance": 1  }
+          ]
+        },
+        {
+          "method": "Old Rod",
+          "level": 10,
+          "encounters": [
+            { "species": "Surskit", "chance": 60 },
+            { "species": "Krabby",  "chance": 30 },
+            { "species": "Magikarp","chance": 5  },
+            { "species": "Corsola", "chance": 5  }
+          ]
+        },
+        {
+          "method": "Surf",
+          "level": 20,
+          "encounters": [
+            { "species": "Qwilfish", "chance": 60 },
+            { "species": "Seaking",  "chance": 30 },
+            { "species": "Lapras",   "chance": 10 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Slowpoke Well",
+      "encounter_methods": [
+        {
+          "method": "Cave [1F]",
+          "level": 11,
+          "encounters": [
+            { "species": "Zubat",    "chance": 20 },
+            { "species": "Slowpoke", "chance": 20 },
+            { "species": "Poliwag",  "chance": 10 },
+            { "species": "Marill",   "chance": 10 },
+            { "species": "Wooper",   "chance": 10 },
+            { "species": "Grimer",   "chance": 10 },
+            { "species": "Gulpin",   "chance": 5  },
+            { "species": "Lotad",    "chance": 5  },
+            { "species": "Geodude",  "chance": 5  },
+            { "species": "Phanpy",   "chance": 5  }
+          ]
+        },
+        {
+          "method": "Old Rod",
+          "level": 10,
+          "encounters": [
+            { "species": "Slowpoke", "chance": 60 },
+            { "species": "Lotad",    "chance": 30 },
+            { "species": "Surskit",  "chance": 10 }
+          ]
+        },
+        {
+          "method": "Surf",
+          "level": 20,
+          "encounters": [
+            { "species": "Chinchou", "chance": 60 },
+            { "species": "Wailmer",  "chance": 30 },
+            { "species": "Relicanth","chance": 10 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Route 34",
+      "encounter_methods": [
+        {
+          "method": "Grass",
+          "level": 18,
+          "encounters": [
+            { "species": "Geodude", "chance": 20 },
+            { "species": "Zubat",   "chance": 20 },
+            { "species": "Ponyta",  "chance": 10 },
+            { "species": "Glameow", "chance": 10 },
+            { "species": "Bibarel", "chance": 10 },
+            { "species": "Stunky",  "chance": 10 },
+            { "species": "Teddiursa","chance": 5 },
+            { "species": "Drowzee", "chance": 5 },
+            { "species": "Elekid",  "chance": 5 },
+            { "species": "Magby",   "chance": 5 },
+            { "species": "Ralts",   "chance": 4 },
+            { "species": "Snorunt", "chance": 1 }
+          ]
+        },
+        {
+          "method": "Old Rod",
+          "level": 10,
+          "encounters": [
+            { "species": "Krabby",  "chance": 65 },
+            { "species": "Goldeen", "chance": 35 }
+          ]
+        },
+        {
+          "method": "Surf",
+          "level": 20,
+          "encounters": [
+            { "species": "Seel",   "chance": 60 },
+            { "species": "Spheal", "chance": 40 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Goldenrod City",
+      "encounter_methods": [
+        {
+          "method": "Grass",
+          "level": 20,
+          "encounters": [
+            { "species": "Electrike", "chance": 20 },
+            { "species": "Burmy",     "chance": 20 },
+            { "species": "Mime Jr.",  "chance": 10 },
+            { "species": "Flaaffy",   "chance": 10 },
+            { "species": "Bonsly",    "chance": 10 },
+            { "species": "Pichu",     "chance": 10 },
+            { "species": "Cleffa",    "chance": 5  },
+            { "species": "Buizel",    "chance": 5  },
+            { "species": "Rhyhorn",   "chance": 5  },
+            { "species": "Onix",      "chance": 4  },
+            { "species": "Yanma",     "chance": 1  }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Route 35",
+      "encounter_methods": [
+        {
+          "method": "Grass",
+          "level": 20,
+          "encounters": [
+            { "species": "Yanma",    "chance": 20 },
+            { "species": "Zubat",    "chance": 20 },
+            { "species": "Nidorino", "chance": 10 },
+            { "species": "Nidorina", "chance": 10 },
+            { "species": "Spoink",   "chance": 10 },
+            { "species": "Electrike","chance": 10 },
+            { "species": "Flaaffy",  "chance": 5  },
+            { "species": "Pidgeotto","chance": 5  },
+            { "species": "Minun",    "chance": 5  },
+            { "species": "Plusle",   "chance": 5  }
+          ]
+        },
+        {
+          "method": "Old Rod",
+          "level": 10,
+          "encounters": [
+            { "species": "Poliwag", "chance": 60 },
+            { "species": "Krabby",  "chance": 40 }
+          ]
+        },
+        {
+          "method": "Surf",
+          "level": 20,
+          "encounters": [
+            { "species": "Marill", "chance": 60 },
+            { "species": "Lombre", "chance": 30 },
+            { "species": "Magby",  "chance": 5  },
+            { "species": "Elekid", "chance": 5  }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "National Park",
+      "encounter_methods": [
+        {
+          "method": "Grass",
+          "level": 22,
+          "encounters": [
+            { "species": "Trapinch",   "chance": 20 },
+            { "species": "Baltoy",     "chance": 20 },
+            { "species": "Numel",      "chance": 10 },
+            { "species": "Cubone",     "chance": 10 },
+            { "species": "Gligar",     "chance": 10 },
+            { "species": "Cacnea",     "chance": 10 },
+            { "species": "Nosepass",   "chance": 5  },
+            { "species": "Magnemite",  "chance": 5  },
+            { "species": "Aron",       "chance": 5  },
+            { "species": "Larvitar",   "chance": 5  }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Route 36",
+      "encounter_methods": [
+        {
+          "method": "Grass",
+          "level": 20,
+          "encounters": [
+            { "species": "Makuhita", "chance": 25 },
+            { "species": "Mankey",   "chance": 25 },
+            { "species": "Gligar",   "chance": 10 },
+            { "species": "Meditite", "chance": 10 },
+            { "species": "Snubbull", "chance": 10 },
+            { "species": "Machop",   "chance": 10 },
+            { "species": "Shroomish","chance": 5  },
+            { "species": "Tyrogue",  "chance": 5  }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pokeathlon Dome",
+      "encounter_methods": [
+        {
+          "method": "Grass",
+          "level": 20,
+          "encounters": [
+            { "species": "Krabby",     "chance": 25 },
+            { "species": "Magnemite",  "chance": 20 },
+            { "species": "Pineco",     "chance": 20 },
+            { "species": "Aron",       "chance": 20 },
+            { "species": "Nosepass",   "chance": 10 },
+            { "species": "Farfetch’d", "chance": 5  }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Route 37",
+      "encounter_methods": [
+        {
+          "method": "Grass",
+          "level": 27,
+          "encounters": [
+            { "species": "Spinda",   "chance": 20 },
+            { "species": "Buneary",  "chance": 20 },
+            { "species": "Spearow",  "chance": 10 },
+            { "species": "Skitty",   "chance": 10 },
+            { "species": "Smoochum", "chance": 10 },
+            { "species": "Stantler", "chance": 10 },
+            { "species": "Pichu",    "chance": 5  },
+            { "species": "Spheal",   "chance": 5  },
+            { "species": "Eevee",    "chance": 4  },
+            { "species": "Murkrow",  "chance": 4  },
+            { "species": "Miltank",  "chance": 1  },
+            { "species": "Skarmory", "chance": 1  }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ecruteak City",
+      "encounter_methods": [
+        {
+          "method": "Old Rod",
+          "level": 10,
+          "encounters": [
+            { "species": "Duskull",    "chance": 60 },
+            { "species": "Gastly",     "chance": 30 },
+            { "species": "Shuppet",    "chance": 5  },
+            { "species": "Misdreavus", "chance": 5  }
+          ]
+        },
+        {
+          "method": "Surf",
+          "level": 20,
+          "encounters": [
+            { "species": "Wingull", "chance": 60 },
+            { "species": "Staryu",  "chance": 30 },
+            { "species": "Wailmer", "chance": 5  },
+            { "species": "Lapras",  "chance": 5  }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Burned Tower",
+      "encounter_methods": [
+        {
+          "method": "Floor",
+          "level": 27,
+          "encounters": [
+            { "species": "Solrock",  "chance": 20 },
+            { "species": "Lunatone", "chance": 20 },
+            { "species": "Sunflora", "chance": 10 },
+            { "species": "Numel",    "chance": 10 },
+            { "species": "Slugma",   "chance": 10 },
+            { "species": "Houndour", "chance": 10 },
+            { "species": "Pineco",   "chance": 10 },
+            { "species": "Monferno", "chance": 5  },
+            { "species": "Grotle",   "chance": 5  }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Route 38",
+      "encounter_methods": [
+        {
+          "method": "Grass",
+          "level": 27,
+          "encounters": [
+            { "species": "Swinub",    "chance": 20 },
+            { "species": "Spoink",    "chance": 20 },
+            { "species": "Seel",      "chance": 10 },
+            { "species": "Spheal",    "chance": 10 },
+            { "species": "Delibird",  "chance": 10 },
+            { "species": "Smoochum",  "chance": 10 },
+            { "species": "Nincada",   "chance": 5  },
+            { "species": "Pachirisu", "chance": 5  },
+            { "species": "Castform",  "chance": 4  },
+            { "species": "Tropius",   "chance": 4  },
+            { "species": "Seviper",   "chance": 1  },
+            { "species": "Zangoose",  "chance": 1  }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Route 42",
+      "encounter_methods": [
+        {
+          "method": "Grass",
+          "level": 31,
+          "encounters": [
+            { "species": "Koffing",   "chance": 20 },
+            { "species": "Grimer",    "chance": 20 },
+            { "species": "Lickitung", "chance": 10 },
+            { "species": "Eevee",     "chance": 10 },
+            { "species": "Sentret",   "chance": 10 },
+            { "species": "Swablu",    "chance": 10 },
+            { "species": "Teddiursa", "chance": 5  },
+            { "species": "Taillow",   "chance": 5  },
+            { "species": "Houndour",  "chance": 5  },
+            { "species": "Rattata",   "chance": 5  }
+          ]
+        },
+        {
+          "method": "Old Rod",
+          "level": 10,
+          "encounters": [
+            { "species": "Barboach",  "chance": 60 },
+            { "species": "Tentacool", "chance": 30 },
+            { "species": "Carvanha",  "chance": 10 }
+          ]
+        },
+        {
+          "method": "Surf",
+          "level": 20,
+          "encounters": [
+            { "species": "Chinchou", "chance": 60 },
+            { "species": "Buizel",   "chance": 30 },
+            { "species": "Carvanha", "chance": 5  },
+            { "species": "Barboach", "chance": 5  }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mt. Mortar",
+      "encounter_methods": [
+        {
+          "method": "Cave [1F, Main Room]",
+          "level": 31,
+          "encounters": [
+            { "species": "Mawile",    "chance": 20 },
+            { "species": "Aron",      "chance": 20 },
+            { "species": "Golbat",    "chance": 10 },
+            { "species": "Rhyhorn",   "chance": 10 },
+            { "species": "Onix",      "chance": 10 },
+            { "species": "Drifloon",  "chance": 10 },
+            { "species": "Nosepass",  "chance": 5  },
+            { "species": "Magnemite", "chance": 5  },
+            { "species": "Misdreavus","chance": 5  },
+            { "species": "Riolu",     "chance": 5  }
+          ]
+        },
+        {
+          "method": "Cave [1F, Inner Cave]",
+          "level": 31,
+          "encounters": [
+            { "species": "Graveler",  "chance": 20 },
+            { "species": "Golbat",    "chance": 20 },
+            { "species": "Lairon",    "chance": 10 },
+            { "species": "Mawile",    "chance": 10 },
+            { "species": "Nosepass",  "chance": 10 },
+            { "species": "Magnemite", "chance": 10 },
+            { "species": "Onix",      "chance": 5  },
+            { "species": "Ralts",     "chance": 5  },
+            { "species": "Misdreavus","chance": 4  },
+            { "species": "Cubone",    "chance": 4  },
+            { "species": "Riolu",     "chance": 1  },
+            { "species": "Shuppet",   "chance": 1  }
+          ]
+        },
+        {
+          "method": "Old Rod",
+          "level": 10,
+          "encounters": [
+            { "species": "Krabby",  "chance": 60 },
+            { "species": "Staryu",   "chance": 30 },
+            { "species": "Wailmer",  "chance": 10 }
+          ]
+        },
+        {
+          "method": "Surf",
+          "level": 20,
+          "encounters": [
+            { "species": "Huntail", "chance": 60 },
+            { "species": "Gorebyss","chance": 40 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Route 39",
+      "encounter_methods": [
+        {
+          "method": "Grass",
+          "level": 27,
+          "encounters": [
+            { "species": "Snubbull",  "chance": 20 },
+            { "species": "Wingull",   "chance": 20 },
+            { "species": "Farfetch’d","chance": 10 },
+            { "species": "Gligar",    "chance": 10 },
+            { "species": "Zangoose",  "chance": 10 },
+            { "species": "Seviper",   "chance": 10 },
+            { "species": "Chatot",    "chance": 5  },
+            { "species": "Doduo",     "chance": 5  },
+            { "species": "Chimchar",  "chance": 4  },
+            { "species": "Mudkip",    "chance": 4  },
+            { "species": "Cyndaquil", "chance": 1  },
+            { "species": "Piplup",    "chance": 1  }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Olivine City",
+      "encounter_methods": [
+        {
+          "method": "Old Rod",
+          "level": 10,
+          "encounters": [
+            { "species": "Pikachu", "chance": 60 },
+            { "species": "Koffing", "chance": 30 },
+            { "species": "Staryu",  "chance": 10 }
+          ]
+        },
+        {
+          "method": "Surf",
+          "level": 20,
+          "encounters": [
+            { "species": "Shellos", "chance": 60 },
+            { "species": "Croagunk","chance": 30 },
+            { "species": "Qwilfish","chance": 10 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Route 40",
+      "encounter_methods": [
+        {
+          "method": "Old Rod",
+          "level": 10,
+          "encounters": [
+            { "species": "Corphish", "chance": 60 },
+            { "species": "Wooper",   "chance": 30 },
+            { "species": "Psyduck",  "chance": 10 }
+          ]
+        },
+        {
+          "method": "Surf",
+          "level": 20,
+          "encounters": [
+            { "species": "Poliwhirl","chance": 60 },
+            { "species": "Phione",  "chance": 40 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Route 41",
+      "encounter_methods": [
+        {
+          "method": "Old Rod",
+          "level": 10,
+          "encounters": [
+            { "species": "Grimer",  "chance": 60 },
+            { "species": "Slowpoke","chance": 30 },
+            { "species": "Sealeo",  "chance": 10 }
+          ]
+        },
+        {
+          "method": "Surf",
+          "level": 20,
+          "encounters": [
+            { "species": "Clamperl","chance": 60 },
+            { "species": "Lotad",   "chance": 30 },
+            { "species": "Barboach","chance": 10 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cianwood City",
+      "encounter_methods": [
+        {
+          "method": "Old Rod",
+          "level": 10,
+          "encounters": [
+            { "species": "Tentacool","chance": 60 },
+            { "species": "Staryu",   "chance": 30 },
+            { "species": "Eevee",    "chance": 10 }
+          ]
+        },
+        {
+          "method": "Surf",
+          "level": 20,
+          "encounters": [
+            { "species": "Corsola", "chance": 60 },
+            { "species": "Wingull", "chance": 30 },
+            { "species": "Staryu",  "chance": 5  },
+            { "species": "Wailmer", "chance": 5  }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cliff Edge Gate",
+      "encounter_methods": [
+        {
+          "method": "Cave",
+          "level": 26,
+          "encounters": [
+            { "species": "Graveler", "chance": 20 },
+            { "species": "Golbat",   "chance": 20 },
+            { "species": "Makuhita","chance": 10 },
+            { "species": "Rhyhorn",  "chance": 10 },
+            { "species": "Onix",     "chance": 10 },
+            { "species": "Torkoal",  "chance": 10 },
+            { "species": "Tyrogue",  "chance": 5  },
+            { "species": "Cubone",   "chance": 5  },
+            { "species": "Solrock",  "chance": 4  },
+            { "species": "Lunatone", "chance": 4  },
+            { "species": "Meditite","chance": 1  },
+            { "species": "Diglett",  "chance": 1  }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cliff Cave",
+      "encounter_methods": [
+        {
+          "method": "Cave",
+          "level": 26,
+          "encounters": [
+            { "species": "Wooper",     "chance": 20 },
+            { "species": "Phanpy",     "chance": 20 },
+            { "species": "Makuhita",   "chance": 10 },
+            { "species": "Diglett",    "chance": 10 },
+            { "species": "Onix",       "chance": 10 },
+            { "species": "Hippopotas", "chance": 10 },
+            { "species": "Tyrogue",    "chance": 5  },
+            { "species": "Cubone",     "chance": 5  },
+            { "species": "Solrock",    "chance": 4  },
+            { "species": "Lunatone",   "chance": 4  },
+            { "species": "Meditite",   "chance": 1  },
+            { "species": "Voltorb",    "chance": 1  }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Route 47",
+      "encounter_methods": [
+        {
+          "method": "Grass",
+          "level": 39,
+          "encounters": [
+            { "species": "Medicham", "chance": 20 },
+            { "species": "Gligar",   "chance": 20 },
+            { "species": "Absol",    "chance": 20 },
+            { "species": "Voltorb",  "chance": 20 },
+            { "species": "Metang",   "chance": 5  },
+            { "species": "Magneton", "chance": 5  },
+            { "species": "Probopass","chance": 5  },
+            { "species": "Gabite",   "chance": 5  }
+          ]
+        },
+        {
+          "method": "Old Rod",
+          "level": 10,
+          "encounters": [
+            { "species": "Slugma",   "chance": 60 },
+            { "species": "Castform","chance": 30 },
+            { "species": "Crobat",   "chance": 10 }
+          ]
+        },
+        {
+          "method": "Surf",
+          "level": 20,
+          "encounters": [
+            { "species": "Squirtle", "chance": 60 },
+            { "species": "Totodile","chance": 30 },
+            { "species": "Mudkip",  "chance": 5  },
+            { "species": "Lapras",  "chance": 5  }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Route 48",
+      "encounter_methods": [
+        {
+          "method": "Grass",
+          "level": 28,
+          "encounters": [
+            { "species": "Farfetch’d", "chance": 20 },
+            { "species": "Hariyama",   "chance": 20 },
+            { "species": "Houndoom",   "chance": 10 },
+            { "species": "Ponyta",     "chance": 10 },
+            { "species": "Primeape",   "chance": 10 },
+            { "species": "Gligar",     "chance": 10 },
+            { "species": "Vulpix",     "chance": 10 },
+            { "species": "Diglett",    "chance": 5  },
+            { "species": "Machoke",    "chance": 5  }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mahogany Town",
+      "encounter_methods": [
+        {
+          "method": "Grass",
+          "level": 34,
+          "encounters": [
+            { "species": "Seel",     "chance": 20 },
+            { "species": "Shellder", "chance": 20 },
+            { "species": "Psyduck",  "chance": 10 },
+            { "species": "Spheal",   "chance": 10 },
+            { "species": "Swinub",   "chance": 10 },
+            { "species": "Snorunt",  "chance": 10 },
+            { "species": "Snover",   "chance": 10 },
+            { "species": "Smoochum", "chance": 5  },
+            { "species": "Castform", "chance": 4  },
+            { "species": "Sneasel",  "chance": 1  }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Route 43",
+      "encounter_methods": [
+        {
+          "method": "Grass",
+          "level": 39,
+          "encounters": [
+            { "species": "Venomoth",  "chance": 20 },
+            { "species": "Girarig",   "chance": 20 },
+            { "species": "Snover",    "chance": 10 },
+            { "species": "Piloswine", "chance": 10 },
+            { "species": "Pidgeotto", "chance": 10 },
+            { "species": "Flaaffy",   "chance": 10 },
+            { "species": "Donphan",   "chance": 5  },
+            { "species": "Yanma",     "chance": 5  },
+            { "species": "Ursaring",  "chance": 4  },
+            { "species": "Absol",     "chance": 4  },
+            { "species": "Kecleon",   "chance": 1  },
+            { "species": "Munchlax",  "chance": 1  }
+          ]
+        },
+        {
+          "method": "Old Rod",
+          "level": 10,
+          "encounters": [
+            { "species": "Chingling", "chance": 60 },
+            { "species": "Glalie",    "chance": 30 },
+            { "species": "Wynaut",    "chance": 10 }
+          ]
+        },
+        {
+          "method": "Surf",
+          "level": 20,
+          "encounters": [
+            { "species": "Tentacool",  "chance": 60 },
+            { "species": "Wingull",    "chance": 30 },
+            { "species": "Relicanth",  "chance": 5  },
+            { "species": "Wailmer",    "chance": 5  }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lake of Rage",
+      "encounter_methods": [
+        {
+          "method": "Old Rod",
+          "level": 10,
+          "encounters": [
+            { "species": "Magikarp", "chance": 100 }
+          ]
+        },
+        {
+          "method": "Surf",
+          "level": 20,
+          "encounters": [
+            { "species": "Magikarp", "chance": 100 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Route 44",
+      "encounter_methods": [
+        {
+          "method": "Grass",
+          "level": 40,
+          "encounters": [
+            { "species": "Swinub",   "chance": 20 },
+            { "species": "Seel",     "chance": 20 },
+            { "species": "Spheal",   "chance": 10 },
+            { "species": "Sneasel",  "chance": 10 },
+            { "species": "Smoochum", "chance": 10 },
+            { "species": "Snorunt",  "chance": 10 },
+            { "species": "Gastly",   "chance": 10 },
+            { "species": "Delibird", "chance": 5  },
+            { "species": "Castform", "chance": 5  }
+          ]
+        },
+        {
+          "method": "Old Rod",
+          "level": 10,
+          "encounters": [
+            { "species": "Sealeo",  "chance": 60 },
+            { "species": "Seel",    "chance": 30 },
+            { "species": "Shellder","chance": 5  },
+            { "species": "Qwilfish","chance": 5  }
+          ]
+        },
+        {
+          "method": "Surf",
+          "level": 20,
+          "encounters": [
+            { "species": "Krabby", "chance": 60 },
+            { "species": "Wailmer","chance": 30 },
+            { "species": "Eevee",  "chance": 9  },
+            { "species": "Lapras", "chance": 1  }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ice Path",
+      "encounter_methods": [
+        {
+          "method": "Cave",
+          "level": 40,
+          "encounters": [
+            { "species": "Piloswine", "chance": 20 },
+            { "species": "Dewgong",   "chance": 20 },
+            { "species": "Sealeo",    "chance": 20 },
+            { "species": "Sneasel",   "chance": 10 },
+            { "species": "Jynx",      "chance": 10 },
+            { "species": "Haunter",   "chance": 10 },
+            { "species": "Snorunt",   "chance": 9  },
+            { "species": "Munchlax",  "chance": 1  }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Route 45",
+      "encounter_methods": [
+        {
+          "method": "Grass",
+          "level": 46,
+          "encounters": [
+            { "species": "Dragonair", "chance": 20 },
+            { "species": "Pupitar",   "chance": 20 },
+            { "species": "Metang",    "chance": 20 },
+            { "species": "Shelgon",   "chance": 20 },
+            { "species": "Gabite",    "chance": 20 }
+          ]
+        },
+        {
+          "method": "Old Rod",
+          "level": 30,
+          "encounters": [
+            { "species": "Wailord", "chance": 60 },
+            { "species": "Lapras",  "chance": 40 }
+          ]
+        },
+        {
+          "method": "Surf",
+          "level": 35,
+          "encounters": [
+            { "species": "Cloyster",  "chance": 60 },
+            { "species": "Seadra",    "chance": 30 },
+            { "species": "Wailord",   "chance": 5  },
+            { "species": "Relicanth", "chance": 4  },
+            { "species": "Manaphy",   "chance": 1  }
+          ]
+        }
+      ]
+    }
+  ]
+}

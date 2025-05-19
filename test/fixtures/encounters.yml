@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nature: 1
+  ivs: 1
+
+two:
+  nature: 1
+  ivs: 1
