@@ -13,6 +13,14 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   root "home#index"
 
+  resources :games
+  resources :nuzlockes
+  resources :attempts
+  resources :areas
+  resources :trainers
+  resources :trainer_pokemon
+  resources :area_pokemon
+
   get '/auth/twitch/callback', to: 'sessions#create'
   delete '/logout', to: 'sessions#destroy'
 

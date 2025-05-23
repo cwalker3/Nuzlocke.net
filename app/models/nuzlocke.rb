@@ -5,11 +5,12 @@ class Nuzlocke < ApplicationRecord
   has_many :rules, through: :nuzlocke_rules
   has_many :attempts
 
-  enum status: {
-    planned: 0,
-    in_progress: 1,
-    completed: 2,
-    on_hold: 3,
-    dropped: 4
-  }
+  after_create_commit :create_initial_attempt
+
+
+  private
+
+  def create_initial_attempt
+    attempts.create!(status: :active)
+  end
 end

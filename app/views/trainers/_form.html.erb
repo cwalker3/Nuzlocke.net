@@ -1,0 +1,49 @@
+<%= form_with model: @trainer, data: { turbo_frame: 'area-info' } do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+
+  <%= f.label :position %>
+  <%= f.number_field :position, value: @trainer.position %>
+
+  <%= f.hidden_field :area_id, value: @area.id %>
+
+  <div class="pokemon-slots">
+    <%= f.fields_for :trainer_pokemon do |slot| %>
+      <div class="trainer-pokemon">
+        <%= slot.label :pokemon_id %>
+        <%= slot.collection_select :pokemon_id, @pokemon, :id, :pretty_name, include_blank: true %>
+
+        <%= slot.label :level %>
+        <%= slot.number_field :level, min: 1, max: 100, step: 1 %>
+
+        <%= slot.label :item_id %>
+        <%= slot.collection_select :item_id, @items, :id, :pretty_name, include_blank: true %>
+
+        <%= slot.label :position %>
+        <%= slot.number_field :position, value: slot.object.position, min: 1, max: 6 %>
+
+        <%= slot.label :ability_id %>
+        <%= slot.collection_select :ability_id, @abilities, :id, :pretty_name, include_blank: true %>
+
+        <%= slot.label :nature_id %>
+        <%= slot.collection_select :nature_id, @natures, :id, :pretty_name, include_blank: true %>
+
+        <div class="form-moves">
+          <%= slot.label :move1_id %>
+          <%= slot.collection_select :move1_id, @moves, :id, :pretty_name, include_blank: true %>
+          
+          <%= slot.label :move2_id %>
+          <%= slot.collection_select :move2_id, @moves, :id, :pretty_name, include_blank: true %>
+          
+          <%= slot.label :move3_id %>
+          <%= slot.collection_select :move3_id, @moves, :id, :pretty_name, include_blank: true %>
+          
+          <%= slot.label :move4_id %>
+          <%= slot.collection_select :move4_id, @moves, :id, :pretty_name, include_blank: true %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+
+  <%= f.submit 'Save Trainer' %>
+<% end %>

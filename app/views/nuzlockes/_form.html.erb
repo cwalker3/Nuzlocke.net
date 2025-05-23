@@ -1,0 +1,11 @@
+<%= turbo_frame_tag 'game' do %>
+  <%= form_with model: [@game, @nuzlocke] do |f| %>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+    
+    <%= f.label :status %>
+    <%= f.text_field :status %>
+
+    <%= f.submit %>
+  <% end %>
+<% end %>

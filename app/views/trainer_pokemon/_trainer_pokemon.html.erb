@@ -1,0 +1,30 @@
+<li class="trainer-pokemon">
+  <p>
+    <%= trainer_pokemon.pokemon.pretty_name %>
+  </p>
+  <%= image_tag "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/#{trainer_pokemon.pokemon_id}.png" %>
+  <% if trainer_pokemon.item %>
+    <%= image_tag "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/#{trainer_pokemon.item.name}.png" %>
+  <% else %>
+    <p>No Item</p>
+  <% end %>
+  <% if trainer_pokemon.ability %>
+    <p><%= trainer_pokemon.ability.pretty_name %></p>
+  <% end %>
+  <% if trainer_pokemon.nature %>
+    <p><%= trainer_pokemon.nature.pretty_name %></p>
+  <% end %>
+  <p>Level: <%= trainer_pokemon.level %></p>
+  <% if trainer_pokemon.move1 %>
+    <p><%= trainer_pokemon.move1.pretty_name %></p>
+  <% end %>
+  <% if trainer_pokemon.move2 %>
+    <p><%= trainer_pokemon.move2.pretty_name %></p>
+  <% end %>
+  <% if trainer_pokemon.move3 %>
+    <p><%= trainer_pokemon.move3.pretty_name %></p>
+  <% end %>
+  <% if trainer_pokemon.move4 %>
+    <p><%= trainer_pokemon.move4.pretty_name %></p>
+  <% end %>       
+</li>

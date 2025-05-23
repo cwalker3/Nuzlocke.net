@@ -1,0 +1,24 @@
+<%= turbo_frame_tag 'area-info' do %>
+
+
+<ul class="encounter-methods">
+  <% @all_area_pokemon.to_a.group_by(&:encounter_method).each do |method, method_pokemon|%>
+    <li class="encounter-method">
+      <ul class="encounter-method">
+          <h3><%= method %></h3>
+          <% method_pokemon.each do |area_pokemon| %>
+            <%= render area_pokemon %>
+          <% end %>
+      </ul>
+    </li>
+  <% end %>
+</ul>
+
+
+<%= turbo_frame_tag 'new_area_pokemon' do %>
+  <%= link_to "Add Pokemon", new_area_pokemon_path(area_id: @area.id) %>
+<% end %>
+
+<% end %>
+
+

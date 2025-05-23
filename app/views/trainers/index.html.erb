@@ -1,0 +1,15 @@
+<%= turbo_frame_tag 'area-info' do %>
+  <%= turbo_frame_tag 'trainers_list', tag: 'ul' do %>
+    <% if @trainers.empty? %>
+      <p>No Trainers</p>
+      <%= turbo_frame_tag 'new_trainer' do %>
+        <%= link_to "Add Trainer", new_trainer_path(area_id: @area.id, position: 1) %>
+      <% end %>
+    <% else %>
+      <ul class="trainer-list">
+        <%= render @area.trainers %>
+      </ul>
+    <% end %>
+  <% end %>
+<% end %>
+

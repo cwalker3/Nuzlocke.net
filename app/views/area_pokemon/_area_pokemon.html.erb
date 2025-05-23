@@ -1,0 +1,13 @@
+<%= turbo_frame_tag dom_id(area_pokemon) do %>
+  <li class="area-pokemon">
+    <h4>
+      <%= area_pokemon.pokemon.pretty_name %>
+    </h4>
+    <%= image_tag "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/#{area_pokemon.pokemon_id}.png" %>
+    <% if area_pokemon.encounter_rate %>
+      <p><%= area_pokemon.encounter_rate %>%</p>
+    <% end %>
+    <%= link_to 'Edit', edit_area_pokemon_path(area_pokemon, area_id: area_pokemon.area_id) %>
+
+  </li>
+<% end %>

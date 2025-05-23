@@ -1,8 +1,3 @@
-<% if session[:user_id].nil? %>
-    <%= button_to 'Log in with Twitch', '/auth/twitch', data: { turbo: :false } %>
-<% else %>
-  <p> 
-    <%=  "Hello #{current_user.name}" %>
-  </p>
-  <%= button_to 'Log out', '/logout', method: :delete %>
+<%= turbo_frame_tag 'content', src: games_path, loading: 'lazy'  do %>
+  <p>Loading Games...</p>
 <% end %>

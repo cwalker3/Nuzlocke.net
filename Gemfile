@@ -6,6 +6,13 @@ gem 'omniauth-rails_csrf_protection'
 
 gem 'dotenv-rails', groups: [:development, :test]
 
+gem 'dartsass-rails'
+gem "normalize-rails"
+
+gem 'counter_culture'
+
+gem 'acts_as_list'
+
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 8.0.2"

@@ -1,0 +1,11 @@
+<%= turbo_frame_tag 'area' do %>
+  <h3>
+    <%= @area.name %>
+  </h3>
+  <nav class="area-tabs">
+    <%= link_to "Trainers", trainers_path(area_id: @area.id), data: { turbo_frame: 'area-info' }  %>
+    <%= link_to "Pokemon", area_pokemon_index_path(area_id: @area.id), data: { turbo_frame: 'area-info'} %>
+    <%= link_to "Items" %>
+  </nav>
+  <%= turbo_frame_tag 'area-info', src: trainers_path(area_id: @area.id) %>
+<% end %>

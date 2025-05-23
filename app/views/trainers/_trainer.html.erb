@@ -1,0 +1,16 @@
+<%= turbo_frame_tag dom_id(trainer) do %>
+  <li class="trainer">
+    <h4>
+      <%= trainer.name %>
+    </h4>
+    <ul class="all-trainer-pokemon">
+      <%= render trainer.trainer_pokemon %>
+    </ul>
+    <%= link_to 'Edit', edit_trainer_path(trainer, area_id: trainer.area_id) %>
+
+  <%= turbo_frame_tag 'new_trainer' do %>
+    <%= link_to "Add Trainer Above", new_trainer_path(area_id: trainer.area_id, position: trainer.position) %>
+    <%= link_to "Add Trainer Below", new_trainer_path(area_id: trainer.area_id, position: trainer.position + 1) %>
+  <% end %>
+  </li>
+<% end %>

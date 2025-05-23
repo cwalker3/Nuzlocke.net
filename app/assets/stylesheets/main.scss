@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  color: var(--font-color-primary);
+}
+
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--font-color-primary);
+}
+
+input, select, textarea, option {
+  color: black;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.main-nav {
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  background-color: var(--bg-color-secondary);
+
+  .login {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+}
+
+footer {
+  height: 5vh;
+  background-color: var(--bg-color-secondary)
+}
+
+main {
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: scroll;
+  background-color: var(--bg-color-primary)
+}
+
+#content {
+  max-width: 1500px;
+  width: 100%;
+  min-height:90vh;
+  margin: 2rem;
+  background-color: var(--bg-color-secondary);
+}
+
+.games-grid {
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 10px;  
+
+
+  .game-card {
+    background-color: var(--bg-color-primary);
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    font-size: .8rem;
+  }
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 100%;
+
+  .game-nav {
+  background-color: var(--bg-color-tertiary);
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5rem;
+  }
+}
+
+#game-dashboard {
+  min-height: 90vh;
+  padding: 1rem;
+
+  .area-nav {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    overflow-x: auto;
+    gap: 1rem;
+  }
+
+  #area {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+nav.area-tabs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.trainer-list {
+  
+  .trainer {
+    background-color: var(--bg-color-primary);
+    margin-top: 1rem;
+
+    .all-trainer-pokemon {
+      display: flex;
+      justify-content: space-around;
+
+      .trainer-pokemon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+    }
+  }
+
+}
+
+.encounter-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  .encounter-method {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 100%;
+    background-color: var(--bg-color-primary);
+
+    .area-pokemon {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+}
+
+

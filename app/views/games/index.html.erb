@@ -1,0 +1,10 @@
+<%= turbo_frame_tag "content" do %>
+  <div class="games-grid">
+    <%= render @games %>
+     <div class="game-card">
+      <%= turbo_frame_tag 'new_game' do %>
+        <%= link_to 'New Game', new_game_path, data: { turbo_frame: 'dashboard' } %>
+      <% end %>
+    </div>
+  </div>
+<% end %>
