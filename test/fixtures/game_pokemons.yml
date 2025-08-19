@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  pokemon: one
+  hp: 1
+  atk: 1
+  def: 1
+  spa: 1
+  spd: 1
+  spe: 1
+  type_1: one
+  type_2: one
+
+two:
+  pokemon: two
+  hp: 1
+  atk: 1
+  def: 1
+  spa: 1
+  spd: 1
+  spe: 1
+  type_1: two
+  type_2: two

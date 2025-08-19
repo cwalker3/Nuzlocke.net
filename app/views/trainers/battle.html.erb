@@ -1,0 +1,3 @@
+<%= turbo_frame_tag 'trainer-battle-modal' do %>
+  <%= render partial: 'trainers/battle', locals: { kill_event: @kill_event, trainer: @trainer, attempt: @attempt } %>
+<% end %>

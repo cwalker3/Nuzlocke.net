@@ -11,6 +11,28 @@
  */
 
 @use "normalize-rails" as *;
-@use "main" as *;
-@use "_variables" as *;
+
+@use './abstracts/variables' as *;
+@use './abstracts/type-colors' as *;
+@use './base/base' as *;
+@use './components/trainer' as *;
+@use './components/area-pokemon' as *;
+@use './components/attempt-pokemon' as *;
+@use './components/game-pokemon' as *;
+@use './components/move' as *;
+@use './components/party' as *;
+@use './components/pokedex' as *;
+@use './components/mini-box' as *;
+@use './components/trainer-pokemon' as *;
+@use './layouts/area-dashboard' as *;
+@use './layouts/area-info.scss' as *;
+@use './layouts/encounter-methods.scss' as *;
+@use './layouts/game-dashboard' as *;
+@use './layouts/game-index' as *;
+@use './layouts/modal' as *;
+@use './layouts/trainers-list.scss' as *;
+@use './layouts/site' as *;
+
+
+
 

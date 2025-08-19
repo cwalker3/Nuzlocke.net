@@ -1,0 +1,4 @@
+<div class="modal-overlay attempt-pokemon-modal-overlay" data-controller='modal', data-action='click->modal#maybeClose'>
+  <%= turbo_frame_tag 'attempt-pokemon-modal', class: 'modal', data: { action: "turbo:frame-load->modal#open turbo:frame-remove->modal#close" } %>
+</div>
+

@@ -1,21 +1,19 @@
 class Game < ApplicationRecord
   validates :title, presence: true, uniqueness: true
 
-  has_many :nuzlockes
-  has_many :attempts, through: :nuzlockes
-  has_many :trainers
-  has_many :areas
-  has_many :game_items
+  has_many :nuzlockes, dependent: :destroy
+  has_many :attempts, through: :nuzlockes,  dependent: :destroy
+  has_many :areas, dependent: :destroy
+  has_many :game_items, dependent: :destroy
+  has_many :splits, dependent: :destroy
+  has_many :moves, dependent: :destroy
+  has_many :game_pokemon, -> { order(:id) }, dependent: :destroy
 
-  def active_nuzlockes_count
-    self.nuzlockes.where(status: 'active').count
+  def pretty_title
+    title.gsub('-', ' ').titleize
   end
 
-  def completed_attempts
-    attempts.completed.count
-  end
-
-  def total_attempts_count
-    attempts.count
+  def to_param
+    title
   end
 end

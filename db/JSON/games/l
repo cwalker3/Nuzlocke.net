@@ -1,0 +1,12 @@
+  pid   |        state        |  wait_event   |                                                         query                                                         
+--------+---------------------+---------------+-----------------------------------------------------------------------------------------------------------------------
+ 494158 | active              | relation      | TRUNCATE TABLE pokemon_moves RESTART IDENTITY CASCADE;                                                               +
+        |                     |               |  /*application='NuzlockeNet'*/
+ 483593 | active              | transactionid | DELETE FROM "pokemon_moves" /*application='NuzlockeNet'*/
+ 490109 | idle in transaction | ClientRead    | DELETE FROM "pokemon_moves" WHERE "pokemon_moves"."id" = 2595 /*application='NuzlockeNet'*/
+ 495473 | active              | relation      | SELECT "pokemon_moves".* FROM "pokemon_moves" ORDER BY "pokemon_moves"."id" ASC LIMIT 1 /*application='NuzlockeNet'*/
+ 496010 | active              |               | SELECT pid, state, wait_event, query                                                                                 +
+        |                     |               |   FROM pg_stat_activity                                                                                              +
+        |                     |               |  WHERE state <> 'idle';
+(5 rows)
+

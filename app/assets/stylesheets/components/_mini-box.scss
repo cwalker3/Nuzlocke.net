@@ -1,0 +1,19 @@
+.mini-box {
+  position: fixed;
+  bottom: 0;
+  right: 10rem;
+  height: 300px;
+  width: 300px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  overflow-y: auto;
+  background-color: var(--bg-color-tertiary);
+  border-radius: 2rem;
+  border: 1px solid black;
+
+  &__img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+}

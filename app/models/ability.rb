@@ -1,5 +1,5 @@
 class Ability < ApplicationRecord
-  def pretty_name
-    name.gsub("-", " ").titleize
+  def to_s
+    name
   end
 end

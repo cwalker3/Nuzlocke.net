@@ -1,11 +1,12 @@
-<%= turbo_frame_tag 'game' do %>
-  <%= form_with model: [@game, @nuzlocke] do |f| %>
-    <%= f.label :name %>
-    <%= f.text_field :name %>
-    
-    <%= f.label :status %>
-    <%= f.text_field :status %>
+<%= form_with model: @nuzlocke, data: { turbo: false } do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
 
-    <%= f.submit %>
-  <% end %>
+  <%= f.label :game_id, 'Game' %>
+  <%= f.collection_select :game_id,
+                          @games,
+                          :id,
+                          :pretty_title %>
+
+  <%= f.submit %>
 <% end %>

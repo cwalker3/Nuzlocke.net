@@ -1,0 +1,97 @@
+=> 
+[[32m#<Trainer:0x00007fc405e013e0[0m
+  id: [34m[1m454[0m,
+  name: [31m[1m"[0m[31mRival 1[0m[31m[1m"[0m,
+  area_id: [34m[1m3[0m,
+  created_at:
+   [31m[1m"[0m[31m2025-07-02 17:50:49.693177000 +0000[0m[31m[1m"[0m,
+  updated_at:
+   [31m[1m"[0m[31m2025-07-02 17:50:49.916351000 +0000[0m[31m[1m"[0m,
+  notes: [36m[1mnil[0m,
+  reward: [36m[1mnil[0m,
+  trainer_type: [31m[1m"[0m[31mmandatory[0m[31m[1m"[0m,
+  position: [34m[1m3[0m,
+  gender_requirement: [31m[1m"[0m[31meither[0m[31m[1m"[0m,
+  boss_role: [31m[1m"[0m[31mnormal[0m[31m[1m"[0m,
+  starter_requirement: [31m[1m"[0m[31mgrass[0m[31m[1m"[0m,
+  split_id: [34m[1m1[0m[32m>[0m,
+ [32m#<Trainer:0x00007fc4066a1900[0m
+  id: [34m[1m455[0m,
+  name: [31m[1m"[0m[31mRival 1[0m[31m[1m"[0m,
+  area_id: [34m[1m3[0m,
+  created_at:
+   [31m[1m"[0m[31m2025-07-02 17:50:49.875764000 +0000[0m[31m[1m"[0m,
+  updated_at:
+   [31m[1m"[0m[31m2025-07-02 17:50:49.916351000 +0000[0m[31m[1m"[0m,
+  notes: [36m[1mnil[0m,
+  reward: [36m[1mnil[0m,
+  trainer_type: [31m[1m"[0m[31mmandatory[0m[31m[1m"[0m,
+  position: [34m[1m2[0m,
+  gender_requirement: [31m[1m"[0m[31meither[0m[31m[1m"[0m,
+  boss_role: [31m[1m"[0m[31mnormal[0m[31m[1m"[0m,
+  starter_requirement: [31m[1m"[0m[31mfire[0m[31m[1m"[0m,
+  split_id: [34m[1m1[0m[32m>[0m,
+ [32m#<Trainer:0x00007fc4066a1540[0m
+  id: [34m[1m456[0m,
+  name: [31m[1m"[0m[31mRival 1[0m[31m[1m"[0m,
+  area_id: [34m[1m3[0m,
+  created_at:
+   [31m[1m"[0m[31m2025-07-02 17:50:49.911538000 +0000[0m[31m[1m"[0m,
+  updated_at:
+   [31m[1m"[0m[31m2025-07-02 17:50:49.911538000 +0000[0m[31m[1m"[0m,
+  notes: [36m[1mnil[0m,
+  reward: [36m[1mnil[0m,
+  trainer_type: [31m[1m"[0m[31mmandatory[0m[31m[1m"[0m,
+  position: [34m[1m1[0m,
+  gender_requirement: [31m[1m"[0m[31meither[0m[31m[1m"[0m,
+  boss_role: [31m[1m"[0m[31mnormal[0m[31m[1m"[0m,
+  starter_requirement: [31m[1m"[0m[31mwater[0m[31m[1m"[0m,
+  split_id: [34m[1m1[0m[32m>[0m,
+ [32m#<Trainer:0x00007fc4066a1400[0m
+  id: [34m[1m457[0m,
+  name: [31m[1m"[0m[31mYoungster Papaya[0m[31m[1m"[0m,
+  area_id: [34m[1m6[0m,
+  created_at:
+   [31m[1m"[0m[31m2025-07-02 17:50:50.208064000 +0000[0m[31m[1m"[0m,
+  updated_at:
+   [31m[1m"[0m[31m2025-07-02 17:50:50.208064000 +0000[0m[31m[1m"[0m,
+  notes: [31m[1m"[0m[31mBulldoze[0m[31m[1m"[0m,
+  reward: [36m[1mnil[0m,
+  trainer_type: [31m[1m"[0m[31mmandatory[0m[31m[1m"[0m,
+  position: [34m[1m2[0m,
+  gender_requirement: [31m[1m"[0m[31meither[0m[31m[1m"[0m,
+  boss_role: [31m[1m"[0m[31mnormal[0m[31m[1m"[0m,
+  starter_requirement: [31m[1m"[0m[31many[0m[31m[1m"[0m,
+  split_id: [34m[1m1[0m[32m>[0m,
+ [32m#<Trainer:0x00007fc4066a1180[0m
+  id: [34m[1m458[0m,
+  name: [31m[1m"[0m[31mYoungster Mikey[0m[31m[1m"[0m,
+  area_id: [34m[1m6[0m,
+  created_at:
+   [31m[1m"[0m[31m2025-07-02 17:50:50.230813000 +0000[0m[31m[1m"[0m,
+  updated_at:
+   [31m[1m"[0m[31m2025-07-02 17:53:04.357361000 +0000[0m[31m[1m"[0m,
+  notes: [31m[1m"[0m[31mBulldoze[0m[31m[1m"[0m,
+  reward: [36m[1mnil[0m,
+  trainer_type: [31m[1m"[0m[31mmandatory[0m[31m[1m"[0m,
+  position: [34m[1m2[0m,
+  gender_requirement: [31m[1m"[0m[31meither[0m[31m[1m"[0m,
+  boss_role: [31m[1m"[0m[31mnormal[0m[31m[1m"[0m,
+  starter_requirement: [31m[1m"[0m[31many[0m[31m[1m"[0m,
+  split_id: [34m[1m1[0m[32m>[0m,
+ [32m#<Trainer:0x00007fc4066a0f00[0m
+  id: [34m[1m459[0m,
+  name: [31m[1m"[0m[31mBug Catcher Don[0m[31m[1m"[0m,
+  area_id: [34m[1m6[0m,
+  created_at:
+   [31m[1m"[0m[31m2025-07-02 17:50:50.271160000 +0000[0m[31m[1m"[0m,
+  updated_at:
+   [31m[1m"[0m[31m2025-07-02 17:53:04.388311000 +0000[0m[31m[1m"[0m,
+  notes: [31m[1m"[0m[31mBulldoze[0m[31m[1m"[0m,
+  reward: [36m[1mnil[0m,
+  trainer_type: [31m[1m"[0m[31mmandatory[0m[31m[1m"[0m,
+  position: [34m[1m2[0m,
+  gender_requirement: [31m[1m"[0m[31meither[0m[31m[1m"[0m,
+  boss_role: [31m[1m"[0m[31mnormal[0m[31m[1m"[0m,
+  starter_requirement: [31m[1m"[0m[31many[0m[31m[1m"[0m,
+  split_id: [34m[1m1[0m[32m>[0m]

@@ -1,0 +1,12 @@
+<ul class="encounter-methods">
+  <% encounter_methods.each do |method_name, area_pokemon| %>
+    <li class="encounter-methods__method">
+    <h4 class="encounter-methods__method-name">
+      <%= method_name %>
+    </h4>
+      <ul class="encounter-methods__method-list">
+        <%= render area_pokemon %>
+      </ul>
+    </li>
+  <% end %>
+</ul>

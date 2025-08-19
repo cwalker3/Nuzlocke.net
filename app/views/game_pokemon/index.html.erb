@@ -1,0 +1,46 @@
+<%= turbo_frame_tag 'pokedex-modal' do %>
+  <div class="pokedex">
+    <table class="pokedex__table">
+      <thead>
+        <tr>
+          <th>Species</th>
+          <th>Sprite</th>
+          <th>Type</th>
+          <th>Abilities</th>
+          <th>HP</th>
+          <th>Atk</th>
+          <th>Def</th>
+          <th>SpA</th>
+          <th>SpD</th>
+          <th>Spe</th>
+        </tr>
+      </thead>
+      <tbody>
+      <% @game_pokemon.each do |game_pokemon| %>
+        <tr>
+          <td><%= link_to game_pokemon.species, game_pokemon_path(game_pokemon), data: { turbo_frame: 'game-pokemon-modal' } %></td>
+          <td><%= image_tag game_pokemon.pokemon.image_url %></td>
+          <td>
+            <%= image_tag game_pokemon.type_1.image_url %>
+            <br/>
+            <%= image_tag game_pokemon.type_2.image_url if game_pokemon.type_2 %>
+          </td>
+          <td>
+            <%= game_pokemon.ability_1.name %>
+            <br/>
+            <%= game_pokemon.ability_2.name if game_pokemon.ability_2 %>
+            <br/>
+            <%= game_pokemon.ability_3.name if game_pokemon.ability_3 %>
+          </td>
+          <td><%= game_pokemon.hp  %></td>
+          <td><%= game_pokemon.atk %></td>
+          <td><%= game_pokemon.def %></td>
+          <td><%= game_pokemon.spa %></td>
+          <td><%= game_pokemon.spd %></td>
+          <td><%= game_pokemon.spe %></td>
+        </tr>
+      <% end %>
+    </tbody>
+    </table>
+    <% end %>
+  </div>

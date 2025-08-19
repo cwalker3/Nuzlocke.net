@@ -1,30 +1,29 @@
-<li class="trainer-pokemon">
+<li class="trainer__pokemon">
   <p>
-    <%= trainer_pokemon.pokemon.pretty_name %>
+    <%= trainer_pokemon.pokemon.species %>
   </p>
-  <%= image_tag "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/#{trainer_pokemon.pokemon_id}.png" %>
-  <% if trainer_pokemon.item %>
-    <%= image_tag "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/#{trainer_pokemon.item.name}.png" %>
-  <% else %>
-    <p>No Item</p>
+  <%= link_to link_path, data: { turbo_frame: turbo_frame } do %>
+    <%= image_tag trainer_pokemon.pokemon.image_url %>
   <% end %>
+  <div class="game-pokemon__types">
+    <%= image_tag trainer_pokemon.game_pokemon.type_1.image_url %>
+    <%= image_tag trainer_pokemon.game_pokemon.type_2.image_url if trainer_pokemon.game_pokemon.type_2.present? %>
+  </div>
+  <div class="item">
+    <%= trainer_pokemon.item.present? ? image_tag(trainer_pokemon.item.image_url) : 'No Item' %>
+  </div>
   <% if trainer_pokemon.ability %>
-    <p><%= trainer_pokemon.ability.pretty_name %></p>
+    <p><%= trainer_pokemon.ability %></p>
   <% end %>
   <% if trainer_pokemon.nature %>
-    <p><%= trainer_pokemon.nature.pretty_name %></p>
+    <p><%= trainer_pokemon.nature %></p>
   <% end %>
   <p>Level: <%= trainer_pokemon.level %></p>
-  <% if trainer_pokemon.move1 %>
-    <p><%= trainer_pokemon.move1.pretty_name %></p>
-  <% end %>
-  <% if trainer_pokemon.move2 %>
-    <p><%= trainer_pokemon.move2.pretty_name %></p>
-  <% end %>
-  <% if trainer_pokemon.move3 %>
-    <p><%= trainer_pokemon.move3.pretty_name %></p>
-  <% end %>
-  <% if trainer_pokemon.move4 %>
-    <p><%= trainer_pokemon.move4.pretty_name %></p>
-  <% end %>       
+  <% trainer_pokemon.moves.each do |move| %>
+    <% if move.present? %>
+      <%= link_to move.name, move_path(move), data: { turbo_frame: 'move-modal' }, class: "type-#{move.type.name}" %>
+    <% else %>
+      <p> - </p>
+    <% end %>
+  <% end %>  
 </li>

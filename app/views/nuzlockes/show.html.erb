@@ -1,4 +1,10 @@
-<%= turbo_frame_tag "game" do %>
-  <%= @nuzlocke.name %>
-<%= link_to "#{}" %>
+<%= @nuzlocke.name %>
+<% unless @nuzlocke.active_attempt %>
+  <%= turbo_frame_tag 'new-attempt' do %>
+    <%= link_to 'New Attempt', new_nuzlocke_attempt_path(@nuzlocke) %>
+  <% end %>
+<% end %>
+
+<% @attempts.each_with_index do |attempt| %>
+  <%= link_to "Attempt #{attempt.number}", game_path_with_attempt(attempt.game, attempt) %>
 <% end %>

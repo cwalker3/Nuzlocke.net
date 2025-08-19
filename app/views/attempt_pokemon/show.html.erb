@@ -1,0 +1,59 @@
+<%= turbo_frame_tag 'attempt-pokemon-modal' do %>
+  <%= turbo_frame_tag "attempt-pokemon-#{@attempt_pokemon.id}" do %>
+    <li class="attempt-pokemon">
+      <div class="attempt-pokemon__top">
+        <p>
+          <%= @attempt_pokemon.pokemon.species %>
+        </p>
+        <%= link_to game_pokemon_path(@attempt_pokemon.game_pokemon), data: { turbo_frame: 'game-pokemon-modal' } do %>
+          <%= image_tag @attempt_pokemon.pokemon.image_url %>
+        <% end %>
+      </div>
+      <div class="attempt-pokemon__bottom">
+        <div class="attempt-pokemon__left">
+          <p>
+            <%= "#{@attempt_pokemon.nickname}" %>
+          </p>
+          <p>
+            <%= "#{@attempt_pokemon.gender}" %>
+          </p>
+          <p>
+            <%= "#{@attempt_pokemon.nature}" %>
+          </p>
+          <p>
+            <%= "#{@attempt_pokemon.ability}" %>
+          </p>
+          <p>
+            <%= "HP: #{@attempt_pokemon.hp_iv}" %>
+          </p>
+          <p>
+            <%= "Atk: #{@attempt_pokemon.attack_iv}" %>
+          </p>
+          <p>
+            <%= "Def: #{@attempt_pokemon.special_defense_iv}" %>
+          </p>
+          <p>
+            <%= "SpA: #{@attempt_pokemon.special_attack_iv}" %>
+          </p>
+          <p>
+            <%= "SpD: #{@attempt_pokemon.special_defense_iv}" %>
+          </p>
+          <p>
+            <%= "Spe: #{@attempt_pokemon.speed_iv}" %>
+          </p>
+            <%= link_to 'Edit', edit_attempt_pokemon_path(@attempt_pokemon), data: { turbo_frame: "attempt-pokemon-#{@attempt_pokemon.id}" } %>
+        </div>
+        <div class="attempt-pokemon__right">
+          <div class="item">
+            <%= @attempt_pokemon.item.present? ? image_tag(@attempt_pokemon.item.image_url) : 'No Item' %>
+          </div>
+          <p><%= @attempt_pokemon.move_1 %></p>
+          <p><%= @attempt_pokemon.move_2 %></p>
+          <p><%= @attempt_pokemon.move_3 %></p>
+          <p><%= @attempt_pokemon.move_4 %></p>
+        </div>
+      </div>
+
+    </li>
+  <% end %>
+<% end %>

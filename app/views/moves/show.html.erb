@@ -1,0 +1,14 @@
+<%= turbo_frame_tag 'move-modal' do %>
+  <div class="move">
+    <h3><%= @move.name %></h3>
+    <p><%= "#{@move.power}BP" if (@move.power ) %></p>
+    <p><%= image_tag @move.type.image_url %></p>
+    <p><%= "Accuracy: #{@move.accuracy}%" %></p>
+    <p><%= image_tag @move.category_image_url %></p>
+    <p><%= "#{@move.pp}pp" %></p>
+    <p><%= @move.effect if @move.effect %> </p>  
+    <p><%= @move.effect_chance if @move.effect %></p>
+    <p><%= "Target(s): #{@move.targets}" %></p>
+    <p><%= @move.priority_formatted if (@move.priority > 0) %></p>   
+  </div>
+<% end %>

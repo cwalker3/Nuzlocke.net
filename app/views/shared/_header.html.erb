@@ -1,0 +1,25 @@
+<header class='site__header'>
+  <nav class="site__header-nav">
+    <%= link_to "Home", 
+                root_path %>
+    <%= link_to "Users", 
+                users_path %>
+    <%= link_to "Games", 
+                games_path %>
+    
+    <div class="site__header-login">
+      <% if session[:user_id].nil? %>
+          <%= button_to 'Log in with Twitch', 
+                        '/auth/twitch', 
+                        data: { 'turbo': false } %>
+      <% else %>
+        <p>
+          <%= "Hello #{current_user.name}" %>
+        </p>
+        <%= button_to 'Log out', 
+                      '/logout', 
+                      method: :delete%>
+      <% end %>
+    </div>
+  </nav>
+</header>

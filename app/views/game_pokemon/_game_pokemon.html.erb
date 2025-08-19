@@ -1,0 +1,57 @@
+<div class="game-pokemon">
+  <div class="game-pokemon__left">
+    <h3><%= game_pokemon.pokemon.species %></h3>
+    <%= image_tag game_pokemon.pokemon.image_url %>
+
+    <div class="game-pokemon__types">
+      <%= image_tag game_pokemon.type_1.image_url %>
+      <%= image_tag game_pokemon.type_2.image_url if game_pokemon.type_2.present? %>
+    </div>
+    <div class="game-pokemon__stats">
+      <% { hp: game_pokemon.hp, atk: game_pokemon.atk, def: game_pokemon.def,
+            spa: game_pokemon.spa, spd: game_pokemon.spd, spe: game_pokemon.spe }
+          .each do |stat_name, value| %>
+        <div class="game-pokemon__stat">
+          <p><%= stat_name.to_s.titleize %>: <%= value %></p>
+          <div class="game-pokemon__stat-bar-wrapper">
+            <div
+              class="game-pokemon__stat-bar"
+              style="
+                width: <%= value / 2 %>%;
+                background-color: <%= game_pokemon.stat_color(stat_name) %>;">
+            </div>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+
+
+  <div class="game-pokemon__right">
+    <div class="game-pokemon__moves">
+      <div class="game-pokemon__level-up-moves">
+      <h4>Level-up</h4>
+        <% game_pokemon.level_up_moves.each do |level_up_move| %>
+          <p>
+            <%= level_up_move.level %>: <%= link_to level_up_move.move.name, 
+                                                    move_path(level_up_move.move), 
+                                                    class: "type-#{level_up_move.move.type.name}",
+                                                    data: { turbo_frame: 'move-modal' } %>
+          </p>
+        <% end %>
+      </div>
+
+      <div class="game-pokemon__tm-moves">
+      <h4>TM</h4>
+        <% game_pokemon.tm_moves.each do |tm_move| %>
+          <p>
+            <%= link_to tm_move.move.name, 
+                        move_path(tm_move.move),
+                        class: "type-#{tm_move.move.type.name}", 
+                        data: { turbo_frame: 'move-modal' } %>
+          </p>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

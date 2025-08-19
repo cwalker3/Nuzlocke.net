@@ -12,6 +12,7 @@ gem "normalize-rails"
 gem 'counter_culture'
 
 gem 'acts_as_list'
+gem 'paper_trail'
 
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"

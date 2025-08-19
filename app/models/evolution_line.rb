@@ -1,0 +1,2 @@
+class EvolutionLine < ApplicationRecord
+end

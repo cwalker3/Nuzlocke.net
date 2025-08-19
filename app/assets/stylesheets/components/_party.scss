@@ -1,0 +1,24 @@
+.party{
+    position: fixed;
+    top: 10rem;
+    right: 2rem;
+    z-index: 999999;
+
+  &__slots {
+
+  }
+  &__pokemon {
+    background-color: var(--bg-color-tertiary);
+    border-radius: 2rem;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-img {
+      height: 75px;
+    }
+  }
+}

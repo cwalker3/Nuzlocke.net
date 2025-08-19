@@ -1,16 +1,23 @@
-<%= turbo_frame_tag dom_id(trainer) do %>
-  <li class="trainer">
-    <h4>
-      <%= trainer.name %>
-    </h4>
-    <ul class="all-trainer-pokemon">
-      <%= render trainer.trainer_pokemon %>
-    </ul>
-    <%= link_to 'Edit', edit_trainer_path(trainer, area_id: trainer.area_id) %>
-
-  <%= turbo_frame_tag 'new_trainer' do %>
-    <%= link_to "Add Trainer Above", new_trainer_path(area_id: trainer.area_id, position: trainer.position) %>
-    <%= link_to "Add Trainer Below", new_trainer_path(area_id: trainer.area_id, position: trainer.position + 1) %>
+<li class="trainer">
+  <div class="trainer__left">
+    <%= trainer.name %>
+    <%= link_to trainer_path(trainer), data: { turbo_frame: 'trainer-modal' } do %>
+      <%= image_tag trainer.sprite_url %>
+    <% end %>
+    <%= link_to 'Battle', 
+                trainer_battle_path(trainer, attempt_id: (@attempt.id if @attempt)), 
+                data: { turbo_frame: 'trainer-battle-modal' } %>
+  </div>
+  <ul class='trainer__team'>
+  <% trainer.trainer_pokemon.each do |trainer_pokemon| %>
+    <%= render partial: 'trainer_pokemon/trainer_pokemon', 
+               locals: { link_path: trainer_pokemon_path(trainer_pokemon),
+                         turbo_frame: 'trainer-pokemon-modal',
+                         trainer_pokemon: trainer_pokemon } %>
   <% end %>
-  </li>
-<% end %>
+    
+  </ul>
+</li>
+<li class="trainer-details hidden">
+  <%= trainer.name %>
+</li>

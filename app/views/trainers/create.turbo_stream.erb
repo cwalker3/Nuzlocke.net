@@ -1,9 +1,0 @@
-<%= turbo_stream.append 'trainers_list' do %>
-  <%= render @trainer %>
-<% end %>
-
-<%= turbo_stream.replace 'new_trainer' do %>
-  <%= turbo_frame_tag 'new_trainer' do %>
-    <%= link_to "Add Trainer", new_trainer_path(area_id: @trainer.area_id) %>
-  <% end %>
-<% end %>

@@ -1,0 +1,15 @@
+<%= turbo_frame_tag 'new-attempt'  do %>
+  <%= form_with model: [@nuzlocke, @attempt], data: { turbo: false } do |f| %>
+    <%= f.label :starter_choice %>
+    <%= f.select :starter_choice,
+                 ['grass', 'fire', 'water'] %>
+
+
+    <%= f.label :character_gender %>
+    <%= f.select :character_gender,
+                 ['male', 'female'] %>
+
+    <%= f.submit 'Start Attempt' %>
+
+  <% end %>
+<% end %>

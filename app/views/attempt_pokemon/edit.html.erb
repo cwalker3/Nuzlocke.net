@@ -1,0 +1,75 @@
+<%= turbo_frame_tag "attempt-pokemon-#{@attempt_pokemon.id}" do %>
+  <div class="attempt-pokemon">
+    <div class="attempt-pokemon__top">
+      <p>
+        <%= @attempt_pokemon.pokemon.species %>
+      </p>
+      <p>
+        <%= image_tag @attempt_pokemon.pokemon.image_url %>
+      </p>
+    </div>
+      <%= form_with model: @attempt_pokemon, class: "attempt-pokemon__bottom" do |f| %>
+        <div class="attempt-pokemon__left">
+          <div>
+            <%= f.label :nickname %>
+            <%= f.text_field :nickname %>
+          </div>
+          <div>
+            <%= f.label :nature_id %>
+            <%= f.collection_select :nature_id, @natures, :id, :name, include_blank: true %>
+          </div>
+          <div>
+            <%= f.label :ability_id %>
+            <%= f.collection_select :ability_id, @abilities, :id, :name, include_blank: true %>
+          </div>
+          <div>
+            <%= f.label :hp_iv, 'HP' %>
+            <%= f.number_field :hp_iv, min: 0, max: 31 %>
+          </div>
+          <div>
+            <%= f.label :attack_iv, 'Atk' %>
+            <%= f.number_field :attack_iv, min: 0, max: 31 %>
+          </div>
+          <div>
+            <%= f.label :defense_iv, 'Def' %>
+            <%= f.number_field :defense_iv, min: 0, max: 31 %>
+          </div>
+          <div>
+            <%= f.label :special_attack_iv, 'SpA' %>
+            <%= f.number_field :special_attack_iv, min: 0, max: 31 %>
+          </div>
+          <div>
+            <%= f.label :special_defense_iv, 'SpDef' %>
+            <%= f.number_field :special_defense_iv, min: 0, max: 31 %>
+          </div>
+          <div>
+            <%= f.label :speed_iv, 'Spe' %>
+            <%= f.number_field :speed_iv, min: 0, max: 31 %>
+          </div>
+        </div>
+        <div class="attempt-pokemon__right">
+          <div>
+            <%= f.label :item_id, 'Item' %>
+            <%= f.collection_select :item_id, @items, :id, :to_s, { include_blank: "---------" } %>
+          </div>
+          <div>
+            <%= f.label :move_1_id, 'Move 1' %>
+            <%= f.collection_select :move_1_id, @moves, :id, :name, { include_blank: "---------" } %>
+          </div>
+          <div>
+            <%= f.label :move_2_id, 'Move 2' %>
+            <%= f.select :move_2_id, options_from_collection_for_select(@moves, :id, :name, @attempt_pokemon.move_2_id), include_blank: "---------" %>
+          </div>
+          <div>
+            <%= f.label :move_3_id, 'Move 3' %>
+            <%= f.select :move_3_id, options_from_collection_for_select(@moves, :id, :name, @attempt_pokemon.move_3_id), include_blank: "---------" %>
+          </div>
+          <div>
+            <%= f.label :move_4_id, 'Move 4' %>
+            <%= f.select :move_4_id, options_from_collection_for_select(@moves, :id, :name, @attempt_pokemon.move_4_id), include_blank: "---------" %>
+          </div>
+          <%= f.submit 'Update' %>
+        </div>
+    <% end %>
+  </div>
+<% end %>

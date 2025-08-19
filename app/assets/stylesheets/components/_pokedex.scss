@@ -1,0 +1,45 @@
+.pokedex {
+  text-align: center;
+  overflow: auto;
+  height: 800px;
+  scrollbar-width: none;
+  border-radius: 2rem;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  &__table {
+    border-collapse: separate;
+    border-spacing: 0;
+    thead {
+    
+
+    tr {
+      position: sticky;
+      top: 0;
+      height: 50px;
+      background-color: rgb(27, 27, 27);
+
+      th {
+        border-bottom: 1px solid white;
+        font-weight: bold;
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      background-color: #2e2e2e;
+      td {
+        border-collapse: collapse;
+        min-width: 50px;
+        border-bottom: 2px solid black;
+        border-right: 0;
+        padding: 1rem;
+      }
+    }
+  }
+}
+}

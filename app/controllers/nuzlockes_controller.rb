@@ -1,14 +1,17 @@
 class NuzlockesController < ApplicationController
-  before_action :set_game
+  def index
+    
+  end
+
   def new
-    @nuzlocke = @game.nuzlockes.build
+    @games = Game.all
+    @nuzlocke = Nuzlocke.new
   end
 
   def create
-    @nuzlocke = current_user.nuzlockes.build(allowed_nuzlocke_params)
-    @nuzlocke.game = @game
+    @nuzlocke = current_user.nuzlockes.build(nuzlocke_params)
     if @nuzlocke.save
-      redirect_to game_path(@game, area_id: @area.id)
+      redirect_to nuzlocke_path(@nuzlocke)
     else
       render :new, status: :unprocessable_entity
     end
@@ -16,15 +19,12 @@ class NuzlockesController < ApplicationController
 
   def show
     @nuzlocke = Nuzlocke.find(params[:id])
+    @attempts = @nuzlocke.attempts.order(created_at: :desc)
   end
 
   private
 
-  def allowed_nuzlocke_params
-    params.expect([nuzlocke: [:name, :status]])
-  end
-
-  def set_game
-    @game = Game.find(params[:game_id])
+  def nuzlocke_params
+    params.require(:nuzlocke).permit(:name, :game_id)
   end
 end

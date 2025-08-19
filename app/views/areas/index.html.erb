@@ -1,0 +1,18 @@
+<%= turbo_frame_tag 'game-dashboard-content' do %>
+  <div class="area-dashboard">
+    <nav class='area-dashboard__nav' data-controller='select' >
+      <ul class='area-dashboard__nav-list'>
+        <% @areas.each do |area| %>
+          <li class='area-dashboard__nav-list-area'>
+            <%= link_to area.name,
+                        area_path_with_attempt(area, @attempt),
+                        data: { turbo_frame: 'area',
+                                action: 'click->select#update_selected' },
+                        class: area == @area ? "selected" : "" %>
+          </li>
+        <% end %>
+      </ul>
+    </nav>
+    <%= turbo_frame_tag 'area', src: area_path_with_attempt(@area, @attempt) %>
+  </div>
+<% end %>

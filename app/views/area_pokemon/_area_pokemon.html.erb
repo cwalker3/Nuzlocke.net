@@ -1,13 +1,23 @@
-<%= turbo_frame_tag dom_id(area_pokemon) do %>
-  <li class="area-pokemon">
-    <h4>
-      <%= area_pokemon.pokemon.pretty_name %>
-    </h4>
-    <%= image_tag "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/#{area_pokemon.pokemon_id}.png" %>
-    <% if area_pokemon.encounter_rate %>
-      <p><%= area_pokemon.encounter_rate %>%</p>
-    <% end %>
-    <%= link_to 'Edit', edit_area_pokemon_path(area_pokemon, area_id: area_pokemon.area_id) %>
+<li class="area-pokemon">
+  <%= area_pokemon.pokemon.species %>
+  <%= link_to game_pokemon_path(area_pokemon.game_pokemon), data: { turbo_frame: 'game-pokemon-modal' }  do %>
+    <%= image_tag area_pokemon.pokemon.image_url %>
+  <% end %>
+  <p>
+    <%= area_pokemon.formatted_encounter_rate %>
+  </p>
+  <p>
+    <%= area_pokemon.level_range %>
+  </p>
 
-  </li>
-<% end %>
+<% if @attempt.present? && @attempt.encounter_available_for(@area) %>
+    <%= button_to 'Catch', attempt_pokemon_index_path(),
+                          params: {
+                            attempt_pokemon: {
+                              attempt_id: @attempt.id,
+                              game_pokemon_id: area_pokemon.game_pokemon_id,
+                              area_id: @area.id
+                            }
+                          } %>
+  <% end %>
+</li>

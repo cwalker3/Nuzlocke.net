@@ -1,0 +1,28 @@
+<%= form_with url: participation_events_path do |f| %>
+  <%= f.hidden_field :trainer_id, value: trainer.id %>
+  <div class="participation-slot">
+    <%= f.label :slot_1 %>
+    <%= f.select :slot_1, options_from_collection_for_select(@attempt.attempt_pokemon, :id, :name_display), include_blank: true %>
+  </div>
+  <div class="participation-slot">
+    <%= f.label :slot_2 %>
+    <%= f.select :slot_2, options_from_collection_for_select(@attempt.attempt_pokemon, :id, :name_display), include_blank: true %>
+  </div>
+  <div class="participation-slot">
+    <%= f.label :slot_3 %>
+    <%= f.select :slot_3, options_from_collection_for_select(@attempt.attempt_pokemon, :id, :name_display), include_blank: true %>
+  </div>
+  <div class="participation-slot">
+    <%= f.label :slot_4 %>
+    <%= f.select :slot_4, options_from_collection_for_select(@attempt.attempt_pokemon, :id, :name_display), include_blank: true %>
+  </div>
+  <div class="participation-slot">
+    <%= f.label :slot_5 %>
+    <%= f.select :slot_5, options_from_collection_for_select(@attempt.attempt_pokemon, :id, :name_display), include_blank: true %>
+  </div>
+  <div class="participation-slot">
+    <%= f.label :slot_6 %>
+    <%= f.select :slot_6, options_from_collection_for_select(@attempt.attempt_pokemon, :id, :name_display), include_blank: true %>
+  </div>
+  <%= f.submit 'Submit' %>
+<% end %>

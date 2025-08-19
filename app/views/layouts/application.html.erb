@@ -22,14 +22,25 @@
 
   </head>
   <body>
-    <header>
-      <%= render 'shared/navbar' %>
-    </header>
-    <main>
-      <%= yield %>
-    </main>
-    <footer>
+    <div class='site'>
+      <%= render 'shared/header' %>
+
+      <main class='site__main'>
+        <div class="site__main-content">
+          <%= yield %>
+        </div>
+      </main>
+
+      <%= render 'shared/pokedex_modal' %>
+      <%= render 'shared/trainer_battle_modal' %>
+      <%= render 'shared/trainer_modal' %>
+      <%= render 'shared/trainer_pokemon_modal' %>
+      <%= render 'shared/attempt_pokemon_modal' %>
+      <%= render 'shared/game_pokemon_modal' %>
+      <%= render 'shared/move_modal' %>
+
       <%= render 'shared/footer' %>
-    </footer>
+      
+    </div>
   </body>
 </html>

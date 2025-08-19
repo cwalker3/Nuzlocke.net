@@ -1,0 +1,50 @@
+.site {
+
+  &__header {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: var(--bg-color-secondary);
+
+    &-nav {
+      height: 8vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 10px;
+      border-bottom: 2rem solid black;
+
+      &-login {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+    }
+  }
+
+  &__main {
+    display: flex;
+    height: 92vh;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: var(--bg-color-primary);
+    padding: 0 2rem;
+    // overflow-y: auto;
+    overflow-x: hidden;
+
+    &-content {
+      max-width: 1500px;
+      width: 100%;
+      background-color: var(--bg-color-secondary);
+      margin-top: calc(8vh);
+      
+    }
+  }
+
+  &__footer {
+    height: 8vh;
+    background-color: var(--bg-color-secondary);
+    border-top: solid 2rem black;
+  }
+}

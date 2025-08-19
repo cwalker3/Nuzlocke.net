@@ -1,11 +1,53 @@
 <%= turbo_frame_tag 'area' do %>
-  <h3>
-    <%= @area.name %>
-  </h3>
-  <nav class="area-tabs">
-    <%= link_to "Trainers", trainers_path(area_id: @area.id), data: { turbo_frame: 'area-info' }  %>
-    <%= link_to "Pokemon", area_pokemon_index_path(area_id: @area.id), data: { turbo_frame: 'area-info'} %>
-    <%= link_to "Items" %>
-  </nav>
-  <%= turbo_frame_tag 'area-info', src: trainers_path(area_id: @area.id) %>
+  <div class="area">
+    <% if @attempt.present? %>
+      <%= render partial: 'attempt_pokemon/party', locals: { party: @attempt.party } %>
+      <%= render partial: 'attempt_pokemon/mini_box', locals: { box: @box }  %>
+    <% end %>
+    <div class="area-info">
+    <h3 class='area-info__name'>
+      <%= @area.name %>
+    </h3>
+    <nav class='area-info__nav'>
+      <ul class='area-info__nav-list'>
+        <% if @area.trainers.exists? %>
+          <li class='area-info__nav-list-item'>
+            <%= link_to 'Trainers',
+                        area_path_with_attempt(@area, @attempt, content: 'trainers'),
+                        class: @content == 'trainers' ? 'selected' : '' %>
+          </li>
+        <% end %>
+        <% if @area.area_pokemon.exists? %>
+          <li class='area-info__nav-list-item'>
+            <%= link_to 'Pokemon',
+                        area_path_with_attempt(@area, @attempt, content: 'pokemon'),
+                        class: @content == 'pokemon' ? 'selected' : '' %>
+                    <% end %>
+          </li>
+      </ul>
+      
+    </nav>
+    <div class="area-info__content">
+      <% if @content == 'trainers' %>
+        <ul class="trainers-list">
+          <%= render partial: 'trainers/trainer', 
+                   collection: @trainers, 
+                   as: :trainer, 
+                   locals: { attempt: @attempt } %>
+        </ul>
+      <% elsif @content == 'pokemon' %>
+        <%= render partial: 'area_pokemon/encounter_methods', 
+                            locals: { encounter_methods: @encounter_methods } %>
+      <% elsif @area.area_pokemon.exists? %>
+        <%= render partial: 'area_pokemon/encounter_methods', 
+                            locals: { encounter_methods: @encounter_methods } %>
+      <% elsif @trainers.exists? %>
+        <%= render partial: 'trainers/trainer', 
+                   collection: @trainers, 
+                   as: :trainer, 
+                   locals: { attempt: @attempt } %>
+      <% end %>
+    </div>
+  </div>
+  </div>
 <% end %>

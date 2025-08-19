@@ -1,9 +1,12 @@
 class Pokemon < ApplicationRecord
-  has_many :area_pokemon, dependent: :destroy
-  has_many :attempt_pokemon, dependent: :destroy
-  has_many :trainer_pokemon, dependent: :destroy
+  has_many :game_pokemon, dependent: :destroy
 
-    def pretty_name
-    species.gsub("-", " ").titleize
+  def image_url
+    # "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/#{id}.png"
+    "pokemon/#{dex_number}.png"
+  end
+
+  def icon_url
+    "box-icons/#{dex_number}.png"
   end
 end

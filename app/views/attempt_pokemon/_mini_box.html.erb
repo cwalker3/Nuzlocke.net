@@ -1,0 +1,17 @@
+<%= turbo_frame_tag 'mini-box' do %>
+  <div class="mini-box" 
+       data-controller='drag' 
+       data-action='drop->drag#drop dragover->drag#allowDrop' >
+    <% box.each do |box_pokemon| %>
+      <%= link_to attempt_pokemon_path(box_pokemon), 
+          data: { turbo_frame: 'attempt-pokemon-modal' }, 
+          draggable: false do %> 
+        <%= image_tag box_pokemon.pokemon.icon_url, 
+                      alt: box_pokemon, 
+                      class: 'mini-box__img', 
+                      data: { pokemon_id: box_pokemon.id,
+                              action: 'dragstart->drag#dragStart drop->drag#drop dragover->drag#allowDrop' } %>
+      <% end %>
+    <% end %>
+  </div>
+<% end %>

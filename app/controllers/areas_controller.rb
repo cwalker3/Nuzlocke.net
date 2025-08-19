@@ -1,27 +1,19 @@
 class AreasController < ApplicationController
-  def new
-    @area = Area.new
-    @game = Game.find(params[:game_id])
-  end
-
-  def create
-    @area = Area.new(allowed_area_params)
-    @game = @area.game
-    if @area.save
-        redirect_to game_path(id: @game.id, area_id: @area.id)
-    else
-      render :new, status: :unprocessable_entity
-    end
+  def index
+    @game = Game.find_by(title: params[:game_title])
+    @areas = @game.areas
+    @area = @areas.first
+    @attempt = Attempt.find_by(id: params[:attempt_id])
+    @content = @area.default_content
+    @encounter_methods = @area.area_pokemon_by_method
   end
 
   def show
-    @area = Area.includes(:area_pokemon, trainers: :trainer_pokemon).find(params[:id])
-    @game = @area.game
-  end
-
-  private
-
-  def allowed_area_params
-    params.expect([area: [:name, :game_id]])
+    @attempt = Attempt.find_by(id: params[:attempt_id])
+    @box = @attempt.box if @attempt
+    @area = Area.find(params[:id])
+    @content = params[:content] || @area.default_content
+    @encounter_methods = @area.area_pokemon_by_method
+    @trainers = @area.trainers_for(@attempt)
   end
 end

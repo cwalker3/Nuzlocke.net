@@ -1,0 +1,38 @@
+.area-dashboard {
+  &__nav {
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: .5rem;
+
+    &-list {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+      height: 4vh;
+      overflow-x: auto;
+      position: fixed;
+      top: 12vh;
+      right: 2rem;
+      left: 2rem;
+      z-index: 9999;
+      padding: 0 2rem;
+      width: calc(100% - 8rem);
+      max-width: 1500px;
+      background-color: var(--bg-color-secondary);
+      left: auto;
+      right: auto;
+
+      
+      &-area {
+        text-wrap: nowrap;
+
+      a.selected {
+        color: green;
+      }
+      }
+    }
+  }
+}

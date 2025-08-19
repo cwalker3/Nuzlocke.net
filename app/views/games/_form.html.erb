@@ -1,8 +1,0 @@
-<%= turbo_frame_tag 'new_game' do %>
-  <%= form_with model: game, data: {turbo_frame: 'content' } do |f| %>
-    <%= f.label :title %>
-    <%= f.text_field :title, autofocus: true %>
-
-    <%= f.submit 'Create Game' %>
-    <% end %>
-<% end %>

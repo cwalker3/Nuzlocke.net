@@ -1,0 +1,1043 @@
+{
+  "New Bark Town": {
+  "Surf": [
+    { "species": "Tentacool",   "min_level": 33, "max_level": 35, "encounter_rate": 60 },
+    { "species": "Wingull",     "min_level": 33, "max_level": 35, "encounter_rate": 30 },
+    { "species": "Carvanha",    "min_level": 33, "max_level": 35, "encounter_rate": 5 },
+    { "species": "Tentacool",   "min_level": 33, "max_level": 35, "encounter_rate": 4 },
+    { "species": "Wingull",     "min_level": 33, "max_level": 35, "encounter_rate": 1 }
+  ],
+  "Old Rod": [
+    { "species": "Magikarp",    "min_level": 5,  "max_level": 10, "encounter_rate": 70 },
+    { "species": "Tentacool",   "min_level": 5,  "max_level": 10, "encounter_rate": 30 }
+  ],
+  "Good Rod": [
+    { "species": "Magikarp",    "min_level": 10, "max_level": 30, "encounter_rate": 60 },
+    { "species": "Chinchou",    "min_level": 10, "max_level": 30, "encounter_rate": 20 },
+    { "species": "Shellder",    "min_level": 10, "max_level": 30, "encounter_rate": 20 }
+  ],
+  "Super Rod": [
+    { "species": "Tentacruel",  "min_level": 25, "max_level": 35, "encounter_rate": 40 },
+    { "species": "Chinchou",    "min_level": 30, "max_level": 35, "encounter_rate": 40 },
+    { "species": "Shellder",    "min_level": 25, "max_level": 30, "encounter_rate": 15 },
+    { "species": "Gyarados",    "min_level": 35, "max_level": 40, "encounter_rate": 4 },
+    { "species": "Sawsbuck",    "min_level": 35, "max_level": 40, "encounter_rate": 1 }
+  ]
+},
+  "Route 29": {
+    "Grass": [
+      { "species": "Pidgey",     "min_level": 2, "max_level": 2, "encounter_rate": 20 },
+      { "species": "Rattata",    "min_level": 2, "max_level": 2, "encounter_rate": 20 },
+      { "species": "Sentret",    "min_level": 2, "max_level": 2, "encounter_rate": 10 },
+      { "species": "Zigzagoon",  "min_level": 3, "max_level": 3, "encounter_rate": 10 },
+      { "species": "Poochyena",  "min_level": 3, "max_level": 3, "encounter_rate": 10 },
+      { "species": "Starly",     "min_level": 3, "max_level": 3, "encounter_rate": 10 },
+      { "species": "Hoothoot",   "min_level": 3, "max_level": 3, "encounter_rate": 5 },
+      { "species": "Fletchling", "min_level": 3, "max_level": 3, "encounter_rate": 5 },
+      { "species": "Bunnelby",   "min_level": 2, "max_level": 2, "encounter_rate": 4 },
+      { "species": "Patrat",     "min_level": 2, "max_level": 2, "encounter_rate": 4 },
+      { "species": "Treecko",    "min_level": 3, "max_level": 3, "encounter_rate": 1 },
+      { "species": "Turtwig",    "min_level": 3, "max_level": 3, "encounter_rate": 1 }
+    ]
+  },
+  "Route 46": {
+  "Grass": [
+    { "species": "Rattata", "min_level": 2, "max_level": 2, "encounter_rate": 20 },
+    { "species": "Spearow", "min_level": 3, "max_level": 3, "encounter_rate": 20 },
+    { "species": "Geodude", "min_level": 3, "max_level": 3, "encounter_rate": 10 },
+    { "species": "Bidoof", "min_level": 4, "max_level": 4, "encounter_rate": 10 },
+    { "species": "Skiddo", "min_level": 2, "max_level": 2, "encounter_rate": 10 },
+    { "species": "Zigzagoon", "min_level": 3, "max_level": 3, "encounter_rate": 10 },
+    { "species": "Rookidee", "min_level": 3, "max_level": 3, "encounter_rate": 5 },
+    { "species": "Litleo", "min_level": 4, "max_level": 4, "encounter_rate": 5 },
+    { "species": "Nickit", "min_level": 3, "max_level": 3, "encounter_rate": 4 },
+    { "species": "Poochyena", "min_level": 3, "max_level": 3, "encounter_rate": 4 },
+    { "species": "Mudkip", "min_level": 4, "max_level": 4, "encounter_rate": 1 },
+    { "species": "Piplup", "min_level": 4, "max_level": 4, "encounter_rate": 1 }
+  ]
+},
+"Cherrygrove City": {
+  "Surf": [
+    { "species": "Wingull",     "min_level": 33, "max_level": 35, "encounter_rate": 60 },
+    { "species": "Tentacool",   "min_level": 33, "max_level": 35, "encounter_rate": 30 },
+    { "species": "Wishiwashi",  "min_level": 33, "max_level": 35, "encounter_rate": 5 },
+    { "species": "Arrokuda",    "min_level": 33, "max_level": 35, "encounter_rate": 4 },
+    { "species": "Sawsbuck",    "min_level": 33, "max_level": 35, "encounter_rate": 1 }
+  ],
+  "Old Rod": [
+    { "species": "Magikarp",    "min_level": 5,  "max_level": 10, "encounter_rate": 70 },
+    { "species": "Krabby",      "min_level": 5,  "max_level": 10, "encounter_rate": 30 }
+  ],
+  "Good Rod": [
+    { "species": "Staryu",      "min_level": 10, "max_level": 30, "encounter_rate": 60 },
+    { "species": "Corsola",     "min_level": 10, "max_level": 30, "encounter_rate": 20 },
+    { "species": "Arrokuda",    "min_level": 10, "max_level": 30, "encounter_rate": 20 }
+  ],
+  "Super Rod": [
+    { "species": "Kingler",     "min_level": 30, "max_level": 35, "encounter_rate": 40 },
+    { "species": "Barraskewda", "min_level": 25, "max_level": 35, "encounter_rate": 40 },
+    { "species": "Gyarados",    "min_level": 30, "max_level": 35, "encounter_rate": 15 },
+    { "species": "Basculegion", "min_level": 30, "max_level": 35, "encounter_rate": 4 },
+    { "species": "Sharpedo",    "min_level": 30, "max_level": 35, "encounter_rate": 1 }
+  ]
+},
+  "Route 30": {
+  "Grass": [
+    { "species": "Pidove",    "min_level": 3, "max_level": 3, "encounter_rate": 20 },
+    { "species": "Rattata-Alola",   "min_level": 3, "max_level": 3, "encounter_rate": 20 },
+    { "species": "Yungoos",   "min_level": 4, "max_level": 4, "encounter_rate": 10 },
+    { "species": "Shinx",     "min_level": 4, "max_level": 4, "encounter_rate": 10 },
+    { "species": "Lillipup",  "min_level": 3, "max_level": 3, "encounter_rate": 10 },
+    { "species": "Purrloin",  "min_level": 4, "max_level": 4, "encounter_rate": 10 },
+    { "species": "Pikipek",   "min_level": 3, "max_level": 3, "encounter_rate": 5 },
+    { "species": "Skwovet",   "min_level": 3, "max_level": 3, "encounter_rate": 5 },
+    { "species": "Zigzagoon", "min_level": 4, "max_level": 4, "encounter_rate": 4 },
+    { "species": "Ralts",     "min_level": 4, "max_level": 4, "encounter_rate": 4 },
+    { "species": "Torchic",   "min_level": 4, "max_level": 4, "encounter_rate": 1 },
+    { "species": "Chimchar",  "min_level": 3, "max_level": 3, "encounter_rate": 1 }
+  ],
+  "Surf": [
+    { "species": "Poliwag",    "min_level": 33, "max_level": 35, "encounter_rate": 60 },
+    { "species": "Wingull",    "min_level": 33, "max_level": 35, "encounter_rate": 30 },
+    { "species": "Basculin",   "min_level": 33, "max_level": 35, "encounter_rate": 5 },
+    { "species": "Marill",     "min_level": 33, "max_level": 35, "encounter_rate": 4 },
+    { "species": "Goldeen",    "min_level": 33, "max_level": 35, "encounter_rate": 1 }
+  ],
+  "Old Rod": [
+    { "species": "Magikarp",   "min_level": 5, "max_level": 10, "encounter_rate": 70 },
+    { "species": "Goldeen",    "min_level": 5, "max_level": 10, "encounter_rate": 30 }
+  ],
+  "Good Rod": [
+    { "species": "Wishiwashi", "min_level": 10, "max_level": 30, "encounter_rate": 60 },
+    { "species": "Goldeen",    "min_level": 10, "max_level": 30, "encounter_rate": 20 },
+    { "species": "Corphish",   "min_level": 10, "max_level": 30, "encounter_rate": 20 }
+  ],
+  "Super Rod": [
+    { "species": "Corphish",   "min_level": 25, "max_level": 30, "encounter_rate": 40 },
+    { "species": "Basculin",   "min_level": 30, "max_level": 35, "encounter_rate": 40 },
+    { "species": "Clauncher",  "min_level": 20, "max_level": 25, "encounter_rate": 15 },
+    { "species": "Krabby",     "min_level": 35, "max_level": 40, "encounter_rate": 4 },
+    { "species": "Gyarados",   "min_level": 40, "max_level": 45, "encounter_rate": 1 }
+  ]
+},
+"Route 31": {
+  "Grass": [
+    { "species": "Bellsprout", "min_level": 3, "max_level": 5, "encounter_rate": 20 },
+    { "species": "Taillow", "min_level": 3, "max_level": 5, "encounter_rate": 20 },
+    { "species": "Caterpie", "min_level": 3, "max_level": 4, "encounter_rate": 10 },
+    { "species": "Weedle", "min_level": 3, "max_level": 4, "encounter_rate": 10 },
+    { "species": "Ledyba", "min_level": 4, "max_level": 5, "encounter_rate": 10 },
+    { "species": "Spinarak", "min_level": 4, "max_level": 5, "encounter_rate": 10 },
+    { "species": "Flabébé", "min_level": 3, "max_level": 5, "encounter_rate": 5 },
+    { "species": "Grubbin", "min_level": 3, "max_level": 5, "encounter_rate": 5 },
+    { "species": "Morelull", "min_level": 4, "max_level": 5, "encounter_rate": 4 },
+    { "species": "Bounsweet", "min_level": 5, "max_level": 5, "encounter_rate": 4 },
+    { "species": "Blipbug", "min_level": 4, "max_level": 5, "encounter_rate": 1 },
+    { "species": "Blipbug", "min_level": 4, "max_level": 5, "encounter_rate": 1 }
+  ],
+  "Old Rod": [
+    { "species": "Magikarp",   "min_level": 5,  "max_level": 10, "encounter_rate": 70 },
+    { "species": "Poliwag",    "min_level": 5,  "max_level": 10, "encounter_rate": 30 }
+  ],
+  "Good Rod": [
+    { "species": "Magikarp",   "min_level": 10, "max_level": 30, "encounter_rate": 60 },
+    { "species": "Poliwag",    "min_level": 10, "max_level": 30, "encounter_rate": 20 },
+    { "species": "Wishiwashi", "min_level": 10, "max_level": 30, "encounter_rate": 20 }
+  ],
+  "Super Rod": [
+    { "species": "Poliwhirl",  "min_level": 25, "max_level": 30, "encounter_rate": 40 },
+    { "species": "Gyarados",   "min_level": 30, "max_level": 35, "encounter_rate": 40 },
+    { "species": "Barraskewda","min_level": 20, "max_level": 25, "encounter_rate": 15 },
+    { "species": "Bsculegion", "min_level": 35, "max_level": 40, "encounter_rate": 4 },
+    { "species": "Palpitoad",  "min_level": 40, "max_level": 45, "encounter_rate": 1 }
+  ],
+  "Surf": [
+    { "species": "Poliwag",    "min_level": 33, "max_level": 35, "encounter_rate": 60 },
+    { "species": "Basculin",   "min_level": 33, "max_level": 35, "encounter_rate": 30 },
+    { "species": "Poliwhirl",  "min_level": 33, "max_level": 35, "encounter_rate": 5 },
+    { "species": "Carvanha",   "min_level": 33, "max_level": 35, "encounter_rate": 4 },
+    { "species": "Arrokuda",   "min_level": 33, "max_level": 35, "encounter_rate": 1 }
+  ]
+},
+
+"Dark Cave": {
+  "Room 1": [
+    { "species": "Zubat",       "min_level": 3,  "max_level": 4,  "encounter_rate": 20 },
+    { "species": "Geodude",     "min_level": 4,  "max_level": 4,  "encounter_rate": 20 },
+    { "species": "Roggenrola",  "min_level": 3,  "max_level": 4,  "encounter_rate": 10 },
+    { "species": "Aron",        "min_level": 3,  "max_level": 4,  "encounter_rate": 10 },
+    { "species": "Woobat",      "min_level": 4,  "max_level": 5,  "encounter_rate": 10 },
+    { "species": "Rolycoly",    "min_level": 4,  "max_level": 4,  "encounter_rate": 10 },
+    { "species": "Bronzor",     "min_level": 4,  "max_level": 4,  "encounter_rate": 5  },
+    { "species": "Roggenrola",  "min_level": 4,  "max_level": 4,  "encounter_rate": 5  },
+    { "species": "Zubat",       "min_level": 5,  "max_level": 5,  "encounter_rate": 4  },
+    { "species": "Dunsparce",   "min_level": 5,  "max_level": 5,  "encounter_rate": 4  },
+    { "species": "Woobat",      "min_level": 5,  "max_level": 5,  "encounter_rate": 1  },
+    { "species": "Zubat",       "min_level": 5,  "max_level": 5,  "encounter_rate": 1  }
+  ],
+  "Room 1 - Water": [
+    { "species": "Magikarp",    "min_level": 33, "max_level": 35, "encounter_rate": 60 },
+    { "species": "Goldeen",     "min_level": 33, "max_level": 35, "encounter_rate": 30 },
+    { "species": "Wooper",      "min_level": 33, "max_level": 35, "encounter_rate": 5  },
+    { "species": "Goldeen",     "min_level": 33, "max_level": 35, "encounter_rate": 4  },
+    { "species": "Goldeen",     "min_level": 33, "max_level": 35, "encounter_rate": 1  }
+  ],
+  "Room 1 - Rock Smash": [
+    { "species": "Geodude",     "min_level": 5,  "max_level": 15, "encounter_rate": 60 },
+    { "species": "Roggenrola",  "min_level": 5,  "max_level": 15, "encounter_rate": 30 },
+    { "species": "Geodude",     "min_level": 5,  "max_level": 15, "encounter_rate": 5  },
+    { "species": "Geodude",     "min_level": 5,  "max_level": 15, "encounter_rate": 4  },
+    { "species": "Geodude",     "min_level": 5,  "max_level": 15, "encounter_rate": 1  }
+  ],
+  "Room 1 - Old Rod": [
+    { "species": "Magikarp",    "min_level": 5,  "max_level": 5,  "encounter_rate": 70 },
+    { "species": "Goldeen",     "min_level": 5,  "max_level": 5,  "encounter_rate": 30 }
+  ],
+  "Room 1 - Good Rod": [
+    { "species": "Magikarp",    "min_level": 10, "max_level": 30, "encounter_rate": 60 },
+    { "species": "Goldeen",     "min_level": 10, "max_level": 30, "encounter_rate": 20 },
+    { "species": "Wooper",      "min_level": 10, "max_level": 30, "encounter_rate": 20 }
+  ],
+  "Room 1 - Super Rod": [
+    { "species": "Seaking",     "min_level": 25, "max_level": 30, "encounter_rate": 40 },
+    { "species": "Quagsire",    "min_level": 25, "max_level": 30, "encounter_rate": 40 },
+    { "species": "Gyarados",    "min_level": 25, "max_level": 30, "encounter_rate": 15 },
+    { "species": "Gyarados",    "min_level": 30, "max_level": 35, "encounter_rate": 4  },
+    { "species": "Gyarados",    "min_level": 30, "max_level": 30, "encounter_rate": 1  }
+  ],
+  "Room 2": [
+    { "species": "Golbat",      "min_level": 30, "max_level": 32, "encounter_rate": 20 },
+    { "species": "Graveler",    "min_level": 30, "max_level": 32, "encounter_rate": 20 },
+    { "species": "Golbat",      "min_level": 30, "max_level": 32, "encounter_rate": 10 },
+    { "species": "Graveler",    "min_level": 30, "max_level": 32, "encounter_rate": 10 },
+    { "species": "Wobbuffet",   "min_level": 31, "max_level": 33, "encounter_rate": 10 },
+    { "species": "Woobat",      "min_level": 29, "max_level": 31, "encounter_rate": 10 },
+    { "species": "Boldore",     "min_level": 30, "max_level": 32, "encounter_rate": 5  },
+    { "species": "Carkol",      "min_level": 30, "max_level": 32, "encounter_rate": 5  },
+    { "species": "Dunsparce",   "min_level": 31, "max_level": 33, "encounter_rate": 4  },
+    { "species": "Lairon",      "min_level": 30, "max_level": 32, "encounter_rate": 4  },
+    { "species": "Lairon",      "min_level": 30, "max_level": 32, "encounter_rate": 1  },
+    { "species": "Lairon",      "min_level": 30, "max_level": 32, "encounter_rate": 1  }
+  ],
+  "Room 2 - Water": [
+    { "species": "Magikarp",    "min_level": 33, "max_level": 35, "encounter_rate": 60 },
+    { "species": "Seaking",     "min_level": 33, "max_level": 35, "encounter_rate": 30 },
+    { "species": "Quagsire",    "min_level": 33, "max_level": 35, "encounter_rate": 5  },
+    { "species": "Seaking",     "min_level": 33, "max_level": 35, "encounter_rate": 4  },
+    { "species": "Seaking",     "min_level": 33, "max_level": 35, "encounter_rate": 1  }
+  ],
+  "Room 2 - Old Rod": [
+    { "species": "Magikarp",    "min_level": 5,  "max_level": 10, "encounter_rate": 70 },
+    { "species": "Goldeen",     "min_level": 5,  "max_level": 10, "encounter_rate": 30 }
+  ],
+  "Room 2 - Good Rod": [
+    { "species": "Magikarp",    "min_level": 10, "max_level": 30, "encounter_rate": 60 },
+    { "species": "Goldeen",     "min_level": 10, "max_level": 30, "encounter_rate": 20 },
+    { "species": "Wooper",      "min_level": 10, "max_level": 30, "encounter_rate": 20 }
+  ],
+  "Room 2 - Super Rod": [
+    { "species": "Seaking",     "min_level": 30, "max_level": 35, "encounter_rate": 40 },
+    { "species": "Quagsire",    "min_level": 25, "max_level": 30, "encounter_rate": 40 },
+    { "species": "Gyarados",    "min_level": 30, "max_level": 35, "encounter_rate": 15 },
+    { "species": "Gyarados",    "min_level": 35, "max_level": 40, "encounter_rate": 4  },
+    { "species": "Gyarados",    "min_level": 40, "max_level": 45, "encounter_rate": 1  }
+  ]
+},
+"Violet City": {
+  "Surf": [
+    { "species": "Poliwag",      "min_level": 33, "max_level": 35, "encounter_rate": 60 },
+    { "species": "Barboach",     "min_level": 33, "max_level": 35, "encounter_rate": 30 },
+    { "species": "Poliwhirl",    "min_level": 33, "max_level": 35, "encounter_rate": 5 },
+    { "species": "Basculin",     "min_level": 33, "max_level": 35, "encounter_rate": 4 },
+    { "species": "Basculin",     "min_level": 33, "max_level": 35, "encounter_rate": 1 }
+  ],
+  "Old Rod": [
+    { "species": "Magikarp",     "min_level": 5,  "max_level": 10, "encounter_rate": 70 },
+    { "species": "Poliwag",      "min_level": 5,  "max_level": 10, "encounter_rate": 30 }
+  ],
+  "Good Rod": [
+    { "species": "Magikarp",     "min_level": 10, "max_level": 30, "encounter_rate": 60 },
+    { "species": "Barboach",     "min_level": 10, "max_level": 30, "encounter_rate": 20 },
+    { "species": "Poliwag",      "min_level": 10, "max_level": 30, "encounter_rate": 20 }
+  ],
+  "Super Rod": [
+    { "species": "Whiscash",     "min_level": 30, "max_level": 30, "encounter_rate": 40 },
+    { "species": "Gyarados",     "min_level": 30, "max_level": 35, "encounter_rate": 40 },
+    { "species": "Poliwhirl",    "min_level": 25, "max_level": 25, "encounter_rate": 15 },
+    { "species": "Basculegion",  "min_level": 30, "max_level": 30, "encounter_rate": 4 },
+    { "species": "Basculegion",  "min_level": 35, "max_level": 35, "encounter_rate": 1 }
+  ]
+},
+"Sprout Tower": {
+  "1F": [
+    { "species": "Rattata",        "min_level": 4, "max_level": 6, "encounter_rate": 20 },
+    { "species": "Rattata-alola",  "min_level": 4, "max_level": 6, "encounter_rate": 20 },
+    { "species": "Gastly",         "min_level": 4, "max_level": 6, "encounter_rate": 10 },
+    { "species": "Misdreavus",     "min_level": 4, "max_level": 6, "encounter_rate": 10 },
+    { "species": "Shuppet",        "min_level": 4, "max_level": 6, "encounter_rate": 10 },
+    { "species": "Gastly",         "min_level": 4, "max_level": 6, "encounter_rate": 10 },
+    { "species": "Rattata",        "min_level": 4, "max_level": 6, "encounter_rate": 5  },
+    { "species": "Rattata-alola",  "min_level": 4, "max_level": 6, "encounter_rate": 5  },
+    { "species": "Rattata",        "min_level": 4, "max_level": 6, "encounter_rate": 4  },
+    { "species": "Misdreavus",     "min_level": 4, "max_level": 6, "encounter_rate": 4  },
+    { "species": "Misdreavus",     "min_level": 4, "max_level": 6, "encounter_rate": 1  },
+    { "species": "Misdreavus",     "min_level": 4, "max_level": 6, "encounter_rate": 1  }
+  ],
+  "2F": [
+    { "species": "Rattata",        "min_level": 4, "max_level": 6, "encounter_rate": 20 },
+    { "species": "Rattata-alola",  "min_level": 4, "max_level": 6, "encounter_rate": 20 },
+    { "species": "Gastly",         "min_level": 4, "max_level": 6, "encounter_rate": 10 },
+    { "species": "Misdreavus",     "min_level": 4, "max_level": 6, "encounter_rate": 10 },
+    { "species": "Shuppet",        "min_level": 4, "max_level": 6, "encounter_rate": 10 },
+    { "species": "Shuppet",        "min_level": 5, "max_level": 7, "encounter_rate": 10 },
+    { "species": "Rattata",        "min_level": 5, "max_level": 7, "encounter_rate": 5  },
+    { "species": "Rattata-alola",  "min_level": 5, "max_level": 7, "encounter_rate": 5  },
+    { "species": "Misdreavus",     "min_level": 4, "max_level": 6, "encounter_rate": 4  },
+    { "species": "Gastly",         "min_level": 4, "max_level": 6, "encounter_rate": 4  },
+    { "species": "Rattata-alola",  "min_level": 4, "max_level": 6, "encounter_rate": 1  },
+    { "species": "Rattata-alola",  "min_level": 4, "max_level": 6, "encounter_rate": 1  }
+  ]
+},
+"Route 32": {
+  "Grass": [
+    { "species": "Rattata",  "min_level": 5, "max_level": 7, "encounter_rate": 20 },
+    { "species": "Mareep",   "min_level": 5, "max_level": 7, "encounter_rate": 20 },
+    { "species": "Ekans",    "min_level": 6, "max_level": 8, "encounter_rate": 10 },
+    { "species": "Wooper",   "min_level": 6, "max_level": 8, "encounter_rate": 10 },
+    { "species": "Lotad",    "min_level": 6, "max_level": 8, "encounter_rate": 10 },
+    { "species": "Poochyena","min_level": 5, "max_level": 7, "encounter_rate": 10 },
+    { "species": "Hoppip",   "min_level": 5, "max_level": 7, "encounter_rate": 5 },
+    { "species": "Petilil",  "min_level": 6, "max_level": 8, "encounter_rate": 5 },
+    { "species": "Buizel",   "min_level": 6, "max_level": 8, "encounter_rate": 4 },
+    { "species": "Cottonee", "min_level": 5, "max_level": 7, "encounter_rate": 5 },
+    { "species": "Roselia",  "min_level": 8, "max_level": 8, "encounter_rate": 1 }
+  ],
+  "Surf": [
+    { "species": "Tentacool", "min_level": 33, "max_level": 35, "encounter_rate": 60 },
+    { "species": "Wingull",   "min_level": 33, "max_level": 35, "encounter_rate": 30 },
+    { "species": "Quagsire",  "min_level": 33, "max_level": 35, "encounter_rate": 5 },
+    { "species": "Basculin",  "min_level": 33, "max_level": 35, "encounter_rate": 5 }
+  ],
+  "Old Rod": [
+    { "species": "Magikarp",  "min_level": 5,  "max_level": 10, "encounter_rate": 70 },
+    { "species": "Tentacool", "min_level": 5,  "max_level": 10, "encounter_rate": 30 }
+  ],
+  "Good Rod": [
+    { "species": "Magikarp",  "min_level": 10, "max_level": 30, "encounter_rate": 60 },
+    { "species": "Tentacool", "min_level": 10, "max_level": 30, "encounter_rate": 20 },
+    { "species": "Qwilfish",  "min_level": 10, "max_level": 30, "encounter_rate": 20 }
+  ],
+  "Super Rod": [
+    { "species": "Qwilfish",  "min_level": 25, "max_level": 30, "encounter_rate": 40 },
+    { "species": "Qwilfish",  "min_level": 30, "max_level": 35, "encounter_rate": 40 },
+    { "species": "Tentacool", "min_level": 20, "max_level": 25, "encounter_rate": 15 },
+    { "species": "Gyarados",  "min_level": 35, "max_level": 40, "encounter_rate": 4 },
+    { "species": "Gyarados",  "min_level": 40, "max_level": 45, "encounter_rate": 1 }
+  ]
+},
+"Union Cave": {
+  "1F": [
+    { "species": "Zubat",        "min_level": 8,  "max_level": 9,  "encounter_rate": 20 },
+    { "species": "Sandshrew",    "min_level": 8,  "max_level": 9,  "encounter_rate": 20 },
+    { "species": "Makuhita",     "min_level": 8,  "max_level": 10, "encounter_rate": 10 },
+    { "species": "Geodude",      "min_level": 7,  "max_level": 9,  "encounter_rate": 10 },
+    { "species": "Whismur",      "min_level": 7,  "max_level": 9,  "encounter_rate": 10 },
+    { "species": "Roggenrola",   "min_level": 8,  "max_level": 10, "encounter_rate": 10 },
+    { "species": "Onix",         "min_level": 8,  "max_level": 10, "encounter_rate": 5  },
+    { "species": "Rolycoly",     "min_level": 7,  "max_level": 9,  "encounter_rate": 5  },
+    { "species": "Drilbur",      "min_level": 7,  "max_level": 9,  "encounter_rate": 4  },
+    { "species": "Timburr",      "min_level": 8,  "max_level": 9,  "encounter_rate": 4  },
+    { "species": "Timburr",      "min_level": 8,  "max_level": 10, "encounter_rate": 1  },
+    { "species": "Timburr",      "min_level": 9,  "max_level": 10, "encounter_rate": 1  }
+  ],
+  "1F (Surf)": [
+    { "species": "Wooper",       "min_level": 33, "max_level": 35, "encounter_rate": 60 },
+    { "species": "Quagsire",     "min_level": 33, "max_level": 35, "encounter_rate": 30 },
+    { "species": "Wimpod",       "min_level": 33, "max_level": 35, "encounter_rate": 5  },
+    { "species": "Wimpod",       "min_level": 33, "max_level": 35, "encounter_rate": 4  },
+    { "species": "Wimpod",       "min_level": 33, "max_level": 35, "encounter_rate": 1  }
+  ],
+  "1F (Old Rod)": [
+    { "species": "Magikarp",     "min_level": 5,  "max_level": 10, "encounter_rate": 70 },
+    { "species": "Goldeen",      "min_level": 5,  "max_level": 10, "encounter_rate": 30 }
+  ],
+  "1F (Good Rod)": [
+    { "species": "Magikarp",     "min_level": 10, "max_level": 30, "encounter_rate": 60 },
+    { "species": "Wimpod",       "min_level": 10, "max_level": 30, "encounter_rate": 20 },
+    { "species": "Goldeen",      "min_level": 10, "max_level": 30, "encounter_rate": 20 }
+  ],
+  "1F (Super Rod)": [
+    { "species": "Seaking",      "min_level": 25, "max_level": 30, "encounter_rate": 40 },
+    { "species": "Quagsire",     "min_level": 30, "max_level": 35, "encounter_rate": 40 },
+    { "species": "Gyarados",     "min_level": 25, "max_level": 35, "encounter_rate": 15 },
+    { "species": "Gyarados",     "min_level": 35, "max_level": 40, "encounter_rate": 4  },
+    { "species": "Gyarados",     "min_level": 40, "max_level": 45, "encounter_rate": 1  }
+  ],
+  "B1F": [
+    { "species": "Zubat",        "min_level": 8,  "max_level": 9,  "encounter_rate": 20 },
+    { "species": "Sandshrew",    "min_level": 9,  "max_level": 10, "encounter_rate": 20 },
+    { "species": "Makuhita",     "min_level": 9,  "max_level": 10, "encounter_rate": 10 },
+    { "species": "Geodude",      "min_level": 10, "max_level": 11, "encounter_rate": 10 },
+    { "species": "Diglett",      "min_level": 10, "max_level": 11, "encounter_rate": 10 },
+    { "species": "Rolycoly",     "min_level": 9,  "max_level": 10, "encounter_rate": 10 },
+    { "species": "Onix",         "min_level": 10, "max_level": 10, "encounter_rate": 5  },
+    { "species": "Drilbur",      "min_level": 11, "max_level": 11, "encounter_rate": 5  },
+    { "species": "Timburr",      "min_level": 10, "max_level": 10, "encounter_rate": 4  },
+    { "species": "Diglett",      "min_level": 10, "max_level": 10, "encounter_rate": 4  },
+    { "species": "Mawile",       "min_level": 9,  "max_level": 10, "encounter_rate": 1  },
+    { "species": "Mawile",       "min_level": 11, "max_level": 11, "encounter_rate": 1  }
+  ],
+  "B1F (Surf)": [
+    { "species": "Wooper",       "min_level": 33, "max_level": 35, "encounter_rate": 60 },
+    { "species": "Quagsire",     "min_level": 33, "max_level": 35, "encounter_rate": 30 },
+    { "species": "Wimpod",       "min_level": 33, "max_level": 35, "encounter_rate": 5  },
+    { "species": "Wimpod",       "min_level": 33, "max_level": 35, "encounter_rate": 4  },
+    { "species": "Wimpod",       "min_level": 33, "max_level": 35, "encounter_rate": 1  }
+  ],
+  "B1F (Old Rod)": [
+    { "species": "Magikarp",     "min_level": 5,  "max_level": 10, "encounter_rate": 70 },
+    { "species": "Goldeen",      "min_level": 5,  "max_level": 10, "encounter_rate": 30 }
+  ],
+  "B1F (Good Rod)": [
+    { "species": "Magikarp",     "min_level": 10, "max_level": 30, "encounter_rate": 60 },
+    { "species": "Wimpod",       "min_level": 10, "max_level": 30, "encounter_rate": 20 },
+    { "species": "Goldeen",      "min_level": 10, "max_level": 30, "encounter_rate": 20 }
+  ],
+  "B1F (Super Rod)": [
+    { "species": "Seaking",      "min_level": 25, "max_level": 30, "encounter_rate": 40 },
+    { "species": "Quagsire",     "min_level": 30, "max_level": 35, "encounter_rate": 40 },
+    { "species": "Gyarados",     "min_level": 25, "max_level": 35, "encounter_rate": 15 },
+    { "species": "Gyarados",     "min_level": 35, "max_level": 40, "encounter_rate": 4  },
+    { "species": "Gyarados",     "min_level": 40, "max_level": 45, "encounter_rate": 1  }
+  ],
+  "B2F": [
+    { "species": "Golbat",       "min_level": 31, "max_level": 33, "encounter_rate": 20 },
+    { "species": "Sandslash",    "min_level": 31, "max_level": 33, "encounter_rate": 20 },
+    { "species": "Hariyama",     "min_level": 32, "max_level": 34, "encounter_rate": 10 },
+    { "species": "Golbat",       "min_level": 31, "max_level": 33, "encounter_rate": 10 },
+    { "species": "Mawile",       "min_level": 32, "max_level": 34, "encounter_rate": 10 },
+    { "species": "Graveler",     "min_level": 32, "max_level": 34, "encounter_rate": 10 },
+    { "species": "Carkol",       "min_level": 31, "max_level": 33, "encounter_rate": 5  },
+    { "species": "Onix",         "min_level": 32, "max_level": 34, "encounter_rate": 5  },
+    { "species": "Gurdurr",      "min_level": 31, "max_level": 33, "encounter_rate": 4  },
+    { "species": "Dugtrio",      "min_level": 33, "max_level": 34, "encounter_rate": 4  },
+    { "species": "Gurdurr",      "min_level": 32, "max_level": 33, "encounter_rate": 1  },
+    { "species": "Dugtrio",      "min_level": 33, "max_level": 34, "encounter_rate": 1  }
+  ],
+  "B2F (Surf)": [
+    { "species": "Wooper",       "min_level": 33, "max_level": 35, "encounter_rate": 60 },
+    { "species": "Quagsire",     "min_level": 33, "max_level": 35, "encounter_rate": 30 },
+    { "species": "Wimpod",       "min_level": 33, "max_level": 35, "encounter_rate": 5  },
+    { "species": "Wimpod",       "min_level": 33, "max_level": 35, "encounter_rate": 4  },
+    { "species": "Wimpod",       "min_level": 33, "max_level": 35, "encounter_rate": 1  }
+  ],
+  "B2F (Old Rod)": [
+    { "species": "Magikarp",     "min_level": 5,  "max_level": 10, "encounter_rate": 70 },
+    { "species": "Krabby",       "min_level": 5,  "max_level": 10, "encounter_rate": 30 }
+  ],
+  "B2F (Good Rod)": [
+    { "species": "Magikarp",     "min_level": 10, "max_level": 30, "encounter_rate": 60 },
+    { "species": "Krabby",       "min_level": 10, "max_level": 30, "encounter_rate": 20 },
+    { "species": "Staryu",       "min_level": 10, "max_level": 30, "encounter_rate": 20 }
+  ],
+  "B2F (Super Rod)": [
+    { "species": "Kingler",      "min_level": 30, "max_level": 35, "encounter_rate": 40 },
+    { "species": "Staryu",       "min_level": 25, "max_level": 30, "encounter_rate": 40 },
+    { "species": "Gyarados",     "min_level": 25, "max_level": 35, "encounter_rate": 15 },
+    { "species": "Corsola",      "min_level": 20, "max_level": 30, "encounter_rate": 4  },
+    { "species": "Corsola",      "min_level": 35, "max_level": 40, "encounter_rate": 1  }
+  ]
+},
+"Route 33": {
+  "Grass": [
+    { "species": "Ekans", "min_level": 9, "max_level": 10, "encounter_rate": 20 },
+    { "species": "Rattata", "min_level": 8, "max_level": 9, "encounter_rate": 20 },
+    { "species": "Spearow", "min_level": 9, "max_level": 10, "encounter_rate": 10 },
+    { "species": "Hoppip", "min_level": 8, "max_level": 9, "encounter_rate": 10 },
+    { "species": "Dewpider", "min_level": 9, "max_level": 10, "encounter_rate": 10 },
+    { "species": "Tympole", "min_level": 8, "max_level": 9, "encounter_rate": 10 },
+    { "species": "Budew", "min_level": 7, "max_level": 9, "encounter_rate": 5 },
+    { "species": "Plusle", "min_level": 9, "max_level": 10, "encounter_rate": 5 },
+    { "species": "Surskit", "min_level": 8, "max_level": 9, "encounter_rate": 4 },
+    { "species": "Minun", "min_level": 8, "max_level": 10, "encounter_rate": 4 },
+    { "species": "Budew", "min_level": 7, "max_level": 9, "encounter_rate": 1 },
+    { "species": "Burmy", "min_level": 8, "max_level": 9, "encounter_rate": 1 }
+  ]
+},
+"Ilex Forest": {
+  "Grass": [
+    { "species": "Caterpie",   "min_level": 12, "max_level": 14, "encounter_rate": 20 },
+    { "species": "Weedle",     "min_level": 12, "max_level": 14, "encounter_rate": 20 },
+    { "species": "Oddish",     "min_level": 13, "max_level": 15, "encounter_rate": 10 },
+    { "species": "Wurmple",    "min_level": 12, "max_level": 14, "encounter_rate": 10 },
+    { "species": "Sewaddle",   "min_level": 12, "max_level": 14, "encounter_rate": 10 },
+    { "species": "Venipede",   "min_level": 13, "max_level": 15, "encounter_rate": 10 },
+    { "species": "Cutiefly",   "min_level": 13, "max_level": 15, "encounter_rate": 5  },
+    { "species": "Paras",      "min_level": 13, "max_level": 15, "encounter_rate": 5  },
+    { "species": "Combee",     "min_level": 13, "max_level": 15, "encounter_rate": 4  },
+    { "species": "Shroomish",  "min_level": 13, "max_level": 15, "encounter_rate": 4  },
+    { "species": "Dedenne",    "min_level": 13, "max_level": 15, "encounter_rate": 1  },
+    { "species": "Slakoth",    "min_level": 13, "max_level": 15, "encounter_rate": 1  }
+  ],
+  "Surf": [
+    { "species": "Psyduck",    "min_level": 33, "max_level": 35, "encounter_rate": 60 },
+    { "species": "Golduck",    "min_level": 33, "max_level": 35, "encounter_rate": 30 },
+    { "species": "Shellos",    "min_level": 33, "max_level": 35, "encounter_rate": 5  },
+    { "species": "Shellos",    "min_level": 33, "max_level": 35, "encounter_rate": 4  },
+    { "species": "Shellos",    "min_level": 33, "max_level": 35, "encounter_rate": 1  }
+  ],
+  "Old Rod": [
+    { "species": "Magikarp",   "min_level": 5,  "max_level": 10, "encounter_rate": 70 },
+    { "species": "Poliwag",    "min_level": 5,  "max_level": 10, "encounter_rate": 30 }
+  ],
+  "Good Rod": [
+    { "species": "Magikarp",   "min_level": 10, "max_level": 20, "encounter_rate": 60 },
+    { "species": "Poliwag",    "min_level": 10, "max_level": 20, "encounter_rate": 20 },
+    { "species": "Poliwag",    "min_level": 10, "max_level": 20, "encounter_rate": 20 }
+  ],
+  "Super Rod": [
+    { "species": "Poliwhirl",  "min_level": 20, "max_level": 25, "encounter_rate": 40 },
+    { "species": "Gastrodon",  "min_level": 25, "max_level": 35, "encounter_rate": 40 },
+    { "species": "Gastrodon",  "min_level": 25, "max_level": 35, "encounter_rate": 15 },
+    { "species": "Gyarados",   "min_level": 30, "max_level": 35, "encounter_rate": 4  },
+    { "species": "Gyarados",   "min_level": 35, "max_level": 40, "encounter_rate": 1  }
+  ]
+},
+"Route 34": {
+  "Grass": [
+    { "species": "Poochyena",  "min_level": 14, "max_level": 16, "encounter_rate": 20 },
+    { "species": "Drowzee",    "min_level": 14, "max_level": 16, "encounter_rate": 20 },
+    { "species": "Aipom",      "min_level": 14, "max_level": 16, "encounter_rate": 10 },
+    { "species": "Snubbull",   "min_level": 13, "max_level": 15, "encounter_rate": 10 },
+    { "species": "Jigglypuff", "min_level": 13, "max_level": 15, "encounter_rate": 10 },
+    { "species": "Oddish",     "min_level": 14, "max_level": 16, "encounter_rate": 10 },
+    { "species": "Mime Jr.",   "min_level": 13, "max_level": 15, "encounter_rate": 5 },
+    { "species": "Ditto",      "min_level": 14, "max_level": 16, "encounter_rate": 5 },
+    { "species": "Illumise",   "min_level": 14, "max_level": 16, "encounter_rate": 4 },
+    { "species": "Volbeat",    "min_level": 14, "max_level": 16, "encounter_rate": 4 },
+    { "species": "Seedot",     "min_level": 13, "max_level": 15, "encounter_rate": 2 }
+  ],
+  "Surf": [
+    { "species": "Tentacool",  "min_level": 33, "max_level": 35, "encounter_rate": 60 },
+    { "species": "Frillish",   "min_level": 33, "max_level": 35, "encounter_rate": 30 },
+    { "species": "Tentacruel", "min_level": 33, "max_level": 35, "encounter_rate": 5 },
+    { "species": "Marill",     "min_level": 33, "max_level": 35, "encounter_rate": 4 },
+    { "species": "Goldeen",    "min_level": 33, "max_level": 35, "encounter_rate": 1 }
+  ],
+  "Old Rod": [
+    { "species": "Magikarp",  "min_level": 5,  "max_level": 10, "encounter_rate": 70 },
+    { "species": "Krabby",    "min_level": 5,  "max_level": 10, "encounter_rate": 30 }
+  ],
+  "Good Rod": [
+    { "species": "Magikarp",  "min_level": 10, "max_level": 30, "encounter_rate": 60 },
+    { "species": "Krabby",    "min_level": 10, "max_level": 30, "encounter_rate": 20 },
+    { "species": "Corphish",  "min_level": 10, "max_level": 30, "encounter_rate": 20 }
+  ],
+  "Super Rod": [
+    { "species": "Corphish",  "min_level": 25, "max_level": 30, "encounter_rate": 40 },
+    { "species": "Kingler",   "min_level": 30, "max_level": 35, "encounter_rate": 40 },
+    { "species": "Crawdaunt", "min_level": 20, "max_level": 25, "encounter_rate": 15 },
+    { "species": "Gyarados",  "min_level": 35, "max_level": 40, "encounter_rate": 4 },
+    { "species": "Gyarados",  "min_level": 40, "max_level": 45, "encounter_rate": 1 }
+  ]
+},
+"Route 35": {
+  "Grass": [
+    { "species": "Zigzagoon",  "min_level": 15, "max_level": 17, "encounter_rate": 20 },
+    { "species": "Electrike",  "min_level": 15, "max_level": 17, "encounter_rate": 20 },
+    { "species": "Nidoran♂",   "min_level": 16, "max_level": 18, "encounter_rate": 10 },
+    { "species": "Nidoran♀",   "min_level": 16, "max_level": 18, "encounter_rate": 10 },
+    { "species": "Buneary",    "min_level": 15, "max_level": 17, "encounter_rate": 10 },
+    { "species": "Drowzee",    "min_level": 15, "max_level": 17, "encounter_rate": 10 },
+    { "species": "Abra",       "min_level": 13, "max_level": 15, "encounter_rate": 5 },
+    { "species": "Oricorio",   "min_level": 15, "max_level": 17, "encounter_rate": 5 },
+    { "species": "Clefairy",   "min_level": 16, "max_level": 18, "encounter_rate": 4 },
+    { "species": "Munchlax",   "min_level": 15, "max_level": 17, "encounter_rate": 4 },
+    { "species": "Yanma",      "min_level": 16, "max_level": 18, "encounter_rate": 2 }
+  ],
+  "Surf": [
+    { "species": "Psyduck",    "min_level": 33, "max_level": 35, "encounter_rate": 60 },
+    { "species": "Ducklett",   "min_level": 33, "max_level": 35, "encounter_rate": 30 },
+    { "species": "Golduck",    "min_level": 33, "max_level": 35, "encounter_rate": 5 },
+    { "species": "Ducklett",   "min_level": 33, "max_level": 35, "encounter_rate": 5 }
+  ],
+  "Old Rod": [
+    { "species": "Magikarp",   "min_level": 5,  "max_level": 10, "encounter_rate": 70 },
+    { "species": "Poliwag",    "min_level": 5,  "max_level": 10, "encounter_rate": 30 }
+  ],
+  "Good Rod": [
+    { "species": "Magikarp",   "min_level": 10, "max_level": 30, "encounter_rate": 60 },
+    { "species": "Poliwag",    "min_level": 10, "max_level": 30, "encounter_rate": 20 },
+    { "species": "Carvanha",   "min_level": 10, "max_level": 30, "encounter_rate": 20 }
+  ],
+  "Super Rod": [
+    { "species": "Sharpedo",   "min_level": 30, "max_level": 35, "encounter_rate": 40 },
+    { "species": "Carvanha",   "min_level": 30, "max_level": 35, "encounter_rate": 40 },
+    { "species": "Poliwag",    "min_level": 20, "max_level": 25, "encounter_rate": 15 },
+    { "species": "Gyarados",   "min_level": 35, "max_level": 40, "encounter_rate": 4 },
+    { "species": "Gyarados",   "min_level": 40, "max_level": 45, "encounter_rate": 1 }
+  ]
+},
+"National Park": {
+  "Grass": [
+    { "species": "Fomantis",    "min_level": 15, "max_level": 17, "encounter_rate": 20 },
+    { "species": "Scatterbug",  "min_level": 14, "max_level": 16, "encounter_rate": 20 },
+    { "species": "Skorupi",     "min_level": 16, "max_level": 18, "encounter_rate": 10 },
+    { "species": "Nincada",     "min_level": 16, "max_level": 18, "encounter_rate": 10 },
+    { "species": "Kricketot",   "min_level": 14, "max_level": 16, "encounter_rate": 10 },
+    { "species": "Cherubi",     "min_level": 15, "max_level": 17, "encounter_rate": 10 },
+    { "species": "Sunkern",     "min_level": 15, "max_level": 17, "encounter_rate": 5 },
+    { "species": "Heracross",   "min_level": 16, "max_level": 18, "encounter_rate": 5 },
+    { "species": "Scyther",     "min_level": 16, "max_level": 18, "encounter_rate": 4 },
+    { "species": "Pinsir",      "min_level": 16, "max_level": 18, "encounter_rate": 4 },
+    { "species": "Sizzlipede",  "min_level": 16, "max_level": 18, "encounter_rate": 1 },
+    { "species": "Sizzlipede",  "min_level": 16, "max_level": 18, "encounter_rate": 1 }
+  ],
+  "Surf": [
+    { "species": "Tentacool",  "min_level": 5,  "max_level": 35, "encounter_rate": 60 },
+    { "species": "Wingull",    "min_level": 10, "max_level": 30, "encounter_rate": 30 },
+    { "species": "Wingull",    "min_level": 15, "max_level": 25, "encounter_rate": 5 },
+    { "species": "Pelipper",   "min_level": 25, "max_level": 30, "encounter_rate": 4 },
+    { "species": "Pelipper",   "min_level": 25, "max_level": 30, "encounter_rate": 1 }
+  ],
+  "Old Rod": [
+    { "species": "Magikarp",  "min_level": 5,  "max_level": 10, "encounter_rate": 70 },
+    { "species": "Tentacool", "min_level": 5,  "max_level": 10, "encounter_rate": 30 }
+  ],
+  "Good Rod": [
+    { "species": "Magikarp",  "min_level": 10, "max_level": 30, "encounter_rate": 60 },
+    { "species": "Tentacool", "min_level": 10, "max_level": 30, "encounter_rate": 20 },
+    { "species": "Wailmer",   "min_level": 10, "max_level": 30, "encounter_rate": 20 }
+  ],
+  "Super Rod": [
+    { "species": "Wailmer",   "min_level": 25, "max_level": 30, "encounter_rate": 40 },
+    { "species": "Wailmer",   "min_level": 30, "max_level": 35, "encounter_rate": 40 },
+    { "species": "Wailmer",   "min_level": 20, "max_level": 25, "encounter_rate": 15 },
+    { "species": "Wailmer",   "min_level": 35, "max_level": 40, "encounter_rate": 4 },
+    { "species": "Wailmer",   "min_level": 40, "max_level": 45, "encounter_rate": 1 }
+  ]
+},
+"Route 36": {
+  "Grass": [
+    { "species": "Nidoran♀", "min_level": 15, "max_level": 17, "encounter_rate": 20 },
+    { "species": "Nidoran♂", "min_level": 15, "max_level": 17, "encounter_rate": 20 },
+    { "species": "Growlithe", "min_level": 16, "max_level": 18, "encounter_rate": 10 },
+    { "species": "Vulpix", "min_level": 16, "max_level": 18, "encounter_rate": 10 },
+    { "species": "Houndour", "min_level": 16, "max_level": 18, "encounter_rate": 10 },
+    { "species": "Rockruff", "min_level": 15, "max_level": 17, "encounter_rate": 10 },
+    { "species": "Stantler", "min_level": 16, "max_level": 18, "encounter_rate": 5 },
+    { "species": "Growlithe", "min_level": 16, "max_level": 18, "encounter_rate": 5 },
+    { "species": "Stufful", "min_level": 16, "max_level": 18, "encounter_rate": 4 },
+    { "species": "Litleo", "min_level": 15, "max_level": 17, "encounter_rate": 4 },
+    { "species": "Deerling", "min_level": 16, "max_level": 18, "encounter_rate": 1 },
+    { "species": "Deerling", "min_level": 16, "max_level": 18, "encounter_rate": 1 }
+  ]
+},
+"Route 37": {
+  "Grass": [
+    { "species": "Pidgeotto", "min_level": 19, "max_level": 21, "encounter_rate": 20 },
+    { "species": "Stantler",  "min_level": 19, "max_level": 21, "encounter_rate": 20 },
+    { "species": "Growlithe", "min_level": 19, "max_level": 21, "encounter_rate": 10 },
+    { "species": "Vulpix",    "min_level": 19, "max_level": 21, "encounter_rate": 10 },
+    { "species": "Houndour",  "min_level": 19, "max_level": 21, "encounter_rate": 10 },
+    { "species": "Deerling",  "min_level": 19, "max_level": 21, "encounter_rate": 10 },
+    { "species": "Hoothoot",  "min_level": 19, "max_level": 21, "encounter_rate": 5 },
+    { "species": "Growlithe", "min_level": 19, "max_level": 21, "encounter_rate": 5 },
+    { "species": "Furfrou",   "min_level": 19, "max_level": 21, "encounter_rate": 4 },
+    { "species": "Yamper",    "min_level": 19, "max_level": 21, "encounter_rate": 4 },
+    { "species": "Thievul",   "min_level": 18, "max_level": 20, "encounter_rate": 2 }
+  ],
+  "Route 38": {
+  "Grass": [
+    { "species": "Nidoran♀",  "min_level": 15, "max_level": 17, "encounter_rate": 20 },
+    { "species": "Nidoran♂",  "min_level": 15, "max_level": 17, "encounter_rate": 20 },
+    { "species": "Growlithe", "min_level": 16, "max_level": 18, "encounter_rate": 10 },
+    { "species": "Vulpix",    "min_level": 16, "max_level": 18, "encounter_rate": 10 },
+    { "species": "Houndour",  "min_level": 16, "max_level": 18, "encounter_rate": 10 },
+    { "species": "Rockruff",  "min_level": 15, "max_level": 17, "encounter_rate": 10 },
+    { "species": "Stantler",  "min_level": 16, "max_level": 18, "encounter_rate": 5 },
+    { "species": "Growlithe", "min_level": 16, "max_level": 18, "encounter_rate": 5 },
+    { "species": "Stufful",   "min_level": 16, "max_level": 18, "encounter_rate": 4 },
+    { "species": "Litleo",    "min_level": 15, "max_level": 17, "encounter_rate": 4 },
+    { "species": "Deerling",  "min_level": 16, "max_level": 18, "encounter_rate": 1 },
+    { "species": "Deerling",  "min_level": 16, "max_level": 18, "encounter_rate": 1 }
+  ]
+},
+  "Surf": [
+    { "species": "Tentacool", "min_level": 5,  "max_level": 35, "encounter_rate": 60 },
+    { "species": "Wingull",   "min_level": 10, "max_level": 30, "encounter_rate": 30 },
+    { "species": "Wingull",   "min_level": 15, "max_level": 25, "encounter_rate": 5 },
+    { "species": "Pelipper",  "min_level": 25, "max_level": 30, "encounter_rate": 5 }
+  ],
+  "Old Rod": [
+    { "species": "Magikarp",  "min_level": 5,  "max_level": 10, "encounter_rate": 70 },
+    { "species": "Tentacool", "min_level": 5,  "max_level": 10, "encounter_rate": 30 }
+  ],
+  "Good Rod": [
+    { "species": "Magikarp",  "min_level": 10, "max_level": 30, "encounter_rate": 60 },
+    { "species": "Tentacool", "min_level": 10, "max_level": 30, "encounter_rate": 20 },
+    { "species": "Wailmer",   "min_level": 10, "max_level": 30, "encounter_rate": 20 }
+  ],
+  "Super Rod": [
+    { "species": "Wailmer",   "min_level": 25, "max_level": 30, "encounter_rate": 40 },
+    { "species": "Wailmer",   "min_level": 30, "max_level": 35, "encounter_rate": 40 },
+    { "species": "Wailmer",   "min_level": 20, "max_level": 25, "encounter_rate": 15 },
+    { "species": "Wailmer",   "min_level": 35, "max_level": 40, "encounter_rate": 4 },
+    { "species": "Wailmer",   "min_level": 40, "max_level": 45, "encounter_rate": 1 }
+  ]
+},
+"Route 39": {
+  "Grass": [
+    { "species": "Meowth", "min_level": 24, "max_level": 26, "encounter_rate": 20 },
+    { "species": "Meowth", "min_level": 24, "max_level": 26, "encounter_rate": 20 },
+    { "species": "Mudbray", "min_level": 25, "max_level": 27, "encounter_rate": 10 },
+    { "species": "Ponyta", "min_level": 25, "max_level": 27, "encounter_rate": 10 },
+    { "species": "Dubwool", "min_level": 25, "max_level": 27, "encounter_rate": 10 },
+    { "species": "Blitzle", "min_level": 25, "max_level": 26, "encounter_rate": 10 },
+    { "species": "Miltank", "min_level": 25, "max_level": 27, "encounter_rate": 5 },
+    { "species": "Tauros", "min_level": 25, "max_level": 27, "encounter_rate": 5 },
+    { "species": "Ponyta", "min_level": 25, "max_level": 27, "encounter_rate": 4 },
+    { "species": "Glameow", "min_level": 24, "max_level": 26, "encounter_rate": 4 },
+    { "species": "Skitty", "min_level": 24, "max_level": 26, "encounter_rate": 1 },
+    { "species": "Skitty", "min_level": 24, "max_level": 26, "encounter_rate": 1 }
+  ],
+  "Surf": [
+    { "species": "Tentacool", "min_level": 5, "max_level": 35, "encounter_rate": 60 },
+    { "species": "Wingull", "min_level": 10, "max_level": 30, "encounter_rate": 30 },
+    { "species": "Wingull", "min_level": 15, "max_level": 25, "encounter_rate": 5 },
+    { "species": "Pelipper", "min_level": 25, "max_level": 30, "encounter_rate": 4 },
+    { "species": "Pelipper", "min_level": 25, "max_level": 30, "encounter_rate": 1 }
+  ],
+  "Old Rod": [
+    { "species": "Magikarp",  "min_level": 5,  "max_level": 10, "encounter_rate": 70 },
+    { "species": "Tentacool", "min_level": 5,  "max_level": 10, "encounter_rate": 30 }
+  ],
+  "Good Rod": [
+    { "species": "Magikarp",  "min_level": 10, "max_level": 30, "encounter_rate": 60 },
+    { "species": "Tentacool", "min_level": 10, "max_level": 30, "encounter_rate": 20 },
+    { "species": "Wailmer",   "min_level": 10, "max_level": 30, "encounter_rate": 20 }
+  ],
+  "Super Rod": [
+    { "species": "Wailmer",   "min_level": 25, "max_level": 30, "encounter_rate": 40 },
+    { "species": "Wailmer",   "min_level": 30, "max_level": 35, "encounter_rate": 40 },
+    { "species": "Wailmer",   "min_level": 20, "max_level": 25, "encounter_rate": 15 },
+    { "species": "Wailmer",   "min_level": 35, "max_level": 40, "encounter_rate": 4 },
+    { "species": "Wailmer",   "min_level": 40, "max_level": 45, "encounter_rate": 1 }
+  ]
+},
+
+"Rage Resort": {
+  "Grass": [
+    { "species": "Abomasnow",  "min_level": 42, "max_level": 44, "encounter_rate": 20 },
+    { "species": "Piloswine",  "min_level": 41, "max_level": 44, "encounter_rate": 20 },
+    { "species": "Machoke",    "min_level": 41, "max_level": 44, "encounter_rate": 10 },
+    { "species": "Snom",       "min_level": 40, "max_level": 43, "encounter_rate": 10 },
+    { "species": "Medicham",   "min_level": 41, "max_level": 44, "encounter_rate": 10 },
+    { "species": "Delibird",   "min_level": 41, "max_level": 44, "encounter_rate": 10 },
+    { "species": "Sneasel",    "min_level": 41, "max_level": 44, "encounter_rate": 5 },
+    { "species": "Beartic",    "min_level": 41, "max_level": 44, "encounter_rate": 5 },
+    { "species": "Sawsbuck",   "min_level": 40, "max_level": 43, "encounter_rate": 4 },
+    { "species": "Beartic",    "min_level": 41, "max_level": 44, "encounter_rate": 4 },
+    { "species": "Vanillish",  "min_level": 41, "max_level": 44, "encounter_rate": 2 }
+  ],
+  "Surf": [
+    { "species": "Magikarp", "min_level": 35, "max_level": 45, "encounter_rate": 60 },
+    { "species": "Gyarados", "min_level": 35, "max_level": 45, "encounter_rate": 30 },
+    { "species": "Eiscue", "min_level": 35, "max_level": 45, "encounter_rate": 5 },
+    { "species": "Eiscue", "min_level": 35, "max_level": 45, "encounter_rate": 4 },
+    { "species": "Eiscue", "min_level": 35, "max_level": 45, "encounter_rate": 1 }
+  ],
+  "Old Rod": [
+    { "species": "Magikarp",  "min_level": 5,  "max_level": 10, "encounter_rate": 70 },
+    { "species": "Magikarp",  "min_level": 5,  "max_level": 10, "encounter_rate": 30 }
+  ],
+  "Good Rod": [
+    { "species": "Magikarp",  "min_level": 10, "max_level": 30, "encounter_rate": 60 },
+    { "species": "Gyarados",  "min_level": 10, "max_level": 30, "encounter_rate": 20 },
+    { "species": "Gyarados",  "min_level": 30, "max_level": 30, "encounter_rate": 20 }
+  ],
+  "Super Rod": [
+    { "species": "Gyarados",  "min_level": 30, "max_level": 35, "encounter_rate": 40 },
+    { "species": "Gyarados",  "min_level": 35, "max_level": 40, "encounter_rate": 40 },
+    { "species": "Magikarp",  "min_level": 25, "max_level": 25, "encounter_rate": 15 },
+    { "species": "Gyarados",  "min_level": 40, "max_level": 45, "encounter_rate": 4 },
+    { "species": "Gyarados",  "min_level": 40, "max_level": 45, "encounter_rate": 1 }
+  ]
+},
+"Mt. Tempest": {
+  "Grass": [
+      { "species": "Tropius",    "min_level": 64, "max_level": 67, "encounter_rate": 20 },
+      { "species": "Carnivine",   "min_level": 64, "max_level": 67, "encounter_rate": 20 },
+      { "species": "Ludicolo",    "min_level": 64, "max_level": 67, "encounter_rate": 10 },
+      { "species": "Gastrodon",   "min_level": 64, "max_level": 67, "encounter_rate": 10 },
+      { "species": "Heliolisk",   "min_level": 64, "max_level": 67, "encounter_rate": 10 },
+      { "species": "Stunfisk",    "min_level": 64, "max_level": 67, "encounter_rate": 10 },
+      { "species": "Oranguru",    "min_level": 65, "max_level": 68, "encounter_rate": 5  },
+      { "species": "Passimian",   "min_level": 65, "max_level": 68, "encounter_rate": 5  },
+      { "species": "Panpour",     "min_level": 20, "max_level": 25, "encounter_rate": 4  },
+      { "species": "Castform",    "min_level": 25, "max_level": 30, "encounter_rate": 4  },
+      { "species": "Panpour",     "min_level": 22, "max_level": 25, "encounter_rate": 1  },
+      { "species": "Raichu",      "min_level": 65, "max_level": 68, "encounter_rate": 1  }
+    ],
+  "Surf": [
+    { "species": "Magikarp", "min_level": 35, "max_level": 45, "encounter_rate": 60 },
+    { "species": "Gyarados", "min_level": 35, "max_level": 45, "encounter_rate": 30 },
+    { "species": "Eiscue", "min_level": 35, "max_level": 45, "encounter_rate": 5 },
+    { "species": "Eiscue", "min_level": 35, "max_level": 45, "encounter_rate": 4 },
+    { "species": "Eiscue", "min_level": 35, "max_level": 45, "encounter_rate": 1 }
+  ],
+  "Old Rod": [
+    { "species": "Magikarp", "min_level": 5,  "max_level": 10, "encounter_rate": 70 },
+    { "species": "Goldeen",  "min_level": 5,  "max_level": 10, "encounter_rate": 30 }
+  ],
+  "Good Rod": [
+    { "species": "Magikarp", "min_level": 10, "max_level": 30, "encounter_rate": 60 },
+    { "species": "Goldeen",  "min_level": 10, "max_level": 30, "encounter_rate": 20 },
+    { "species": "Barboach", "min_level": 10, "max_level": 30, "encounter_rate": 20 }
+  ],
+  "Super Rod": [
+    { "species": "Barboach", "min_level": 30, "max_level": 35, "encounter_rate": 40 },
+    { "species": "Barboach", "min_level": 35, "max_level": 40, "encounter_rate": 40 },
+    { "species": "Barboach", "min_level": 25, "max_level": 30, "encounter_rate": 15 },
+    { "species": "Barboach", "min_level": 40, "max_level": 45, "encounter_rate": 4 },
+    { "species": "Barboach", "min_level": 40, "max_level": 45, "encounter_rate": 1 }
+  ]
+},
+
+"Route 42": {
+  "Grass": [
+    { "species": "Fearow",     "min_level": 30, "max_level": 32, "encounter_rate": 20 },
+    { "species": "Mankey",     "min_level": 30, "max_level": 32, "encounter_rate": 20 },
+    { "species": "Flaaffy",    "min_level": 30, "max_level": 32, "encounter_rate": 10 },
+    { "species": "Machoke",    "min_level": 30, "max_level": 32, "encounter_rate": 10 },
+    { "species": "Bewear",     "min_level": 29, "max_level": 31, "encounter_rate": 10 },
+    { "species": "Vanillite",  "min_level": 29, "max_level": 31, "encounter_rate": 10 },
+    { "species": "Meditite",   "min_level": 29, "max_level": 31, "encounter_rate": 5 },
+    { "species": "Meditite",   "min_level": 30, "max_level": 32, "encounter_rate": 5 },
+    { "species": "Vanillite",  "min_level": 30, "max_level": 32, "encounter_rate": 4 },
+    { "species": "Ampharos",   "min_level": 30, "max_level": 32, "encounter_rate": 4 },
+    { "species": "Vanillite",  "min_level": 30, "max_level": 32, "encounter_rate": 1 },
+    { "species": "Ampharos",   "min_level": 30, "max_level": 32, "encounter_rate": 1 }
+  ],
+  "Surf": [
+    { "species": "Goldeen",   "min_level": 33, "max_level": 35, "encounter_rate": 60 },
+    { "species": "Barboach",  "min_level": 33, "max_level": 35, "encounter_rate": 30 },
+    { "species": "Seaking",   "min_level": 33, "max_level": 35, "encounter_rate": 5 },
+    { "species": "Seaking",   "min_level": 33, "max_level": 35, "encounter_rate": 4 },
+    { "species": "Seaking",   "min_level": 33, "max_level": 35, "encounter_rate": 1 }
+  ],
+  "Old Rod": [
+    { "species": "Magikarp",  "min_level": 5,  "max_level": 10, "encounter_rate": 70 },
+    { "species": "Basculin",  "min_level": 5,  "max_level": 10, "encounter_rate": 30 }
+  ],
+  "Good Rod": [
+    { "species": "Magikarp",  "min_level": 10, "max_level": 30, "encounter_rate": 60 },
+    { "species": "Basculin",  "min_level": 10, "max_level": 30, "encounter_rate": 20 },
+    { "species": "Barboach",  "min_level": 10, "max_level": 30, "encounter_rate": 20 }
+  ],
+  "Super Rod": [
+    { "species": "Seaking",     "min_level": 30, "max_level": 35, "encounter_rate": 40 },
+    { "species": "Arrokuda",    "min_level": 25, "max_level": 30, "encounter_rate": 40 },
+    { "species": "Gyarados",    "min_level": 30, "max_level": 35, "encounter_rate": 15 },
+    { "species": "Gyarados",    "min_level": 35, "max_level": 40, "encounter_rate": 4 },
+    { "species": "Basculegion", "min_level": 35, "max_level": 40, "encounter_rate": 1 }
+  ]
+},
+"Route 45": {
+  "Grass": [
+    { "species": "Graveler", "min_level": 45, "max_level": 48, "encounter_rate": 20 },
+    { "species": "Graveler", "min_level": 45, "max_level": 48, "encounter_rate": 20 },
+    { "species": "Gligar", "min_level": 45, "max_level": 48, "encounter_rate": 10 },
+    { "species": "Ursaring", "min_level": 46, "max_level": 49, "encounter_rate": 10 },
+    { "species": "Donphan", "min_level": 46, "max_level": 49, "encounter_rate": 10 },
+    { "species": "Skarmory", "min_level": 46, "max_level": 49, "encounter_rate": 10 },
+    { "species": "Corviknigh", "min_level": 45, "max_level": 48, "encounter_rate": 5 },
+    { "species": "Hawlucha", "min_level": 45, "max_level": 48, "encounter_rate": 5 },
+    { "species": "Golurk", "min_level": 45, "max_level": 48, "encounter_rate": 4 },
+    { "species": "Lairon", "min_level": 45, "max_level": 48, "encounter_rate": 4 },
+    { "species": "Bronzong", "min_level": 45, "max_level": 48, "encounter_rate": 1 },
+    { "species": "Bronzong", "min_level": 45, "max_level": 48, "encounter_rate": 1 }
+  ],
+  "Old Rod": [
+    { "species": "Magikarp", "min_level": 5,  "max_level": 10, "encounter_rate": 70 },
+    { "species": "Basculin", "min_level": 5,  "max_level": 10, "encounter_rate": 30 }
+  ],
+  "Good Rod": [
+    { "species": "Magikarp",  "min_level": 10, "max_level": 30, "encounter_rate": 60 },
+    { "species": "Basculin",  "min_level": 10, "max_level": 30, "encounter_rate": 20 },
+    { "species": "Barboach",  "min_level": 10, "max_level": 30, "encounter_rate": 20 }
+  ],
+  "Super Rod": [
+    { "species": "Seaking",     "min_level": 25, "max_level": 30, "encounter_rate": 40 },
+    { "species": "Arrokuda",    "min_level": 25, "max_level": 30, "encounter_rate": 40 },
+    { "species": "Gyarados",    "min_level": 30, "max_level": 35, "encounter_rate": 15 },
+    { "species": "Gyarados",    "min_level": 35, "max_level": 40, "encounter_rate": 4 },
+    { "species": "Bsculegion",  "min_level": 35, "max_level": 40, "encounter_rate": 1 }
+  ],
+  "Surf": [
+    { "species": "Magikarp", "min_level": 35, "max_level": 45, "encounter_rate": 60 },
+    { "species": "Marill", "min_level": 35, "max_level": 45, "encounter_rate": 30 },
+    { "species": "Magikarp", "min_level": 35, "max_level": 45, "encounter_rate": 5 },
+    { "species": "Magikarp", "min_level": 35, "max_level": 45, "encounter_rate": 4 },
+    { "species": "Magikarp", "min_level": 35, "max_level": 45, "encounter_rate": 1 }
+  ]
+},
+
+"Route 27": {
+  "Grass": [
+    { "species": "Raticate",    "min_level": 51, "max_level": 54, "encounter_rate": 20 },
+    { "species": "Arbok",       "min_level": 51, "max_level": 54, "encounter_rate": 20 },
+    { "species": "Dodrio",      "min_level": 51, "max_level": 54, "encounter_rate": 10 },
+    { "species": "Falinks",     "min_level": 52, "max_level": 55, "encounter_rate": 10 },
+    { "species": "Tsareena",    "min_level": 52, "max_level": 55, "encounter_rate": 10 },
+    { "species": "Gumshoos",    "min_level": 51, "max_level": 54, "encounter_rate": 10 },
+    { "species": "Sandslash",   "min_level": 52, "max_level": 55, "encounter_rate": 5 },
+    { "species": "Rapidash",    "min_level": 52, "max_level": 55, "encounter_rate": 5 },
+    { "species": "Rapidash",    "min_level": 52, "max_level": 55, "encounter_rate": 4 },
+    { "species": "Talonflame",  "min_level": 52, "max_level": 55, "encounter_rate": 4 },
+    { "species": "Drapion",     "min_level": 52, "max_level": 55, "encounter_rate": 2 }
+  ],
+  "Surf": [
+    { "species": "Tentacool", "min_level": 25, "max_level": 35, "encounter_rate": 60 },
+    { "species": "Wingull",   "min_level": 25, "max_level": 35, "encounter_rate": 30 },
+    { "species": "Carvanha",  "min_level": 25, "max_level": 35, "encounter_rate": 5 },
+    { "species": "Tentacool", "min_level": 25, "max_level": 35, "encounter_rate": 4 },
+    { "species": "Pelipper",  "min_level": 25, "max_level": 35, "encounter_rate": 1 }
+  ],
+  "Old Rod": [
+    { "species": "Magikarp",  "min_level": 5,  "max_level": 10, "encounter_rate": 70 },
+    { "species": "Tentacool", "min_level": 5,  "max_level": 10, "encounter_rate": 30 }
+  ],
+  "Good Rod": [
+    { "species": "Magikarp",  "min_level": 10, "max_level": 30, "encounter_rate": 60 },
+    { "species": "Chinchou",  "min_level": 10, "max_level": 30, "encounter_rate": 20 },
+    { "species": "Shellder",  "min_level": 10, "max_level": 30, "encounter_rate": 20 }
+  ],
+  "Super Rod": [
+    { "species": "Carvanha",   "min_level": 25, "max_level": 30, "encounter_rate": 40 },
+    { "species": "Tentacruel", "min_level": 30, "max_level": 35, "encounter_rate": 40 },
+    { "species": "Chinchou",   "min_level": 20, "max_level": 25, "encounter_rate": 15 },
+    { "species": "Shellder",   "min_level": 35, "max_level": 40, "encounter_rate": 4 },
+    { "species": "Gyarados",   "min_level": 40, "max_level": 45, "encounter_rate": 1 }
+  ]
+},
+"Kizu Forest": {
+  "Grass": [
+    { "species": "Joltik",       "min_level": 29, "max_level": 32, "encounter_rate": 20 },
+    { "species": "Murkrow",      "min_level": 29, "max_level": 32, "encounter_rate": 20 },
+    { "species": "Pumpkaboo",    "min_level": 30, "max_level": 32, "encounter_rate": 10 },
+    { "species": "Phantump",     "min_level": 30, "max_level": 32, "encounter_rate": 10 },
+    { "species": "Foongus",      "min_level": 27, "max_level": 29, "encounter_rate": 10 },
+    { "species": "Pancham",      "min_level": 28, "max_level": 30, "encounter_rate": 10 },
+    { "species": "Dottler",      "min_level": 29, "max_level": 31, "encounter_rate": 5 },
+    { "species": "Gossifleur",   "min_level": 29, "max_level": 31, "encounter_rate": 5 },
+    { "species": "Charjabug",    "min_level": 29, "max_level": 31, "encounter_rate": 4 },
+    { "species": "Morpeko",      "min_level": 30, "max_level": 32, "encounter_rate": 4 },
+    { "species": "Comfey",       "min_level": 30, "max_level": 32, "encounter_rate": 1 },
+    { "species": "Shiinotic",    "min_level": 30, "max_level": 32, "encounter_rate": 1 }
+  ]
+},
+"Route 40": {
+  "Surf": [
+    { "species": "Tentacool",   "min_level": 33, "max_level": 35, "encounter_rate": 60 },
+    { "species": "Wingull",     "min_level": 33, "max_level": 35, "encounter_rate": 30 },
+    { "species": "Frillish",    "min_level": 33, "max_level": 35, "encounter_rate": 5 },
+    { "species": "Pelipper",    "min_level": 33, "max_level": 35, "encounter_rate": 4 },
+    { "species": "Wailmer",     "min_level": 33, "max_level": 35, "encounter_rate": 1 }
+  ],
+  "Old Rod": [
+    { "species": "Magikarp",    "min_level": 5,  "max_level": 10, "encounter_rate": 70 },
+    { "species": "Tentacool",   "min_level": 5,  "max_level": 10, "encounter_rate": 30 }
+  ],
+  "Good Rod": [
+    { "species": "Magikarp",    "min_level": 10, "max_level": 30, "encounter_rate": 60 },
+    { "species": "Tentacool",   "min_level": 10, "max_level": 30, "encounter_rate": 20 },
+    { "species": "Wailmer",     "min_level": 10, "max_level": 30, "encounter_rate": 20 }
+  ],
+  "Super Rod": [
+    { "species": "Wailord",     "min_level": 30, "max_level": 35, "encounter_rate": 40 },
+    { "species": "Kingler",     "min_level": 30, "max_level": 35, "encounter_rate": 40 },
+    { "species": "Tentacruel",  "min_level": 25, "max_level": 30, "encounter_rate": 15 },
+    { "species": "Gyarados",    "min_level": 35, "max_level": 40, "encounter_rate": 4 },
+    { "species": "Gyarados",    "min_level": 40, "max_level": 45, "encounter_rate": 1 }
+  ] 
+},
+
+"Cianwood City": {
+  "Rock Smash": [
+    { "species": "Krabby",      "min_level": 15, "max_level": 25, "encounter_rate": 60 },
+    { "species": "Crabrawler",  "min_level": 15, "max_level": 25, "encounter_rate": 30 },
+    { "species": "Shuckle",     "min_level": 15, "max_level": 25, "encounter_rate": 5 },
+    { "species": "Shuckle",     "min_level": 15, "max_level": 25, "encounter_rate": 4 },
+    { "species": "Shuckle",     "min_level": 15, "max_level": 25, "encounter_rate": 1 }
+  ],
+  "Surf": [
+    { "species": "Tentacool",   "min_level": 33, "max_level": 35, "encounter_rate": 60 },
+    { "species": "Wailmer",     "min_level": 33, "max_level": 35, "encounter_rate": 30 },
+    { "species": "Frillish",    "min_level": 33, "max_level": 35, "encounter_rate": 5 },
+    { "species": "Tentacruel",  "min_level": 33, "max_level": 35, "encounter_rate": 4 },
+    { "species": "Mantine",     "min_level": 33, "max_level": 35, "encounter_rate": 1 }
+  ],
+  "Old Rod": [
+    { "species": "Magikarp",    "min_level": 5,  "max_level": 10, "encounter_rate": 70 },
+    { "species": "Frillish",    "min_level": 5,  "max_level": 10, "encounter_rate": 30 }
+  ],
+  "Good Rod": [
+    { "species": "Magikarp",    "min_level": 10, "max_level": 30, "encounter_rate": 60 },
+    { "species": "Tentacool",   "min_level": 10, "max_level": 30, "encounter_rate": 20 },
+    { "species": "Carvanha",    "min_level": 10, "max_level": 30, "encounter_rate": 20 }
+  ],
+  "Super Rod": [
+    { "species": "Sharpedo",    "min_level": 30, "max_level": 35, "encounter_rate": 40 },
+    { "species": "Wailmer",     "min_level": 25, "max_level": 35, "encounter_rate": 40 },
+    { "species": "Staryu",      "min_level": 25, "max_level": 30, "encounter_rate": 15 },
+    { "species": "Wailord",     "min_level": 35, "max_level": 40, "encounter_rate": 4 },
+    { "species": "Wailord",     "min_level": 40, "max_level": 45, "encounter_rate": 1 }
+  ]
+},
+"Blackthorn City": {
+  "Surf": [
+    { "species": "Magikarp",    "min_level": 35, "max_level": 45, "encounter_rate": 60 },
+    { "species": "Psyduck",     "min_level": 35, "max_level": 45, "encounter_rate": 30 },
+    { "species": "Magikarp",    "min_level": 35, "max_level": 45, "encounter_rate": 5 },
+    { "species": "Magikarp",    "min_level": 35, "max_level": 45, "encounter_rate": 4 },
+    { "species": "Magikarp",    "min_level": 35, "max_level": 45, "encounter_rate": 1 }
+  ],
+  "Old Rod": [
+    { "species": "Magikarp",    "min_level": 5,  "max_level": 10, "encounter_rate": 70 },
+    { "species": "Psyduck",     "min_level": 5,  "max_level": 10, "encounter_rate": 30 }
+  ],
+  "Good Rod": [
+    { "species": "Magikarp",    "min_level": 10, "max_level": 30, "encounter_rate": 60 },
+    { "species": "Psyduck",     "min_level": 10, "max_level": 30, "encounter_rate": 20 },
+    { "species": "Poliwag",     "min_level": 10, "max_level": 30, "encounter_rate": 20 }
+  ],
+  "Super Rod": [
+    { "species": "Poliwhirl",   "min_level": 35, "max_level": 35, "encounter_rate": 40 },
+    { "species": "Golduck",     "min_level": 35, "max_level": 35, "encounter_rate": 40 },
+    { "species": "Gyarados",    "min_level": 35, "max_level": 40, "encounter_rate": 15 },
+    { "species": "Gyarados",    "min_level": 35, "max_level": 40, "encounter_rate": 4 },
+    { "species": "Gyarados",    "min_level": 40, "max_level": 45, "encounter_rate": 1 }
+  ]
+},
+
+
+"Burned Tower": {
+  "Grass": [
+    { "species": "Raticate",     "min_level": 20, "max_level": 22, "encounter_rate": 20 },
+    { "species": "Koffing",      "min_level": 20, "max_level": 22, "encounter_rate": 20 },
+    { "species": "Zubat",        "min_level": 19, "max_level": 21, "encounter_rate": 10 },
+    { "species": "Murkrow",      "min_level": 20, "max_level": 22, "encounter_rate": 10 },
+    { "species": "Spinda",       "min_level": 19, "max_level": 21, "encounter_rate": 10 },
+    { "species": "Honedge",      "min_level": 20, "max_level": 22, "encounter_rate": 10 },
+    { "species": "Raticate-alola","min_level": 20, "max_level": 22, "encounter_rate": 5  },
+    { "species": "Mimikyu",      "min_level": 20, "max_level": 22, "encounter_rate": 5  },
+    { "species": "Raticate-alola","min_level": 19, "max_level": 21, "encounter_rate": 4  },
+    { "species": "Golbat",       "min_level": 22, "max_level": 22, "encounter_rate": 4  },
+    { "species": "Gastly",       "min_level": 22, "max_level": 22, "encounter_rate": 1  },
+    { "species": "Gastly",       "min_level": 22, "max_level": 22, "encounter_rate": 1  }
+  ]
+}
+
+
+}

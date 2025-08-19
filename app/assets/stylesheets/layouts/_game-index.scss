@@ -1,0 +1,20 @@
+p.game-index {
+  display: flex;
+  padding: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  &__card {
+    background-color: var(--bg-color-primary);
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    font-size: .8rem;
+  }
+}

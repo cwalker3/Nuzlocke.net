@@ -1,38 +1,23 @@
 class GamesController < ApplicationController
+  before_action :set_game, only: :show
+  before_action :set_attempt, only: :show
   before_action :set_area, only: :show
 
   def show
-    @game = Game.includes(:areas).find(params[:id])
+    # @game, @attempt, @area
   end
 
   def index
-    @games = Game.includes(:nuzlockes, :attempts).order(:title)
-  end
-
-  def new
-    @game = Game.new
-  end
-
-  def create
-    @game = Game.new(allowed_game_params)
-    if @game.save
-      render :show
-    else
-      render :new, status: :unprocessable_entity
-    end
+    @games = Game.order(:title)
   end
 
   private
 
-  def allowed_game_params
-    params.expect(game: [:title])
+   def set_game
+    @game = Game.find_by(title: params[:title])
   end
 
   def set_area
-    if params[:area_id].present?
-      @area = Area.find(params[:area_id])
-    elsif Game.find(params[:id]).areas.first
-      @area = Game.find(params[:id]).areas.first
-    end
+    @area = Area.find_by(id: params[:area_id])
   end
 end

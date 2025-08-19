@@ -1,0 +1,22 @@
+.game-dashboard {
+  display: flex;
+  flex-direction: column;
+  min-height: 92vh;
+
+  &__nav {
+    position: sticky;
+    top: 8vh;
+    z-index: 1000;
+    background-color: var(--bg-color-tertiary);
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+  }
+}

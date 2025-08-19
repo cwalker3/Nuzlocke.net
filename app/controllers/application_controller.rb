@@ -11,4 +11,10 @@ class ApplicationController < ActionController::Base
   def user_signed_in?
     current_user.present?
   end
+
+  private
+
+  def set_attempt
+    @attempt = Attempt.find_by(id: params[:attempt_id])
+  end
 end

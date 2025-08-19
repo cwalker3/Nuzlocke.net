@@ -1,0 +1,7 @@
+<%= turbo_frame_tag 'game-dashboard-content' do %>
+  <ul class="box">
+    <% @attempt_pokemon.each do |ap| %>
+      <%= turbo_frame_tag "attempt-pokemon-#{ap.id}", src: attempt_pokemon_path(ap) %>
+    <% end %>
+  </ul>
+<% end %>

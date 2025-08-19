@@ -1,0 +1,15 @@
+<ul class="party" id="party" data-controller='drag'>
+  <% party.each_with_index do |party_pokemon, index| %>
+    <li class="party__pokemon"
+          data-party-position=<%= index + 1 %>
+          data-pokemon-id="<%= party_pokemon.id if party_pokemon.present? %>"
+          data-action="dragstart->drag#dragStart dragend->drag#dragEnd drop->drag#drop dragover->drag#allowDrop" >
+      <% if party_pokemon.present? %>
+        <%= link_to attempt_pokemon_path(party_pokemon), data: { turbo_frame: 'attempt-pokemon-modal' } do %>
+          <%= image_tag party_pokemon.pokemon.image_url,
+              class: 'party__pokemon-img' %>
+        <% end %>
+      <% end %>
+    </li>
+  <% end %>
+</div>

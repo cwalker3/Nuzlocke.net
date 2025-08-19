@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  width: 100%;
+  color: var(--font-color-primary);
+  background: var(--background-color);
+  font-family: var(--font-family-base);
+  line-height: 1.5;
+}
+
+a, button, input, textarea, select {
+  &:focus {
+    outline: 2px dashed var(--focus-color);
+    outline-offset: 2px;
+  }
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+a {
+  color: (var(--font-color-primary));
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}

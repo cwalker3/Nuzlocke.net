@@ -1,0 +1,49 @@
+.game-pokemon {
+  background-color: black;
+  padding: 2rem;
+  width: 600px;
+  display: flex;
+  border-radius: 2rem;
+  overflow: auto;
+  height: 800px;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  &__left {
+    width: 40%;
+  }
+  &__right {
+    width: 60%;
+  }
+
+  &__stats {
+    width: 50%;
+  }
+
+  &__stat {
+    text-wrap: nowrap;
+    width: 100%;
+  }
+
+  &__stat-bar-wrapper {
+    width: 200px;
+  }
+
+  &__stat-bar {
+    height: 15px;
+  }
+
+  &__moves {
+    display: flex;
+    text-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  &__level_up_moves, &__tm_moves {
+    display: flex;
+    flex-direction: column;
+  }
+}

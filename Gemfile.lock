@@ -255,6 +255,9 @@ GEM
     omniauth-twitch (1.2.0)
       omniauth-oauth2 (~> 1.6)
     ostruct (0.6.1)
+    paper_trail (16.0.0)
+      activerecord (>= 6.1)
+      request_store (~> 1.4)
     parallel (1.27.0)
     parser (3.3.8.0)
       ast (~> 2.4.1)
@@ -325,6 +328,8 @@ GEM
     regexp_parser (2.10.0)
     reline (0.6.1)
       io-console (~> 0.5)
+    request_store (1.7.0)
+      rack (>= 1.4)
     rexml (3.4.1)
     rubocop (1.75.6)
       json (~> 2.3)
@@ -467,6 +472,7 @@ DEPENDENCIES
   normalize-rails
   omniauth-rails_csrf_protection
   omniauth-twitch
+  paper_trail
   pg (~> 1.1)
   propshaft
   puma (>= 5.0)

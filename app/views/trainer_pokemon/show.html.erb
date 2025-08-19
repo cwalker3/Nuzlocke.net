@@ -1,0 +1,7 @@
+<%= turbo_frame_tag 'trainer-pokemon-modal' do %>
+  <div class="trainer-pokemon">
+    <%= render partial: 'trainer_pokemon/trainer_pokemon', locals: { link_path: game_pokemon_path(@trainer_pokemon.game_pokemon),
+                                                                     trainer_pokemon: @trainer_pokemon,
+                                                                     turbo_frame: 'game-pokemon-modal' } %>
+  </div>
+<% end %>

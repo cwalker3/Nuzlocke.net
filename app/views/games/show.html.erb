@@ -1,23 +1,21 @@
-<%= turbo_frame_tag "content" do %>
-  <div class="game">
-    <nav class="game-nav">
-      <div class="left-side">
-        <%= link_to 'Your Nuzlockes' %>
-      </div>
-        <h2>
-          <%= link_to @game.title, game_path(@game.id) %>
-        </h2>
-      <div class="right-side">
-        <%= link_to "Another Link here" %>
-      </div>
-    </nav>
-    <%= turbo_frame_tag "game-dashboard" do %>
-      <%= render "areas/nav", game: @game %>
-      <% if @area %>
-        <%= turbo_frame_tag 'area', src: area_path(@area, game_id: @game.id), loading: 'lazy' %>
-      <% else %>
-        <%= turbo_frame_tag 'area' %>
-      <% end %>
-    <% end %>
+ <div class='game-dashboard'>
+  <nav class='game-dashboard__nav'>
+  <div>
+
   </div>
-<% end %>
+    <h2>
+      <%= @game.pretty_title %>
+    </h2>
+    <div>
+      <%= link_to 'Pokedex',
+                  pokedex_path(@game),
+                  data: { turbo_frame: 'pokedex-modal' } %>
+
+    </div>
+  </nav>
+  <% if @content == 'box' %>
+    <%= turbo_frame_tag 'game-dashboard-content', src: attempt_pokemon_index_path(attempt_id: @attempt.id) %>
+  <% else %>
+    <%=  turbo_frame_tag 'game-dashboard-content', src: game_areas_path_with_attempt(@game, @attempt), class: 'game-dashboard__content' %>
+  <% end %>
+</div>

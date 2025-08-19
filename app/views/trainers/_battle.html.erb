@@ -1,0 +1,35 @@
+<div class="trainer">
+    <div class="trainer__left">
+      <%= trainer.name %>
+      <%= link_to trainer_path(trainer), data: { turbo_frame: 'trainer-modal' } do %>
+        <%= image_tag trainer.sprite_url %>
+      <% end %>
+    </div>
+    <%= form_with model: kill_event, 
+                  url: trainer_battle_path(trainer), 
+                  data: { turbo_frame: 'trainer-modal' } do |f| %>
+      <ul class='trainer__team'>
+        <% trainer.trainer_pokemon.each do |tp| %>
+          <div class="trainer__slot">
+            <%= render partial: 'trainer_pokemon/trainer_pokemon', locals: { trainer_pokemon: tp,
+                                                                            link_path: trainer_pokemon_path(tp),
+                                                                            turbo_frame: 'trainer-pokemon-modal' } %>
+            <% if attempt %>
+            <div class="trainer__kill-slot" data-controller='drag' 
+                                            data-action='dragover->drag#allowDrop drop->drag#drop'
+                                            data-trainer-pokemon-id=<%= tp.id %>>
+                <% if tp.killer_for_attempt(attempt) %>
+                  <%= image_tag tp.killer_for_attempt(attempt).pokemon.image_url %>
+                <% end %>
+            </div>
+            <%= f.hidden_field :trainer_pokemon_id, value: tp.id %>
+            <%= f.hidden_field :attempt_pokemon_id %>
+          </div>
+        <% end %>
+        <% end %>
+      </ul>
+      <% if attempt %>
+        <%= f.submit 'Mark complete' %>
+      <% end %>
+    <% end %>
+  </div>

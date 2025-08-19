@@ -1,9 +1,14 @@
-<%= turbo_frame_tag "area_nav" do %>
-  <nav class="area-nav">
-    <% game.areas.each do |area| %>
-      <%= link_to area.name, area_path(area, game_id: game.id), data: { turbo_frame: 'area' } %>
-    <% end %>
-    <%= link_to "Add New Area", new_area_path(game_id: game.id), data: { turbo_frame: 'area' } %>
+<%= turbo_frame_tag 'area-nav' do %>
+  <nav class='area-dashboard__nav'>
+    <ul class='area-dashboard__nav-list'>
+      <% game.areas.each do |area| %>
+        <li class='area-dashboard__nav-list-area'>
+          <%= link_to area.name,
+                      area_path(area, attempt_id: @attempt.id),
+                      data: { turbo_frame: 'area' } %>
+        </li>
+      <% end %>
+    </ul>
   </nav>
 <% end %>
 

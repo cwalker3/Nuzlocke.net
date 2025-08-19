@@ -1,5 +1,5 @@
 class Nature < ApplicationRecord
-  def pretty_name
-    name.titleize
+  def to_s
+    name
   end
 end

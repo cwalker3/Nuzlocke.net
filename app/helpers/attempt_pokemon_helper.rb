@@ -1,0 +1,2 @@
+module AttemptPokemonHelper
+end

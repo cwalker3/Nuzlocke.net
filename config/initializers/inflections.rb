@@ -10,6 +10,7 @@ ActiveSupport::Inflector.inflections(:en) do |inflect|
     attempt_pokemon
     trainer_pokemon
     area_pokemon
+    game_pokemon
   ]
 end
 
