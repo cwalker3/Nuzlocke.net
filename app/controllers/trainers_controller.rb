@@ -3,6 +3,10 @@ class TrainersController < ApplicationController
   def show
   end
 
+  def show_basic
+    render partial: 'trainers/trainer_basic', locals: { trainer: @trainer }
+  end
+
   def battle
     @kill_event = KillEvent.new
     @attempt = Attempt.find_by(id: params[:attempt_id])

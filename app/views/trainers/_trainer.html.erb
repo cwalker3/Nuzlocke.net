@@ -1,12 +1,10 @@
 <li class="trainer">
+  <%= link_to image_tag('expand.png'), trainer_basic_path(trainer.id) %>
   <div class="trainer__left">
     <%= trainer.name %>
     <%= link_to trainer_path(trainer), data: { turbo_frame: 'trainer-modal' } do %>
       <%= image_tag trainer.sprite_url %>
     <% end %>
-    <%= link_to 'Battle', 
-                trainer_battle_path(trainer, attempt_id: (@attempt.id if @attempt)), 
-                data: { turbo_frame: 'trainer-battle-modal' } %>
   </div>
   <ul class='trainer__team'>
   <% trainer.trainer_pokemon.each do |trainer_pokemon| %>
@@ -17,7 +15,4 @@
   <% end %>
     
   </ul>
-</li>
-<li class="trainer-details hidden">
-  <%= trainer.name %>
 </li>

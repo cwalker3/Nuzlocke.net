@@ -16,6 +16,7 @@
 @use './abstracts/type-colors' as *;
 @use './base/base' as *;
 @use './components/trainer' as *;
+@use './components/trainer-basic' as *;
 @use './components/area-pokemon' as *;
 @use './components/attempt-pokemon' as *;
 @use './components/game-pokemon' as *;

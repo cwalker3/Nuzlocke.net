@@ -47,7 +47,8 @@ Rails.application.routes.draw do
   resources :participation_events, only: [:create]
   resources :kill_events, only: [:create]
   resources :defeated_trainers, only: [:create]
-  
+
+  get 'trainer/:id/show_basic', to: 'trainers#show_basic', as: 'trainer_basic'
   get 'trainers/:id/battle', to: 'trainers#battle', as: 'trainer_battle'
   get 'games/:game_id/pokedex', to: 'game_pokemon#index', as: 'pokedex'
 

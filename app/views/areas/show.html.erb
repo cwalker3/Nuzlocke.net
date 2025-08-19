@@ -30,7 +30,7 @@
     <div class="area-info__content">
       <% if @content == 'trainers' %>
         <ul class="trainers-list">
-          <%= render partial: 'trainers/trainer', 
+          <%= render partial: 'trainers/trainer_basic', 
                    collection: @trainers, 
                    as: :trainer, 
                    locals: { attempt: @attempt } %>
@@ -42,7 +42,7 @@
         <%= render partial: 'area_pokemon/encounter_methods', 
                             locals: { encounter_methods: @encounter_methods } %>
       <% elsif @trainers.exists? %>
-        <%= render partial: 'trainers/trainer', 
+        <%= render partial: 'trainers/trainer_basic', 
                    collection: @trainers, 
                    as: :trainer, 
                    locals: { attempt: @attempt } %>
