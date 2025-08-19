@@ -1,3 +1,24 @@
 <%= turbo_frame_tag 'trainer' do %>
-  <%= render @trainer %>
+  <li class="trainer">
+    <%= link_to image_tag('expand.png'), trainer_basic_path(@trainer.id, attempt_id: @attempt.id) %>
+    <div class="trainer__left">
+      <% if @defeated %>
+        <%= button_to 'Mark Incomplete', attempt_defeated_trainer_path(@attempt, @trainer), method: :delete  %>
+      <% else %>
+        <%= button_to 'Mark Completed', attempt_defeated_trainers_path(@attempt, trainer_id: @trainer.id) %>
+      <% end %>
+      <%= @trainer.name %>
+      <%= link_to trainer_path(@trainer), data: { turbo_frame: 'trainer-modal' } do %>
+        <%= image_tag @trainer.sprite_url %>
+      <% end %>
+    </div>
+    <ul class='trainer__team'>
+    <% @trainer.trainer_pokemon.each do |trainer_pokemon| %>
+      <%= render partial: 'trainer_pokemon/trainer_pokemon', 
+                locals: { link_path: trainer_pokemon_path(trainer_pokemon),
+                          turbo_frame: 'trainer-pokemon-modal',
+                          trainer_pokemon: trainer_pokemon } %>
+      <% end %>
+    </ul>
+  </li>
 <% end %>

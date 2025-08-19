@@ -1,6 +1,7 @@
 <li class="trainer">
   <%= link_to image_tag('expand.png'), trainer_basic_path(trainer.id) %>
   <div class="trainer__left">
+    <%= button_to 
     <%= trainer.name %>
     <%= link_to trainer_path(trainer), data: { turbo_frame: 'trainer-modal' } do %>
       <%= image_tag trainer.sprite_url %>

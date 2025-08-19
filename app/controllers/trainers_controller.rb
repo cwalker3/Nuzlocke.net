@@ -1,18 +1,19 @@
 class TrainersController < ApplicationController
-  before_action :set_trainer
+  before_action :set_trainer, :set_attempt
+
   def show
+    @defeated = @attempt.defeated_trainers.include?(@trainer)
   end
 
   def show_basic
     render partial: 'trainers/trainer_basic', locals: { trainer: @trainer }
   end
 
-  def battle
-    @kill_event = KillEvent.new
-    @attempt = Attempt.find_by(id: params[:attempt_id])
-  end
-
   private
+
+  def set_attempt
+    @attempt = Attempt.find(params[:attempt_id])
+  end
 
   def set_trainer
     @trainer = Trainer

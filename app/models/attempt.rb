@@ -2,7 +2,8 @@ class Attempt < ApplicationRecord
   belongs_to :nuzlocke, counter_cache: true
   has_one :game, through: :nuzlocke
   has_many :attempt_pokemon, dependent: :destroy
-  has_many :defeated_trainers, dependent: :destroy
+  has_many :defeated_trainer_records, class_name: 'DefeatedTrainer', dependent: :destroy
+  has_many :defeated_trainers, through: :defeated_trainer_records, source: :trainer
   has_many :attempt_items, dependent: :destroy
 
   validate :one_active_attempt, on: :create

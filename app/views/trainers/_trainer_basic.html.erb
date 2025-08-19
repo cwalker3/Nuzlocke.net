@@ -1,7 +1,7 @@
 <%= turbo_frame_tag 'trainer' do %>
   <li class="trainer-basic">
     <p>
-      <%= link_to trainer.name, trainer_path(trainer) %>
+      <%= link_to trainer.name, trainer_path(trainer, attempt_id: @attempt.id) %>
     </p>
     <ul class="trainer-basic__team">
       <% trainer.trainer_pokemon.each do |tp| %>

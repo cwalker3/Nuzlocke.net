@@ -27,6 +27,7 @@ Rails.application.routes.draw do
 
   resources :attempts, only: [:show] do
     resource :party, only: [:show]
+    resources :defeated_trainers, only: [:create, :destroy]
   end
 
   resources :attempt_pokemon, only: [:create, :index, :edit, :update, :show, :destroy] do
