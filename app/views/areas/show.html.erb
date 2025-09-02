@@ -41,7 +41,7 @@
       <% elsif @area.area_pokemon.exists? %>
         <%= render partial: 'area_pokemon/encounter_methods', 
                             locals: { encounter_methods: @encounter_methods } %>
-      <% elsif @trainers.exists? %>
+      <% elsif @trainers.present? %>
         <%= render partial: 'trainers/trainer_basic', 
                    collection: @trainers, 
                    as: :trainer, 

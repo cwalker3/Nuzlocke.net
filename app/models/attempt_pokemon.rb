@@ -15,7 +15,7 @@ class AttemptPokemon < ApplicationRecord
 
   has_paper_trail
 
-  has_many :kill_events_as_killer, class_name:  "KillEvent", foreign_key: "attempt_pokemon_id", dependent: :destroy
+  has_many :kill_events_as_killer, class_name:  "KillEvent", foreign_key: "attempt_pokemon_id", dependent: :destroy 
   has_many :victims, through: :kill_events_as_killer, source: :victim
 
   has_many :participation_events, dependent: :destroy, foreign_key: :attempt_pokemon_id

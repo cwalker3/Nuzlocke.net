@@ -7,10 +7,19 @@
   padding: 1rem;
   border: 1px solid black;
   border-radius: 2rem;
+ 
 
   &__team {
     display: flex;
+    flex-wrap: wrap;
     gap: 2rem;
+    overflow: auto;
+    max-height: 800px;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
 
   &__pokemon {
@@ -22,6 +31,13 @@
     border: 1px solid black;
     border-radius: 2rem;
     padding: 1rem;
+    width: 150px;
+
+    &-move {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
   }
 
   &__slot {

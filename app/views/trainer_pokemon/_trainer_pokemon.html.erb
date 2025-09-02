@@ -21,7 +21,10 @@
   <p>Level: <%= trainer_pokemon.level %></p>
   <% trainer_pokemon.moves.each do |move| %>
     <% if move.present? %>
-      <%= link_to move.name, move_path(move), data: { turbo_frame: 'move-modal' }, class: "type-#{move.type.name}" %>
+      <div class="trainer__pokemon-move">
+        <%= link_to move.name, move_path(move), data: { turbo_frame: 'move-modal' }, class: "type-#{move.type.name}" %>
+        <p> <%= move.pp %> </p>
+      </div>
     <% else %>
       <p> - </p>
     <% end %>

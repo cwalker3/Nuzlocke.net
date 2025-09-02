@@ -5,7 +5,8 @@
         <li class='area-dashboard__nav-list-area'>
           <%= link_to area.name,
                       area_path(area, attempt_id: @attempt.id),
-                      data: { turbo_frame: 'area' } %>
+                      data: { turbo_frame: 'area' },
+                      if  %>
         </li>
       <% end %>
     </ul>

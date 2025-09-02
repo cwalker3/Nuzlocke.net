@@ -5,7 +5,7 @@ class DefeatedTrainersController < ApplicationController
     @defeated = @attempt.defeated_trainer_records.find_or_create_by!(trainer: @trainer)
 
     if @defeated.save
-      render partial: 'trainers/trainer_basic', locals: { trainer: @trainer, attempt: @attempt}
+      redirect_to trainer_path(@trainer.id, attempt_id: @attempt.id)
     end
   end
 
@@ -13,7 +13,7 @@ class DefeatedTrainersController < ApplicationController
     @defeated = @attempt.defeated_trainer_records.find_by(trainer: @trainer)
 
     if @defeated.destroy
-      render partial: 'trainers/trainer_basic', locals: { trainer: @trainer, attempt: @attempt}
+      redirect_to trainer_path(@trainer.id, attempt_id: @attempt.id)
     end
   end
 

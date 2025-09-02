@@ -1,6 +1,5 @@
-<%= turbo_frame_tag 'trainer' do %>
+<%= turbo_frame_tag 'trainer-modal' do %>
   <li class="trainer">
-    <%= link_to image_tag('expand.png'), trainer_basic_path(@trainer.id, attempt_id: @attempt.id) %>
     <div class="trainer__left">
       <% if @defeated %>
         <%= button_to 'Mark Incomplete', attempt_defeated_trainer_path(@attempt, @trainer), method: :delete  %>
@@ -20,5 +19,5 @@
                           trainer_pokemon: trainer_pokemon } %>
       <% end %>
     </ul>
-  </li>
+  </li>      
 <% end %>

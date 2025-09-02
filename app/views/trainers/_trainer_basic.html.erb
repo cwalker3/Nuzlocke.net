@@ -1,15 +1,15 @@
-<%= turbo_frame_tag 'trainer' do %>
-  <li class="trainer-basic">
-    <p>
-      <%= link_to trainer.name, trainer_path(trainer, attempt_id: @attempt.id) %>
-    </p>
-    <ul class="trainer-basic__team">
-      <% trainer.trainer_pokemon.each do |tp| %>
-        <li class="trainer-basic__pokemon">
-          <%= image_tag tp.pokemon.icon_url %>
-        </li>
-      <% end %>
-    </ul>
+<li class="trainer-basic">
+  <%= link_to trainer.name, 
+              trainer_path(trainer, attempt_id: @attempt.id),
+              data: {
+                turbo_frame: 'trainer-modal'
+              } %>
+  <ul class="trainer-basic__team">
+    <% trainer.trainer_pokemon.each do |tp| %>
+      <li class="trainer-basic__pokemon">
+        <%= image_tag tp.pokemon.icon_url %>
+      </li>
+    <% end %>
+  </ul>
 </li>
-<% end %>
 
