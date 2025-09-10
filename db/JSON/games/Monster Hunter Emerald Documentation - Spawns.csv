@@ -1,0 +1,554 @@
+  ,,,,,,,,,,,,,,,,,,,,,,,,
+,,ROUTE 101,,,,,ROUTE 102,,,,,ROUTE 103,,,,,ROUTE 104,,,,,Petalburg Woods,,
+,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level
+,20%,,Aptoveal,2,,20%,,Shakalaka,3,,20%,,Aptoveal,2,,20%,,Bullfango,4,,20%,,Shakalaka,5
+,20%,,Kebabi,2,,20%,,Felyne,3,,20%,,Vespid,3,,20%,,Hatchling,4,,20%,,Vespid,5
+,10%,,Jaggi,2,,10%,,Hornetaur,4,,10%,,Shakalaka,3,,10%,,Thunderbug,4,,10%,,Jagras,5
+,10%,,Felyne,3,,10%,,Thunderbug,4,,10%,,Quoot,4,,10%,,Bullfango,5,,10%,,Kebabi,6
+,10%,,Kebabi,3,,10%,,Quoot,3,,10%,,Vespid,2,,10%,,Konchu,5,,10%,,Kebabi,5
+,10%,,Shakalaka,3,,10%,,Aptoveal,4,,10%,,Forkur,3,,10%,,Jaggi,4,,10%,,Thunderbug,5
+,5%,,Vespid,3,,5%,,Velociprey,3,,5%,,Bullfango,3,,5%,,Bishoo,4,,5%,,Quoot,6
+,5%,,Gypsly,3,,5%,,Thunderbug,3,,5%,,Konchu,4,,5%,,Aptoveal,5,,5%,,Bishoo,6
+,4%,,Gypsly,2,,4%,,Velociprey,4,,4%,,Bullfango,3,,4%,,Kulu-Ya-Ku,4,,4%,,Pukaby,5
+,4%,,Felyne,2,,4%,,Gypsly,4,,4%,,Quoot,3,,4%,,Tetnano,4,,4%,,Anjarunt,5
+,1%,,Jaggi,3,,1%,,Tetnano,4,,1%,,Velociprey,2,,1%,,Tetnano,3,,1%,,Anjarunt,6
+,1%,,Jaggi,3,,1%,,Jagras,3,,1%,,Velociprey,4,,1%,,Bishoo,5,,1%,,Pukaby,6
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,ROUTE 102 (S),,,,,ROUTE 103 (S),,,,,ROUTE 104 (S),,,,,Petalburg (S),,
+,,,,,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level
+,,,,,,60%,,Tetnano,20-30,,60%,,Fryesioth,5-35,,60%,,Fryesioth,10-30,,60%,,Ludroth,20-30
+,,,,,,30%,,Somnaps,10-20,,30%,,Hermitaur,10-30,,30%,,Fryesioth,15-25,,30%,,Ludroth,10-20
+,,,,,,5%,,Tetranadon,30-35,,5%,,Tamami,10-25,,5%,,Fryesioth,15-25,,5%,,Ludroth,30-35
+,,,,,,4%,,Tamami,5-10,,4%,,Plesioth,25-30,,4%,,Plesioth,25-30,,4%,,Somnaps,5-10
+,,,,,,1%,,Royal Ludroth,20-30,,1%,,Plesioth,25-30,,1%,,Plesioth,25-30,,1%,,Somnaps,5-10
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,ROUTE 102 (F),,,,,ROUTE 103 (F),,,,,ROUTE 104 (F),,,,,Petalburg (F),,
+,,,,,,Rarity (Old Rod),Monster,,Level,,Rarity (Old Rod),Monster,,Level,,Rarity (Old Rod),Monster,,Level,,Rarity (Old Rod),Monster,,Level
+,,,,,,70%,,Gajau,5-10,,70%,,Fryesioth,5-10,,70%,,Fryesioth,5-10,,70%,,Gajau,5-10
+,,,,,,30%,,Ludroth,5-10,,30%,,Gajau,5-10,,30%,,Gajau,5-10,,30%,,Ludroth,5-10
+,,,,,,Rarity (Good Rod),Monster,,Level,,Rarity (Good Rod),Monster,,Level,,Rarity (Good Rod),Monster,,Level,,Rarity (Good Rod),Monster,,Level
+,,,,,,70%,,Gajau,10-30,,70%,,Fryesioth,10-30,,70%,,Fryesioth,10-30,,70%,,Gajau,10-30
+,,,,,,20%,,Tamami,10-30,,20%,,Hermitaur,10-30,,20%,,Tamami,10-30,,20%,,Ludroth,10-30
+,,,,,,20%,,Ludroth,10-30,,20%,,Tamami,10-30,,20%,,Somnaps,10-30,,20%,,Hermitaur,10-30
+,,,,,,Rarity (Super Rod),Monster,,Level,,Rarity (Super Rod),Monster,,Level,,Rarity (Super Rod),Monster,,Level,,Rarity (Super Rod),Monster,,Level
+,,,,,,40%,,Ludroth,25-30,,40%,,Plesioth,25-30,,40%,,Plesioth,25-30,,40%,,Hermitaur,25-30
+,,,,,,30%,,Tamami,30-35,,30%,,Daimyo Hermitaur,30-35,,30%,,Plesioth,30-35,,30%,,Daimyo Hermitaur,30-35
+,,,,,,15%,,Ludroth,20-25,,15%,,Tamami,20-25,,15%,,Tamami,20-25,,15%,,Tamami,20-25
+,,,,,,10%,,Ludroth,35-40,,10%,,Plesioth,35-40,,10%,,Plesioth,35-40,,10%,,Daimyo Hermitaur,35-40
+,,,,,,5%,,Ludroth,40-45,,5%,,Plesioth,40-45,,5%,,Plesioth,40-45,,5%,,Daimyo Hermitaur,40-45
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,ROUTE 115,,,,,ROUTE 116,,,,,Rusturf Tunnel,,,,,ROUTE 105 (S),,,,,ROUTE 106 (S),,
+,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level
+,20%,,Gypsly,23,,20%,,Kebabi,6,,20%,,Chatadra,6,,60%,,Ludroth,5-35,,60%,,Hermitaur,5-35
+,20%,,Quoot,23,,20%,,Aptoveal,6,,20%,,Basarios,7,,30%,,Remobat,10-30,,30%,,Fryesioth,10-30
+,10%,,Festivio,25,,10%,,Quoot,6,,10%,,Basarios,6,,5%,,Fryesioth,15-25,,5%,,Fryesioth,15-25
+,10%,,Forkur,24,,10%,,Kebabi,7,,10%,,Basarios,6,,4%,,Royal Ludroth,25-30,,4%,,Plesioth,25-30
+,10%,,Chicatrice,25,,10%,,Shakalaka,7,,10%,,Basarios,7,,1%,,Royal Ludroth,25-30,,1%,,Plesioth,25-30
+,10%,,Hatchling,25,,10%,,Vespid,6,,10%,,Basarios,7,,,,,,,,,,
+,5%,,Tiggy,24,,5%,,Jaggi,7,,5%,,Chatadra,5,,,ROUTE 105 (F),,,,,ROUTE 106 (F),,
+,5%,,Seltas,25,,5%,,Narattle,8,,5%,,Basarios,8,,Rarity (Old Rod),Monster,,Level,,Rarity (Old Rod),Monster,,Level
+,4%,,Barbabian,24,,4%,,Tetnano,7,,4%,,Basarios,5,,70%,,Fryesioth,5-10,,70%,,Fryesioth,5-10
+,4%,,Anoru,24,,4%,,Narattle,8,,4%,,Chatadra,8,,30%,,Fryesioth,5-10,,30%,,Hermitaur,5-10
+,1%,,Barbabian,26,,1%,,Narattle,7,,1%,,Basarios,5,,Rarity (Good Rod),Monster,,Level,,Rarity (Good Rod),Monster,,Level
+,1%,,Anoru,25,,1%,,Narattle,8,,1%,,Basarios,8,,70%,,Fryesioth,10-30,,70%,,Fryesioth,10-30
+,,,,,,,,,,,,,,,,20%,,Fryesioth,10-30,,20%,,Hermitaur,10-30
+,,ROUTE 115 (S),,,,,,,,,,,,,,20%,,Ludroth,10-30,,20%,,Hermitaur,10-30
+,Rarity,Monster,,Level,,,,,,,,,,,,Rarity (Super Rod),Monster,,Level,,Rarity (Super Rod),Monster,,Level
+,60%,,Fryesioth,5-35,,,,,,,,,,,,40%,,Royal Ludroth,25-30,,40%,,Plesioth,25-30
+,30%,,Anoru,10-30,,,,,,,,,,,,30%,,Royal Ludroth,30-35,,30%,,Plesioth,30-35
+,5%,,Gicru,15-25,,,,,,,,,,,,15%,,Plesioth,20-25,,15%,,Plesioth,20-25
+,4%,,Gicru,25-30,,,,,,,,,,,,10%,,Plesioth,35-40,,10%,,Plesioth,35-40
+,1%,,Anoru,25-30,,,,,,,,,,,,5%,,Green Plesioth,40-45,,5%,,Plesioth,40-45
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,ROUTE 115 (F),,,,,,,,,,,,,,,,,,,,,,
+,Rarity (Old Rod),Monster,,Level,,,,,,,,,,,,,,,,,,,,
+,70%,,Fryesioth,5-10,,,,,,,,,,,,,,,,,,,,
+,30%,,Somnaps,5-10,,,,,,,,,,,,,,,,,,,,
+,Rarity (Good Rod),Monster,,Level,,,,,,,,,,,,,,,,,,,,
+,70%,,Fryesioth,10-30,,,,,,,,,,,,,,,,,,,,
+,20%,,Gicru,10-30,,,,,,,,,,,,,,,,,,,,
+,20%,,Ludroth,10-30,,,,,,,,,,,,,,,,,,,,
+,Rarity (Super Rod),Monster,,Level,,,,,,,,,,,,,,,,,,,,
+,40%,,Royal Ludroth,25-30,,,,,,,,,,,,,,,,,,,,
+,30%,,Royal Ludroth,30-35,,,,,,,,,,,,,,,,,,,,
+,15%,,Tamami,20-25,,,,,,,,,,,,,,,,,,,,
+,10%,,Plesioth,35-40,,,,,,,,,,,,,,,,,,,,
+,5%,,Green Plesioth,40-45,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,Dewford Town,,,,,Granite Cave 1#,,,,,Granite Cave 2#,,,,,Granite Cave 3#,,,,,Granite Cave 4#,,
+,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level
+,20%,,Bahala,6,,20%,,Hatchling,7,,20%,,Hornetaur,9,,20%,,Hornetaur,10,,20%,,Hatchling,7
+,20%,,Remobat,6,,20%,,Shakalaka,8,,20%,,Basarios,10,,20%,,Basarios,11,,20%,,Shakalaka,8
+,10%,,Bullfango,6,,10%,,Basarios,7,,10%,,Basarios,9,,10%,,Kwhelp,10,,10%,,Basarios,7
+,10%,,Barbabian,7,,10%,,Remobat,8,,10%,,Kwhelp,11,,10%,,Thunderbug,11,,10%,,Remobat,8
+,10%,,Bahala,7,,10%,,Basarios,9,,10%,,Hornetaur,10,,10%,,Basarios,12,,10%,,Basarios,9
+,10%,,Remobat,6,,10%,,Kwhelp,8,,10%,,Giggi,9,,10%,,Giggi,10,,10%,,Kwhelp,8
+,5%,,Serechic,7,,5%,,Remobat,10,,5%,,Giggi,10,,5%,,Giggi,10,,5%,,Remobat,10
+,5%,,Chatadra,8,,5%,,Remobat,6,,5%,,Giggi,11,,5%,,Giggi,11,,5%,,Remobat,6
+,4%,,Serechic,7,,4%,,Radobirr,7,,4%,,Giggi,10,,4%,,Xu Yo,12,,4%,,Radobirr,7
+,4%,,Chatadra,8,,4%,,Radobirr,8,,4%,,Giggi,10,,4%,,Xu Yo,10,,4%,,Radobirr,8
+,1%,,Nibelsnarf,7,,1%,,Radobirr,6,,1%,,Xu Yo,9,,1%,,Barlagual,12,,1%,,Radobirr,7
+,1%,,Nibelsnarf,8,,1%,,Radobirr,9,,1%,,Xu Yo,11,,1%,,Barlagual,10,,1%,,Radobirr,8
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,Dewford Town (S),,,,,,,,,,,,,,,Granite Cave 3# (R),,,,,,,
+,Rarity,Monster,,Level,,,,,,,,,,,,Rarity,Monster,,Level,,,,,
+,60%,,Hermitaur,5-35,,,,,,,,,,,,60%,,Narattle,10-15,,,,,
+,30%,,Fryesioth,10-30,,,,,,,,,,,,30%,,Narattle,10-20,,,,,
+,5%,,Fryesioth,15-25,,,,,,,,,,,,5%,,Narattle,5-10,,,,,
+,4%,,Plesioth,25-30,,,,,,,,,,,,4%,,Narattle,15-20,,,,,
+,1%,,Plesioth,25-30,,,,,,,,,,,,1%,,Narattle,15-20,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,Dewford Town (F),,,,,,,,,,,,,,,,,,,,,,
+,Rarity (Old Rod),Monster,,Level,,,,,,,,,,,,,,,,,,,,
+,70%,,Fryesioth,5-10,,,,,,,,,,,,,,,,,,,,
+,30%,,Hermitaur,5-10,,,,,,,,,,,,,,,,,,,,
+,Rarity (Good Rod),Monster,,Level,,,,,,,,,,,,,,,,,,,,
+,70%,,Fryesioth,10-30,,,,,,,,,,,,,,,,,,,,
+,20%,,Hermitaur,10-30,,,,,,,,,,,,,,,,,,,,
+,20%,,Hermitaur,10-30,,,,,,,,,,,,,,,,,,,,
+,Rarity (Super Rod),Monster,,Level,,,,,,,,,,,,,,,,,,,,
+,40%,,Plesioth,25-30,,,,,,,,,,,,,,,,,,,,
+,30%,,Plesioth,30-35,,,,,,,,,,,,,,,,,,,,
+,15%,,Plesioth,20-25,,,,,,,,,,,,,,,,,,,,
+,10%,,Plesioth,35-40,,,,,,,,,,,,,,,,,,,,
+,5%,,Plesioth,40-45,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,Route 107 (S),,,,,Route 108 (S),,,,,Route 109 (S),,,,,ROUTE 110,,,,,New Mauville 1#,,
+,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level
+,60%,,Hermitaur,5-35,,60%,,Daimyo Hermitaur,5-35,,60%,,Daimyo Hermitaur,5-35,,20%,,Kulu-Ya-Ku,12,,20%,,Dracophage Bug,24
+,30%,,Fryesioth,10-30,,30%,,Fryesioth,10-30,,30%,,Fryesioth,10-30,,20%,,Tobi Kadachi,12,,20%,,Thunderbug,24
+,5%,,Gicru,15-25,,5%,,Gicru,15-25,,5%,,Gicru,15-25,,10%,,Kebabi,12,,10%,,Dracophage Bug,23
+,4%,,Plesioth,25-30,,4%,,Plesioth,25-30,,4%,,Plesioth,25-30,,10%,,Kebabi,13,,10%,,Thunderbug,23
+,1%,,Plesioth,25-30,,1%,,Plesioth,25-30,,1%,,Plesioth,25-30,,10%,,Jaggi,13,,10%,,Dracophage Bug,25
+,,,,,,,,,,,,,,,,10%,,Rathling,13,,10%,,Thunderbug,25
+,,Route 107 (F),,,,,Route 108 (F),,,,,Route 109 (F),,,,5%,,Rathling,13,,5%,,Dracophage Bug+,26
+,Rarity (Old Rod),Monster,,Level,,Rarity (Old Rod),Monster,,Level,,Rarity (Old Rod),Monster,,Level,,5%,,Ruby Basarios,13,,5%,,Thunderbug+,26
+,70%,,Fryesioth,5-10,,70%,,Fryesioth,5-10,,70%,,Fryesioth,5-10,,4%,,Rachnoid,12,,4%,,Dracophage Bug+,22
+,30%,,Hermitaur,5-10,,30%,,Hermitaur,5-10,,30%,,Hermitaur,5-10,,4%,,Durambling,12,,4%,,Thunderbug+,22
+,Rarity (Good Rod),Monster,,Level,,Rarity (Good Rod),Monster,,Level,,Rarity (Good Rod),Monster,,Level,,1%,,Festivio,12,,1%,,Dracophage Bug+,22
+,70%,,Fryesioth,10-30,,70%,,Fryesioth,10-30,,70%,,Fryesioth,10-30,,1%,,Festivio,13,,1%,,Thunderbug+,22
+,20%,,Gicru,10-30,,20%,,Gicru,10-30,,20%,,Gicru,10-30,,,,,,,,,,
+,20%,,Hermitaur,10-30,,20%,,Hermitaur,10-30,,20%,,Hermitaur,10-30,,,Route 110 (S),,,,,New Mauville 2#,,
+,Rarity (Super Rod),Monster,,Level,,Rarity (Super Rod),Monster,,Level,,Rarity (Super Rod),Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level
+,40%,,Plesioth,25-30,,40%,,Plesioth,25-30,,40%,,Plesioth,25-30,,60%,,Hermitaur,5-35,,20%,,Dracophage Bug,24
+,30%,,Somnacanth,30-35,,30%,,Somnacanth,30-35,,30%,,Somnacanth,30-35,,30%,,Remobat,10-30,,20%,,Thunderbug,24
+,15%,,Green Plesioth,20-25,,15%,,Green Plesioth,20-25,,15%,,Green Plesioth,20-25,,5%,,Remobat,15-25,,10%,,Dracophage Bug,23
+,10%,,Green Plesioth,35-40,,10%,,Green Plesioth,35-40,,10%,,Green Plesioth,35-40,,4%,,Plesioth,25-30,,10%,,Thunderbug,23
+,5%,,Green Plesioth,40-45,,5%,,Green Plesioth,40-45,,5%,,Green Plesioth,40-45,,1%,,Plesioth,25-30,,10%,,Dracophage Bug,25
+,,,,,,,,,,,,,,,,,,,,,10%,,Thunderbug,25
+,,,,,,,Slateport (S),,,,,Slateport (F),,,,,Route 110 (F),,,,5%,,Dracophage Bug+,26
+,,,,,,Rarity,Monster,,Level,,Rarity (Old Rod),Monster,,Level,,Rarity (Old Rod),Monster,,Level,,5%,,Thunderbug+,26
+,,,,,,60%,,Daimyo Hermitaur,5-35,,70%,,Fryesioth,5-10,,70%,,Fryesioth,5-10,,4%,,Dracophage Bug+,22
+,,,,,,30%,,Gajau,10-30,,30%,,Hermitaur,5-10,,30%,,Gajau,5-10,,4%,,Thunderbug+,22
+,,,,,,5%,,Gicru,15-25,,Rarity (Good Rod),Monster,,Level,,Rarity (Good Rod),Monster,,Level,,1%,,Dracophage Bug+,26
+,,,,,,4%,,Plesioth,25-30,,70%,,Gajau,10-30,,70%,,Fryesioth,10-30,,1%,,Thunderbug+,26
+,,,,,,1%,,Plesioth,25-30,,20%,,Gicru,10-30,,20%,,Tamami,10-30,,,,,
+,,,,,,,,,,,20%,,Hermitaur,10-30,,20%,,Fryesioth,10-30,,,,,
+,,,,,,,,,,,Rarity (Super Rod),Monster,,Level,,Rarity (Super Rod),Monster,,Level,,,,,
+,,,,,,,,,,,40%,,Plesioth,25-30,,40%,,Plesioth,25-30,,,,,
+,,,,,,,,,,,30%,,Plesioth,30-35,,30%,,Plesioth,30-35,,,,,
+,,,,,,,,,,,15%,,Green Plesioth,20-25,,15%,,Plesioth,20-25,,,,,
+,,,,,,,,,,,10%,,Green Plesioth,35-40,,10%,,Plesioth,35-40,,,,,
+,,,,,,,,,,,5%,,Green Plesioth,40-45,,5%,,Plesioth,40-45,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,ROUTE 117,,,,,ROUTE 111,,,,,ROUTE 112,,,,,Fiery Path,,,,,ROUTE 113,,
+,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level
+,20%,,Vespoid,13,,20%,,Hermitaur,20,,20%,,Hornetaur,15,,20%,,Uroktor,15,,20%,,Hornetaur,15
+,20%,,Shakalaka,13,,20%,,Bahala,20,,20%,,Barbabian,15,,20%,,Basarios,15,,20%,,Thunderbug,15
+,10%,,Jagras,14,,10%,,Kulu-Ya-Ku,21,,10%,,Thunderbug,14,,10%,,Uroktor,15,,10%,,Ceanataur,15
+,10%,,Velociprey,14,,10%,,Gendrome,21,,10%,,Bahala,15,,10%,,Uroktor,16,,10%,,Kulu-Ya-Ku,14
+,10%,,Kebabi,13,,10%,,Rhenoplos,19,,10%,,Kulu-Ya-Ku,14,,10%,,Rathling,15,,10%,,Bishoo,14
+,10%,,Kebabi,13,,10%,,Chatacabra,21,,10%,,Bishoo,16,,10%,,Rathling,15,,10%,,Qurio,14
+,5%,,Forkur,13,,5%,,Nibelsnarf,19,,5%,,Bahala,16,,5%,,Brachid,16,,5%,,Gypsly,16
+,5%,,Chicatrice,13,,5%,,Barroth,19,,5%,,Forkur,16,,5%,,Lavasmolt,16,,5%,,Zupper,16
+,4%,,Durambling,14,,4%,,Gendrome,20,,4%,,Rathling,16,,4%,,Lavasmolt,14,,4%,,Rathling,16
+,4%,,Forkur,14,,4%,,Miniblos,20,,4%,,Rathling,16,,4%,,Gladius,16,,4%,,Rathling,16
+,1%,,Festivio,13,,1%,,Miniblos,22,,1%,,Festivio,16,,1%,,Brachid,14,,1%,,Festivio,16
+,1%,,Durambling,13,,1%,,Miniblos,22,,1%,,Festivio,16,,1%,,Gladius,14,,1%,,Ceanataur,16
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,Route 117 (S),,,,,ROUTE 111 (R),,,,,Mirage Tower,,,,,,,,,,,,
+,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,,,,,,,,,
+,60%,,Ludroth,20-30,,60%,,Hornetaur,10-15,,20%,,Bahala,21,,,,,,,,,,
+,30%,,Ludroth,10-20,,30%,,Hornetaur,5-10,,20%,,Barroth,21,,,,,,,,,,
+,5%,,Royal Ludroth,30-35,,5%,,Hornetaur,15-20,,10%,,Chatacabra,20,,,,,,,,,,
+,4%,,Royal Ludroth,5-10,,4%,,Hornetaur,15-20,,10%,,Xu Yo,20,,,,,,,,,,
+,1%,,Purple Ludroth,20-30,,1%,,Hornetaur,15-20,,10%,,Xu Yo,20,,,,,,,,,,
+,,,,,,,,,,,10%,,Nibelsnarf,20,,,,,,,,,,
+,,Route 117 (F),,,,,Route 111 (S),,,,5%,,Serechic,22,,,,,,,,,,
+,Rarity (Old Rod),Monster,,Level,,Rarity,Monster,,Level,,5%,,Miniblos,22,,,,,,,,,,
+,70%,,Fryesioth,5-10,,60%,,Ludroth,20-30,,4%,,Serechic,23,,,,,,,,,,
+,30%,,Ludroth,5-10,,30%,,Ludroth,10-20,,4%,,Miniblos,23,,,,,,,,,,
+,Rarity (Good Rod),Monster,,Level,,5%,,Royal Ludroth,30-35,,1%,,Serechic,24,,,,,,,,,,
+,70%,,Fryesioth,10-30,,4%,,Royal Ludroth,5-10,,1%,,Miniblos,24,,,,,,,,,,
+,20%,,Ludroth,10-30,,1%,,Purple Ludroth,20-30,,Special Encounter,,Arkven,20,,,,,,,,,,
+,20%,,Hermitaur,10-30,,,,,,,,,,,,,,,,,,,,
+,Rarity (Super Rod),Monster,,Level,,,Route 111 (F),,,,^Same for Desert Underpass^,,,,,,,,,,,,,
+,40%,,Hermitaur,25-30,,Rarity (Old Rod),Monster,,Level,,,,,,,,,,,,,,,
+,30%,,Daimyo Hermitaur,30-35,,70%,,Fryesioth,5-10,,,,,,,,,,,,,,,
+,15%,,Tamami,20-25,,30%,,Ludroth,5-10,,,,,,,,,,,,,,,
+,10%,,Daimyo Hermitaur,35-40,,Rarity (Good Rod),Monster,,Level,,,,,,,,,,,,,,,
+,5%,,Somnacanth,40-45,,70%,,Fryesioth,10-30,,,,,,,,,,,,,,,
+,,,,,,20%,,Ludroth,10-30,,,,,,,,,,,,,,,
+,,,,,,20%,,Tetnano,10-30,,,,,,,,,,,,,,,
+,,,,,,Rarity (Super Rod),Monster,,Level,,,,,,,,,,,,,,,
+,,,,,,40%,,Tetranadon,25-30,,,,,,,,,,,,,,,
+,,,,,,30%,,Tetranadon,30-35,,,,,,,,,,,,,,,
+,,,,,,15%,,Tetnano,20-25,,,,,,,,,,,,,,,
+,,,,,,10%,,Tetranadon,35-40,,,,,,,,,,,,,,,
+,,,,,,5%,,Tetranadon,40-45,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,ROUTE 114,,,,,Meteor Falls 1-4#,,,,,Jagged Pass,,,,,ROUTE 118,,,,,ROUTE 119,,
+,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level
+,20%,,Qurio,16,,20%,,Ceanataur,16-33,,20%,,Uroktor,21,,20%,,Bishaten,24,,20%,,Kelbi ♀,25
+,20%,,Ceanataur,16,,20%,,Giggi,17-35,,20%,,Basarios,21,,20%,,Qurupeco,24,,20%,,Thunderbug+,25
+,10%,,Serechic,17,,10%,,Remobat,18-30,,10%,,Rachnoid,21,,10%,,Bishaten,26,,10%,,Kelbi ♂,27
+,10%,,Aptoveal,15,,10%,,Radobirr,15-35,,10%,,Uroktor,20,,10%,,Tobi Kadachi,26,,10%,,Guga,25
+,10%,,Jaggi,15,,10%,,Basarios,14-37,,10%,,Rathling,20,,10%,,Great Wroggi,26,,10%,,Pukei Pukei,27
+,10%,,Festivio,16,,10%,,Hatchling,16-37,,10%,,Rathling,20,,10%,,Astil,26,,10%,,Festivio,26
+,5%,,Kulu-Ya-Ku,16,,5%,,Lunapup,18-25,,5%,,Gladius,21,,5%,,Seltas,25,,5%,,Seltas,27
+,5%,,Gamuzo,18,,5%,,Dogaron,14-39,,5%,,Anjarunt,22,,5%,,Anoru,25,,5%,,Conga,24
+,4%,,Tiggy,17,,4%,,Barlagual,19-38,,4%,,Arogu,22,,4%,,Seltas,26,,4%,,Chicatrice,25
+,4%,,Zupper,15,,4%,,Tiggy,20-40,,4%,,Magnitten,22,,4%,,Guga,26,,4%,,Durambling,26
+,1%,,Zupper,17,,1%,,Tiggy,19-38,,1%,,Gladius,22,,1%,,Guga,27,,1%,,Chicatrice,27
+,1%,,Tiggy,15,,1%,,Barlagual,20-40,,1%,,Arogu,22,,1%,,Conga,25,,1%,,Incujho,25
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,ROUTE 114 (R),,,,,Meteor Falls 1-4# (S),,,,,Abandoned Ship (S),,,,,Route 118 (S),,,,,Route 119 (S),,
+,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level
+,60%,,Hornetaur,10-15,,60%,,Remobat,20-30,,60%,,Fryesioth,5-35,,60%,,Ludroth,5-35,,60%,,Ludroth,5-35
+,30%,,Hornetaur,5-10,,30%,,Remobat,10-20,,30%,,Somnaps,5-35,,30%,,Gicru,10-30,,30%,,Tetnano,10-30
+,5%,,Hornetaur,15-20,,5%,,Ceanataur,30-35,,5%,,Somnaps,5-35,,5%,,Gicru,15-25,,5%,,Hermitaur,15-25
+,4%,,Hornetaur,15-20,,4%,,Somnaps,5-10,,4%,,Fryesioth,5-35,,4%,,Royal Ludroth,25-30,,4%,,Tetranadon,25-30
+,1%,,Radobirr,15-20,,1%,,Ceanataur,20-30,,1%,,Fryesioth,30-35,,1%,,Purple Ludroth,25-30,,1%,,Royal Ludroth,25-30
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,Route 114 (S),,,,,Meteor Falls 1-4# (F),,,,,Abandoned Ship (F),,,,,ROUTE 118 (F),,,,,ROUTE 119 (F),,
+,Rarity,Monster,,Level,,Rarity (Old Rod),Monster,,Level,,Rarity (Old Rod),Monster,,Level,,Rarity (Old Rod),Monster,,Level,,Rarity (Old Rod),Monster,,Level
+,60%,,Ludroth,20-30,,70%,,Fryesioth,5-10,,70%,,Fryesioth,5-10,,70%,,Fryesioth,5-10,,70%,,Fryesioth,5-10
+,30%,,Ludroth,10-20,,30%,,Ludroth,5-10,,30%,,Fryesioth,5-10,,30%,,Ludroth,5-10,,30%,,Tetnano,5-10
+,5%,,Royal Ludroth,30-35,,Rarity (Good Rod),Monster,,Level,,Rarity (Good Rod),Monster,,Level,,Rarity (Good Rod),Monster,,Level,,Rarity (Good Rod),Monster,,Level
+,4%,,Ludroth,5-10,,70%,,Fryesioth,10-30,,70%,,Fryesioth,10-30,,70%,,Fryesioth,10-30,,70%,,Fryesioth,10-30
+,1%,,Purple Ludroth,20-30,,20%,,Ludroth,10-30,,20%,,Fryesioth,10-30,,20%,,Gicru,10-30,,20%,,Gajau,10-30
+,,,,,,20%,,Ceanataur,10-30,,20%,,Fryesioth,10-30,,20%,,Ludroth,10-30,,20%,,Ludroth,10-30
+,,Route 114 (F),,,,Rarity (Super Rod),Monster,,Level,,Rarity (Super Rod),Monster,,Level,,Rarity (Super Rod),Monster,,Level,,Rarity (Super Rod),Monster,,Level
+,Rarity (Old Rod),Monster,,Level,,40%,,Ceanataur,25-30,,40%,,Fryesioth,25-30,,40%,,Ludroth,25-30,,40%,,Gobul,25-30
+,70%,,Fryesioth,5-10,,30%,,Quarlite,30-35,,30%,,Fryesioth,30-35,,30%,,Ludroth,30-35,,30%,,Gobul,30-35
+,30%,,Ludroth,5-10,,15%,,Quarlite,20-25,,15%,,Quarlite,30-35,,15%,,Ludroth,20-25,,15%,,Gobul,20-25
+,Rarity (Good Rod),Monster,,Level,,10%,,Quarlite,35-40,,10%,,Quarlite,25-30,,10%,,Ludroth,35-40,,10%,,Gobul,35-40
+,70%,,Fryesioth,10-30,,5%,,Shogun Ceanataur,40-45,,5%,,Quarlite,20-25,,5%,,Ludroth,40-45,,5%,,Gobul,40-45
+,20%,,Ludroth,10-30,,,,,,,,,,,,,,,,,,,,
+,20%,,Hermitaur,10-30,,,,,,,,,,,,,,,,,,,,
+,Rarity (Super Rod),Monster,,Level,,,,,,,,,,,,,,,,,,,,
+,40%,,Hermitaur,25-30,,,,,,,,,,,,,,,,,,,,
+,30%,,Daimyo Hermitaur,30-35,,,,,,,,,,,,,,,,,,,,
+,15%,,Hermitaur,20-25,,,,,,,,,,,,,,,,,,,,
+,10%,,Daimyo Hermitaur,35-40,,,,,,,,,,,,,,,,,,,,
+,5%,,Daimyo Hermitaur,40-45,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,ROUTE 120,,,,,Mount Pyre,,,,,ROUTE 121,,,,,Route 122 (S),,,,,ROUTE 123,,
+,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level
+,20%,,Bishaten,25,,20%,,Qurio,27,,20%,,Kelbi ♂,26,,60%,,Ludroth,5-35,,20%,,Aptonoth,26
+,20%,,Thunderbug+,25,,20%,,Qurio,28,,20%,,Thunderbug+,26,,30%,,Gajau,10-30,,20%,,Thunderbug+,26
+,10%,,Bishaten,27,,10%,,Dogaron,26,,10%,,Kelbi ♀,26,,5%,,Quarlite,15-25,,10%,,Nerscylla,26
+,10%,,Tobi Kadachi,25,,10%,,Dogaron,25,,10%,,Qurupeco,28,,4%,,Royal Ludroth,25-30,,10%,,Qurupeco,28
+,10%,,Foroclore,25,,10%,,Dracophage Bug+,29,,10%,,Astil,28,,1%,,Purple Ludroth,25-30,,10%,,Astil,28
+,10%,,Festivio,26,,10%,,Gossling,24,,10%,,Foroclore,26,,,,,,,10%,,Festivio,26
+,5%,,Seltas,27,,5%,,Guga,23,,5%,,Rachnoid,28,,,ROUTE 122 (F),,,,5%,,Seltas,28
+,5%,,Conga,24,,5%,,Radobirr,22,,5%,,Conga,28,,Rarity (Old Rod),Monster,,Level,,5%,,Rachnoid,28
+,4%,,Chicatrice,25,,4%,,Magnitten,29,,4%,,Chicatrice,26,,70%,,Fryesioth,5-10,,4%,,Incujho,26
+,4%,,Durambling,27,,4%,,Gore Magala,24,,4%,,Durambling,27,,30%,,Gajau,5-10,,4%,,Rajankey,27
+,1%,,Conga,25,,1%,,Magnitten,29,,1%,,Conga,28,,Rarity (Good Rod),Monster,,Level,,1%,,Incujho,28
+,1%,,Incujho,25,,1%,,Gore Magala,24,,1%,,Incujho,25,,70%,,Tamami,10-30,,1%,,Rajankey,25
+,,,,,,,,,,,,,,,,20%,,Gicru,10-30,,,,,
+,,Route 120 (S),,,,,Mount Pyre Outside,,,,,Route 121 (S),,,,20%,,Ludroth,10-30,,,Route 123 (S),,
+,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity (Super Rod),Monster,,Level,,Rarity,Monster,,Level
+,60%,,Ludroth,20-30,,20%,,Bullfango,"27, 28",,60%,,Ludroth,5-35,,40%,,Ludroth,25-30,,60%,,Ludroth,5-35
+,30%,,Tetnano,10-20,,20%,,Anoru,"27, 29",,30%,,Gajau,10-30,,30%,,Somnacanth,30-35,,30%,,Tetnano,10-30
+,5%,,Hermitaur,30-35,,10%,,Bullfango,"27, 28",,5%,,Gicru,15-25,,15%,,Quarlite,20-25,,5%,,Hermitaur,15-25
+,4%,,Tamami,5-10,,10%,,Lunapup,"26, 29",,4%,,Royal Ludroth,25-30,,10%,,Quarlite,35-40,,4%,,Tetranadon,25-30
+,1%,,Royal Ludroth,20-30,,10%,,Magnitten,"29, 30",,1%,,Purple Ludroth,25-30,,5%,,Somnacanth,40-45,,1%,,Royal Ludroth,25-30
+,,,,,,10%,,Zupper,"25, 27",,,,,,,,,,,,,,,
+,,ROUTE 120 (F),,,,5%,,Gamuzo,"28, 29",,,ROUTE 121 (F),,,,,,,,,,ROUTE 123 (F),,
+,Rarity (Old Rod),Monster,,Level,,5%,,Gossling,"24, 25",,Rarity (Old Rod),Monster,,Level,,,,,,,Rarity (Old Rod),Monster,,Level
+,70%,,Fryesioth,5-10,,4%,,Gamuzo,"26, 27",,70%,,Fryesioth,5-10,,,,,,,70%,,Fryesioth,5-10
+,30%,,Tetnano,5-10,,4%,,Rajankey,"27, 30",,30%,,Gajau,5-10,,,,,,,30%,,Tetnano,5-10
+,Rarity (Good Rod),Monster,,Level,,1%,,Rajankey,"26, 28",,Rarity (Good Rod),Monster,,Level,,,,,,,Rarity (Good Rod),Monster,,Level
+,70%,,Fryesioth,10-30,,1%,,Gore Magala,"28, 28",,70%,,Fryesioth,10-30,,,,,,,70%,,Fryesioth,10-30
+,20%,,Gajau,10-30,,,,,,,20%,,Gicru,10-30,,,,,,,20%,,Gajau,10-30
+,20%,,Ludroth,10-30,,,,,,,20%,,Ludroth,10-30,,,,,,,20%,,Ludroth,10-30
+,Rarity (Super Rod),Monster,,Level,,,,,,,Rarity (Super Rod),Monster,,Level,,,,,,,Rarity (Super Rod),Monster,,Level
+,40%,,Plesioth,25-30,,,,,,,40%,,Ludroth,25-30,,,,,,,40%,,Quarlite,25-30
+,30%,,Plesioth,30-35,,,,,,,30%,,Somnacanth,30-35,,,,,,,30%,,Plesioth,30-35
+,15%,,Plesioth,20-25,,,,,,,15%,,Ludroth,20-25,,,,,,,15%,,Plesioth,20-25
+,10%,,Gobul,35-40,,,,,,,10%,,Tamami,35-40,,,,,,,10%,,Gobul,35-40
+,5%,,Gobul,40-45,,,,,,,5%,,Somnacanth,40-45,,,,,,,5%,,Gobul,40-45
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,Safari Zone: Center,,,,,Safari Zone: Southwest,,,,,Safari Zone: Northwest,,,,,Safari Zone: Southeast,,,,,Safari Zone: Northeast,,
+,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level
+,20%,,Astil,25,,20%,,Durambling,25,,20%,,Durambling,27,,20%,,Zupper,33,,20%,,Zupper,33
+,20%,,Qurupeco,27,,20%,,Bishaten,27,,20%,,Guga,27,,20%,,Foroclore,34,,20%,,Foroclore,34
+,10%,,Gladius,25,,10%,,Guga,25,,10%,,Conga,29,,10%,,Seregios,35,,10%,,Seregios,35
+,10%,,Barroth,27,,10%,,Seltas,27,,10%,,Seltas,29,,10%,,Khezu,36,,10%,,Khezu,36
+,10%,,Bulldrome,25,,10%,,Pukei Pukei,25,,10%,,Bishaten,27,,10%,,Barbaceros,34,,10%,,Barbaceros,34
+,10%,,Gypceros,26,,10%,,Conga,27,,10%,,Pukei Pukei,29,,10%,,Abiogladius,33,,10%,,Abiogladius,33
+,5%,,Barroth,25,,5%,,Conga,25,,5%,,Conga,31,,5%,,Gamuzo,35,,5%,,Gamuzo,35
+,5%,,Crimson Qurupeco,27,,5%,,Crimson Pukei Pukei,27,,5%,,Crimson Pukei Pukei,29,,5%,,Brachid,34,,5%,,Brachid,34
+,4%,,Ponyn,25,,4%,,Incujho,25,,4%,,Incujho,29,,4%,,Rajankey,36,,4%,,Ponyn,36
+,4%,,Rajankey,27,,4%,,Rajankey,27,,4%,,Rajankey,27,,4%,,Incujho,37,,4%,,Rajankey,37
+,1%,,Ponyn,27,,1%,,Incujho,27,,1%,,Incujho,31,,1%,,Rajankey,39,,1%,,Ponyn,39
+,1%,,Ponyn,29,,1%,,Incujho,29,,1%,,Incujho,29,,1%,,Rajankey,40,,1%,,Ponyn,40
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,Safari Zone: North,,,,,Safari Zone: Southwest (S),,,,,Safari Zone: Northwest (S),,,,,Safari Zone: Southeast (S),,,,,Safari Zone: Northeast (R),,
+,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level
+,20%,,Desert Seltas,27,,60%,,Gajau,20-30,,60%,,Gajau,20-30,,60%,,Tamami,25-30,,60%,,Hornetaur,25-30
+,20%,,Miniblos,27,,30%,,Quarlite,20-30,,30%,,Quarlite,20-30,,30%,,Lavasmolt,25-30,,30%,,Narattle,20-25
+,10%,,Balahara,29,,5%,,Gajau,30-35,,5%,,Gajau,30-35,,5%,,Tamami,25-30,,5%,,Najaralla,30-35
+,10%,,Barroth,29,,4%,,Gajau,30-35,,4%,,Gajau,30-35,,4%,,Lavasioth,30-35,,4%,,Najaralla,30-35
+,10%,,Tiggy,27,,1%,,Gobul,30-35,,1%,,Gobul,25-40,,1%,,Mizutsune,35-40,,1%,,Radobirr,35-40
+,10%,,Nibelsnarf,29,,,,,,,,,,,,,,,,,,,,
+,5%,,Barroth,31,,,Safari Zone: Southwest (F),,,,,Safari Zone: Northwest (F),,,,,Safari Zone: Southeast (F),,,,,,,
+,5%,,Nibelsnarf,29,,Rarity (Old Rod),Monster,,Level,,Rarity (Old Rod),Monster,,Level,,Rarity (Old Rod),Monster,,Level,,,,,
+,4%,,Ponyn,29,,70%,,Fryesioth,5-10,,70%,,Fryesioth,5-10,,70%,,Tamami,25-30,,,,,
+,4%,,Rajankey,27,,30%,,Tetnano,5-10,,30%,,Tetnano,5-10,,30%,,Lavasmolt,25-30,,,,,
+,1%,,Ponyn,31,,Rarity (Good Rod),Monster,,Level,,Rarity (Good Rod),Monster,,Level,,Rarity (Good Rod),Monster,,Level,,,,,
+,1%,,Ponyn,29,,70%,,Fryesioth,10-30,,70%,,Fryesioth,10-30,,70%,,Tamami,25-30,,,,,
+,,,,,,20%,,Gajau,10-25,,20%,,Gajau,10-25,,20%,,Lavasmolt,25-30,,,,,
+,,Safari Zone: North (R),,,,20%,,Ludroth,10-30,,20%,,Ludroth,10-30,,20%,,Lavasioth,30-35,,,,,
+,Rarity,Monster,,Level,,Rarity (Super Rod),Monster,,Level,,Rarity (Super Rod),Monster,,Level,,Rarity (Super Rod),Monster,,Level,,,,,
+,60%,,Hornetaur,10-15,,40%,,Quarlite,25-30,,40%,,Quarlite,25-30,,40%,,Tamami,25-30,,,,,
+,30%,,Narattle,5-10,,30%,,Plesioth,30-35,,30%,,Plesioth,30-35,,30%,,Lavasmolt,25-30,,,,,
+,5%,,Narattle,15-20,,15%,,Plesioth,30-35,,15%,,Plesioth,30-35,,15%,,Lavasioth,30-35,,,,,
+,4%,,Narattle,20-25,,10%,,Gobul,35-40,,10%,,Gobul,35-40,,10%,,Lavasioth,30-35,,,,,
+,1%,,Radobirr,25-30,,5%,,Gobul,25-30,,5%,,Gobul,25-30,,5%,,Red Lavasioth,35-40,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,Lilycove City (S),,,,,Magma Hideout #1,,,,,Magma Hideout #3,,,,,Magma Hideout #5,,,,,Magma Hideout #7,,
+,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level
+,60%,,Hermitaur,5-35,,20%,,Uroktor,27,,20%,,Uroktor,27,,20%,,Dodogama,27,,20%,,Uroktor,27
+,30%,,Fryesioth,10-30,,20%,,Basarios,28,,20%,,Lavasmolt,28,,20%,,Dodogama,28,,20%,,Basarios,28
+,5%,,Fryesioth,15-25,,10%,,Arogu,28,,10%,,Rachnoid,28,,10%,,Dodogama,28,,10%,,Rachnoid,28
+,4%,,Plesioth,25-30,,10%,,Brachid,30,,10%,,Uroktor,30,,10%,,Dodogama,30,,10%,,Uroktor,30
+,1%,,Plesioth,25-30,,10%,,Ceanataur,29,,10%,,Ceanataur,29,,10%,,Dodogama,29,,10%,,Arogu,29
+,,,,,,10%,,Anjarunt,30,,10%,,Brachid,30,,10%,,Dodogama,30,,10%,,Anjarunt,30
+,,Lilycove City (F),,,,5%,,Gladius,30,,5%,,Gladius,30,,5%,,Dodogama,30,,5%,,Gladius,30
+,Rarity (Old Rod),Monster,,Level,,5%,,Rathalos,30,,5%,,Rathalos,30,,5%,,Dodogama,30,,5%,,Brachid,30
+,70%,,Fryesioth,5-10,,4%,,Tiggy,30,,4%,,Tiggy,30,,4%,,Dodogama,30,,4%,,Tiggy,30
+,30%,,Hermitaur,5-10,,4%,,Magnitten,31,,4%,,Magnitten,31,,4%,,Dodogama,31,,4%,,Magnitten,31
+,Rarity (Good Rod),Monster,,Level,,1%,,Tiggy,32,,1%,,Tiggy,32,,1%,,Dodogama,32,,1%,,Tiggy,32
+,70%,,Fryesioth,10-30,,1%,,Magnitten,33,,1%,,Magnitten,33,,1%,,Dodogama,33,,1%,,Magnitten,33
+,20%,,Somnaps,10-30,,,,,,,,,,,,,,,,,,,,
+,20%,,Ludroth,10-30,,,Magma Hideout #2,,,,,Magma Hideout #4,,,,,Magma Hideout #6,,,,,Magma Hideout #8,,
+,Rarity (Super Rod),Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level
+,40%,,Ludroth,25-30,,20%,,Uroktor,27,,20%,,Uroktor,27,,20%,,Uroktor,27,,20%,,Uroktor,27
+,30%,,Somnacanth,30-35,,20%,,Basarios,28,,20%,,Lavasmolt,28,,20%,,Lavasmolt,28,,20%,,Arogu,28
+,15%,,Ludroth,20-25,,10%,,Arogu,28,,10%,,Rachnoid,28,,10%,,Rachnoid,28,,10%,,Rachnoid,28
+,10%,,Royal Ludroth,35-40,,10%,,Uroktor,30,,10%,,Uroktor,30,,10%,,Uroktor,30,,10%,,Uroktor,30
+,5%,,Somnacanth,40-45,,10%,,Ceanataur,29,,10%,,Brachid,29,,10%,,Ceanataur,29,,10%,,Ceanataur,29
+,,,,,,10%,,Brachid,30,,10%,,Anjarunt,30,,10%,,Anjarunt,30,,10%,,Anjarunt,30
+,,,,,,5%,,Gladius,30,,5%,,Gladius,30,,5%,,Gladius,30,,5%,,Gladius,30
+,,,,,,5%,,Rathalos,30,,5%,,Rathalos,30,,5%,,Rathalos,30,,5%,,Brachid,30
+,,,,,,4%,,Tiggy,30,,4%,,Tiggy,30,,4%,,Tiggy,30,,4%,,Tiggy,30
+,,,,,,4%,,Magnitten,31,,4%,,Gravios,31,,4%,,Gravios,31,,4%,,Magnitten,31
+,,,,,,1%,,Tiggy,32,,1%,,Gravios,32,,1%,,Gravios,32,,1%,,Tiggy,32
+,,,,,,1%,,Magnitten,33,,1%,,Gravios,33,,1%,,Gravios,33,,1%,,Magnitten,33
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,Route 124 (S),,,,,Mossdeep City (S),,,,,Route 125 (S),,,,,Shoal Cave #1-4,,,,,Shoal Cave #5,,
+,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level
+,60%,,Ludroth,5-35,,60%,,Ludroth,5-35,,60%,,Ludroth,5-35,,20%,,Great Baggi,26,,20%,,Great Baggi,26
+,30%,,Fryesioth,10-30,,30%,,Anoru,10-30,,30%,,Anoru,10-30,,20%,,Anoru,26,,20%,,Anoru,26
+,5%,,Somnaps,15-25,,5%,,Anoru,15-25,,5%,,Anoru,15-25,,10%,,Dracophage Bug+,28,,10%,,Dracophage Bug+,28
+,4%,,Plesioth,25-30,,4%,,Plesioth,25-30,,4%,,Plesioth,25-30,,10%,,Lunapup,28,,10%,,Lunapup,28
+,1%,,Royal Ludroth,25-30,,1%,,Royal Ludroth,25-30,,1%,,Royal Ludroth,25-30,,10%,,Gossling,30,,10%,,Gossling,30
+,,,,,,,,,,,,,,,,10%,,Jade Barroth,30,,10%,,Jade Barroth,30
+,,Route 124 (F),,,,,Mossdeep City (F),,,,,Route 125 (F),,,,5%,,Khezu,32,,5%,,Khezu,26
+,Rarity (Old Rod),Monster,,Level,,Rarity (Old Rod),Monster,,Level,,Rarity (Old Rod),Monster,,Level,,5%,,Gigginox,32,,5%,,Gigginox,32
+,70%,,Fryesioth,5-10,,70%,,Fryesioth,5-10,,70%,,Fryesioth,5-10,,4%,,Khezu,32,,4%,,Khezu,30
+,30%,,Hermitaur,5-10,,30%,,Hermitaur,5-10,,30%,,Hermitaur,5-10,,4%,,Gamuzo,32,,4%,,Gamuzo,28
+,Rarity (Good Rod),Monster,,Level,,Rarity (Good Rod),Monster,,Level,,Rarity (Good Rod),Monster,,Level,,1%,,Lunapup,32,,1%,,Lunapup,32
+,70%,,Fryesioth,10-30,,70%,,Fryesioth,10-30,,70%,,Fryesioth,10-30,,1%,,Gamuzo,32,,1%,,Gamuzo,30
+,20%,,Somnaps,10-30,,20%,,Somnaps,10-30,,20%,,Somnaps,10-30,,,,,,,,,,
+,20%,,Ludroth,10-30,,20%,,Ludroth,10-30,,20%,,Ludroth,10-30,,,Shoal Cave #1-4 (S),,,,,,,
+,Rarity (Super Rod),Monster,,Level,,Rarity (Super Rod),Monster,,Level,,Rarity (Super Rod),Monster,,Level,,Rarity,Monster,,Level,,,,,
+,40%,,Plesioth,30-35,,40%,,Plesioth,30-35,,40%,,Plesioth,30-35,,60%,,Anoru,5-35,,,,,
+,30%,,Somnacanth,30-35,,30%,,Somnacanth,30-35,,30%,,Somnacanth,30-35,,30%,,Anoru,5-35,,,,,
+,15%,,Plesioth,20-25,,15%,,Plesioth,20-25,,15%,,Plesioth,20-25,,5%,,Anoru,25-30,,,,,
+,10%,,Royal Ludroth,35-40,,10%,,Royal Ludroth,35-40,,10%,,Royal Ludroth,35-40,,4%,,Anoru,25-30,,,,,
+,5%,,Somnacanth,40-45,,5%,,Somnacanth,40-45,,5%,,Aurora Somnacanth,40-45,,1%,,Aurora Somnacanth,25-35,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,Route 124 (U),,,,,,,,,,,,,,,Shoal Cave #1-4 (F),,,,,,,
+,Rarity,Monster,,Level,,,,,,,,,,,,Rarity (Old Rod),Monster,,Level,,,,,
+,60%,,Gobul,20-30,,,,,,,,,,,,70%,,Fryesioth,5-10,,,,,
+,30%,,Gobul,20-30,,,,,,,,,,,,30%,,Somnaps,5-10,,,,,
+,5%,,Gobul,30-35,,,,,,,,,,,,Rarity (Good Rod),Monster,,Level,,,,,
+,4%,,Lagiacrus,30-35,,,,,,,,,,,,70%,,Fryesioth,10-30,,,,,
+,1%,,Lagiacrus,30-35,,,,,,,,,,,,20%,,Somnaps,10-30,,,,,
+,,,,,,,,,,,,,,,,20%,,Somnaps,10-30,,,,,
+,,,,,,,,,,,,,,,,Rarity (Super Rod),Monster,,Level,,,,,
+,,,,,,,,,,,,,,,,40%,,Somnaps,25-30,,,,,
+,,,,,,,,,,,,,,,,30%,,Somnacanth,30-35,,,,,
+,,,,,,,,,,,,,,,,15%,,Somnaps,20-25,,,,,
+,,,,,,,,,,,,,,,,10%,,Somnacanth,35-40,,,,,
+,,,,,,,,,,,,,,,,5%,,Aurora Somnacanth,40-45,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,Route 126 (S),,,,,Route 127 (S),,,,,Route 128 (S),,,,,Seafloor Cavern (S),,,,,Seafloor Cavern #1,,
+,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level
+,60%,,Ludroth,5-35,,60%,,Ludroth,5-35,,60%,,Ludroth,5-35,,60%,,Ludroth,5-35,,20%,,Xu Yo,30
+,30%,,Fryesioth,10-30,,30%,,Fryesioth,10-30,,30%,,Fryesioth,10-30,,30%,,Ludroth,5-35,,20%,,Basarios,31
+,5%,,Gicru,15-25,,5%,,Gicru,15-25,,5%,,Gicru,15-25,,5%,,Gicru,30-35,,10%,,Quarlite,32
+,4%,,Plesioth,25-30,,4%,,Plesioth,25-30,,4%,,Plesioth,25-30,,4%,,Royal Ludroth,30-35,,10%,,Quarlite,33
+,1%,,Royal Ludroth,25-30,,1%,,Royal Ludroth,25-30,,1%,,Royal Ludroth,25-30,,1%,,Royal Ludroth,30-35,,10%,,Xu Yo,28
+,,,,,,,,,,,,,,,,,,,,,10%,,Dogaron,29
+,,Route 126 (F),,,,,Route 127 (F),,,,,Route 128 (F),,,,,Seafloor Cavern (F),,,,5%,,Barlagual,34
+,Rarity (Old Rod),Monster,,Level,,Rarity (Old Rod),Monster,,Level,,Rarity (Old Rod),Monster,,Level,,Rarity (Old Rod),Monster,,Level,,5%,,Odogaron,35
+,70%,,Fryesioth,5-10,,70%,,Fryesioth,5-10,,70%,,Fryesioth,5-10,,70%,,Hermitaur,5-10,,4%,,Radobaan,34
+,30%,,Hermitaur,5-10,,30%,,Hermitaur,5-10,,30%,,Hermitaur,5-10,,30%,,Hermitaur,5-10,,4%,,Radobaan,35
+,Rarity (Good Rod),Monster,,Level,,Rarity (Good Rod),Monster,,Level,,Rarity (Good Rod),Monster,,Level,,Rarity (Good Rod),Monster,,Level,,1%,,Barlagual,33
+,70%,,Fryesioth,10-30,,70%,,Fryesioth,10-30,,70%,,Fryesioth,10-30,,70%,,Ludroth,10-30,,1%,,Quarcephus,36
+,20%,,Gicru,10-30,,20%,,Gicru,10-30,,20%,,Gicru,10-30,,20%,,Gicru,10-30,,,,,
+,20%,,Ludroth,10-30,,20%,,Ludroth,10-30,,20%,,Ludroth,10-30,,20%,,Ludroth,10-30,,,Seafloor Cavern #2,,
+,Rarity (Super Rod),Monster,,Level,,Rarity (Super Rod),Monster,,Level,,Rarity (Super Rod),Monster,,Level,,Rarity (Super Rod),Monster,,Level,,Rarity,Monster,,Level
+,40%,,Plesioth,30-35,,40%,,Plesioth,30-35,,40%,,Plesioth,30-35,,40%,,Daimyo Hermitaur,25-30,,20%,,Xu Yo,30
+,30%,,Somnacanth,30-35,,30%,,Royal Ludroth,30-35,,30%,,Royal Ludroth,30-35,,30%,,Royal Ludroth,30-35,,20%,,Basarios,31
+,15%,,Plesioth,20-25,,15%,,Plesioth,25-30,,15%,,Plesioth,30-35,,15%,,Daimyo Hermitaur,20-25,,10%,,Quarlite,32
+,10%,,Royal Ludroth,35-40,,10%,,Royal Ludroth,35-40,,10%,,Royal Ludroth,35-40,,10%,,Royal Ludroth,35-40,,10%,,Quarlite,33
+,5%,,Somnacanth,40-45,,5%,,Lagiacrus,40-45,,5%,,Lagiacrus,40-45,,5%,,Lagiacrus,40-45,,10%,,Xu Yo,28
+,,,,,,,,,,,,,,,,,,,,,10%,,Dogaron,29
+,,Route 126 (U),,,,,,,,,,,,,,,,,,,5%,,Barlagual,34
+,Rarity,Monster,,Level,,,,,,,,,,,,,,,,,5%,,Odogaron,35
+,60%,,Hermitaur,20-30,,,,,,,,,,,,,,,,,4%,,Radobaan,34
+,30%,,Gobul,20-30,,,,,,,,,,,,,,,,,4%,,Radobaan,35
+,5%,,Gobul,30-35,,,,,,,,,,,,,,,,,1%,,Barlagual,33
+,4%,,Lagiacrus,30-35,,,,,,,,,,,,,,,,,1%,,Quarcephus,36
+,1%,,Abyssal Lagiacrus,30-35,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,Seafloor Cavern #3,,,,,Seafloor Cavern #5,,,,,Seafloor Cavern #6,,,,,Seafloor Cavern #7,,,,,Cave of Origin,,
+,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level
+,20%,,Xu Yo,30,,20%,,Xu Yo,30,,20%,,Xu Yo,30,,20%,,Xu Yo,30,,20%,,Remobra,30
+,20%,,Basarios,31,,20%,,Xu Yo,31,,20%,,Xu Yo,31,,20%,,Xu Yo,31,,20%,,Remobra,31
+,10%,,Quarlite,32,,10%,,Quarlite,32,,10%,,Quarlite,32,,10%,,Quarlite,32,,10%,,Remobra,32
+,10%,,Quarlite,33,,10%,,Quarlite,33,,10%,,Quarlite,33,,10%,,Quarlite,33,,10%,,Remobra,33
+,10%,,Xu Yo,28,,10%,,Xu Yo,28,,10%,,Xu Yo,28,,10%,,Xu Yo,28,,10%,,Remobra,28
+,10%,,Dogaron,29,,10%,,Dogaron,29,,10%,,Dogaron,29,,10%,,Dogaron,29,,10%,,Remobra,29
+,5%,,Barlagual,34,,5%,,Gigginox,34,,5%,,Gigginox,34,,5%,,Gigginox,34,,5%,,Remobra,34
+,5%,,Odogaron,35,,5%,,Odogaron,35,,5%,,Odogaron,35,,5%,,Odogaron,35,,5%,,Remobra,35
+,4%,,Radobaan,34,,4%,,Vespoid Queen,34,,4%,,Vespoid Queen,34,,4%,,Vespoid Queen,34,,4%,,Remobra,34
+,4%,,Radobaan,35,,4%,,Barlagual,35,,4%,,Barlagual,35,,4%,,Barlagual,35,,4%,,Remobra,35
+,1%,,Barlagual,33,,1%,,Barlagual,33,,1%,,Barlagual,33,,1%,,Barlagual,33,,1%,,Remobra,33
+,1%,,Quarcephus,36,,1%,,Quarcephus,36,,1%,,Quarcephus,36,,1%,,Quarcephus,36,,1%,,Remobra,36
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,Seafloor Cavern #5 (S),,,,,Seafloor Cavern #6 (S),,,,,Seafloor Cavern #8,,,,,Sootopolis City (S),,
+,,Seafloor Cavern #4,,,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level
+,Rarity,Monster,,Level,,60%,,Ludroth,5-35,,60%,,Ludroth,5-35,,20%,,Xu Yo,30,,60%,,Fryesioth,5-35
+,20%,,Xu Yo,30,,30%,,Ludroth,5-35,,30%,,Ludroth,5-35,,20%,,Xu Yo,31,,30%,,Anoru,10-30
+,20%,,Xu Yo,31,,5%,,Gicru,30-35,,5%,,Gicru,30-35,,10%,,Quarlite,32,,5%,,Anoru,15-25
+,10%,,Quarlite,32,,4%,,Royal Ludroth,30-35,,4%,,Royal Ludroth,30-35,,10%,,Quarlite,33,,4%,,Plesioth,25-30
+,10%,,Quarlite,33,,1%,,Royal Ludroth,30-35,,1%,,Royal Ludroth,30-35,,10%,,Xu Yo,28,,1%,,Green Plesioth,25-30
+,10%,,Xu Yo,28,,,,,,,,,,,,10%,,Dogaron,29,,,,,
+,10%,,Dogaron,29,,,Seafloor Cavern #5 (F),,,,,Seafloor Cavern #5 (F),,,,5%,,Gigginox,34,,,Sootopolis City (F),,
+,5%,,Barlagual,34,,Rarity (Old Rod),Monster,,Level,,Rarity (Old Rod),Monster,,Level,,5%,,Odogaron,35,,Rarity (Old Rod),Monster,,Level
+,5%,,Odogaron,35,,70%,,Hermitaur,5-10,,70%,,Hermitaur,5-10,,4%,,Vespoid Queen,34,,70%,,Fryesioth,5-10
+,4%,,Radobaan,34,,30%,,Hermitaur,5-10,,30%,,Hermitaur,5-10,,4%,,Barlagual,35,,30%,,Hermitaur,5-10
+,4%,,Radobaan,35,,Rarity (Good Rod),Monster,,Level,,Rarity (Good Rod),Monster,,Level,,1%,,Barlagual,33,,Rarity (Good Rod),Monster,,Level
+,1%,,Barlagual,33,,70%,,Ludroth,10-30,,70%,,Ludroth,10-30,,1%,,Quarcephus,36,,70%,,Fryesioth,10-30
+,1%,,Quarcephus,36,,20%,,Gicru,10-30,,20%,,Gicru,10-30,,,,,,,20%,,Somnaps,10-30
+,,,,,,20%,,Ludroth,10-30,,20%,,Ludroth,10-30,,,,,,,20%,,Somnaps,10-30
+,,,,,,Rarity (Super Rod),Monster,,Level,,Rarity (Super Rod),Monster,,Level,,,,,,,Rarity (Super Rod),Monster,,Level
+,,,,,,40%,,Daimyo Hermitaur,25-30,,40%,,Daimyo Hermitaur,25-30,,,,,,,40%,,Plesioth,30-35
+,,,,,,30%,,Royal Ludroth,30-35,,30%,,Royal Ludroth,30-35,,,,,,,30%,,Royal Ludroth,30-35
+,,,,,,15%,,Daimyo Hermitaur,20-25,,15%,,Daimyo Hermitaur,20-25,,,,,,,15%,,Plesioth,35-40
+,,,,,,10%,,Royal Ludroth,35-40,,10%,,Royal Ludroth,35-40,,,,,,,10%,,Somnacanth,35-45
+,,,,,,5%,,Lagiacrus,40-45,,5%,,Lagiacrus,40-45,,,,,,,5%,,Green Plesioth,5-45
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,Route 129 (S),,,,,Route 130 (S),,,,,Route 131 (S),,,,,Pacifidlog Town (S),,,,,Sky Pillar,,
+,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level
+,60%,,Ludroth,5-35,,60%,,Ludroth,5-35,,60%,,Ludroth,5-35,,60%,,Ludroth,5-35,,20%,,Remobra,33
+,30%,,Fryesioth,10-30,,30%,,Fryesioth,10-30,,30%,,Fryesioth,10-30,,30%,,Fryesioth,10-30,,20%,,Remobra,34
+,5%,,Gicru,15-25,,5%,,Gicru,15-25,,5%,,Gicru,15-25,,5%,,Somnaps,15-25,,10%,,Remobra,35
+,4%,,Plesioth,25-30,,4%,,Plesioth,25-30,,4%,,Plesioth,25-30,,4%,,Plesioth,25-30,,10%,,Remobra,34
+,1%,,Royal Ludroth,25-30,,1%,,Royal Ludroth,25-30,,1%,,Royal Ludroth,25-30,,1%,,Royal Ludroth,25-30,,10%,,Remobra,36
+,,,,,,,,,,,,,,,,,,,,,10%,,Remobra,37
+,,Route 129 (F),,,,,Route 130 (F),,,,,Route 131 (F),,,,,Pacifidlog Town (F),,,,5%,,Remobra,38
+,Rarity (Old Rod),Monster,,Level,,Rarity (Old Rod),Monster,,Level,,Rarity (Old Rod),Monster,,Level,,Rarity (Old Rod),Monster,,Level,,5%,,Felyne,36
+,70%,,Fryesioth,5-10,,70%,,Fryesioth,5-10,,70%,,Fryesioth,5-10,,70%,,Fryesioth,5-10,,4%,,Felyne,37
+,30%,,Hermitaur,5-10,,30%,,Hermitaur,5-10,,30%,,Hermitaur,5-10,,30%,,Somnaps,5-10,,4%,,Ponyn,38
+,Rarity (Good Rod),Monster,,Level,,Rarity (Good Rod),Monster,,Level,,Rarity (Good Rod),Monster,,Level,,Rarity (Good Rod),Monster,,Level,,1%,,Felyne,"37, 39"
+,70%,,Fryesioth,10-30,,70%,,Fryesioth,10-30,,70%,,Fryesioth,10-30,,70%,,Fryesioth,10-30,,1%,,Ponyn,"38, 39"
+,20%,,Gicru,10-30,,20%,,Gicru,10-30,,20%,,Gicru,10-30,,20%,,Tamami,10-30,,Special Encounter,,Fatalis,70
+,20%,,Ludroth,10-30,,20%,,Ludroth,10-30,,20%,,Ludroth,10-30,,20%,,Ludroth,10-30,,,,,
+,Rarity (Super Rod),Monster,,Level,,Rarity (Super Rod),Monster,,Level,,Rarity (Super Rod),Monster,,Level,,Rarity (Super Rod),Monster,,Level,,,,,
+,40%,,Plesioth,30-35,,40%,,Plesioth,30-35,,40%,,Plesioth,30-35,,40%,,Somnaps,30-35,,,,,
+,30%,,Royal Ludroth,30-35,,30%,,Royal Ludroth,30-35,,30%,,Royal Ludroth,30-35,,30%,,Royal Ludroth,30-35,,,,,
+,15%,,Plesioth,25-30,,15%,,Plesioth,25-30,,15%,,Plesioth,30-35,,15%,,Somnaps,30-35,,,,,
+,10%,,Royal Ludroth,35-40,,10%,,Royal Ludroth,35-40,,10%,,Royal Ludroth,35-40,,10%,,Somnacanth,35-40,,,,,
+,5%,,Lagiacrus,40-45,,5%,,Lagiacrus,40-45,,5%,,Lagiacrus,40-45,,5%,,Aurora Somnacanth,40-45,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,Route 132 (S),,,,,Route 133 (S),,,,,Route 134 (S),,,,,Ever Grande City,,,,,Ever Grande City (S),,
+,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level
+,60%,,Ludroth,5-35,,60%,,Ludroth,5-35,,60%,,Ludroth,5-35,,20%,,Felyne,75,,60%,,Fryesioth,5-35
+,30%,,Fryesioth,10-30,,30%,,Fryesioth,10-30,,30%,,Fryesioth,10-30,,20%,,Felyne,75,,30%,,Anoru,10-30
+,5%,,Gicru,15-25,,5%,,Gicru,15-25,,5%,,Gicru,15-25,,10%,,Felyne,75,,5%,,Anoru,15-25
+,4%,,Plesioth,25-30,,4%,,Plesioth,25-30,,4%,,Plesioth,25-30,,10%,,Felyne,75,,4%,,Plesioth,25-30
+,1%,,Royal Ludroth,25-30,,1%,,Royal Ludroth,25-30,,1%,,Royal Ludroth,25-30,,10%,,Felyne,75,,1%,,Plesioth,25-30
+,,,,,,,,,,,,,,,,10%,,Felyne,75,,,,,
+,,Route 132 (F),,,,,Route 133 (F),,,,,Route 134 (F),,,,5%,,Felyne,75,,,Ever Grande City (F),,
+,Rarity (Old Rod),Monster,,Level,,Rarity (Old Rod),Monster,,Level,,Rarity (Old Rod),Monster,,Level,,5%,,Felyne,75,,Rarity (Old Rod),Monster,,Level
+,70%,,Fryesioth,5-10,,70%,,Fryesioth,5-10,,70%,,Fryesioth,5-10,,4%,,Felyne,75,,70%,,Fryesioth,5-10
+,30%,,Hermitaur,5-10,,30%,,Hermitaur,5-10,,30%,,Hermitaur,5-10,,4%,,Felyne,75,,30%,,Hermitaur,5-10
+,Rarity (Good Rod),Monster,,Level,,Rarity (Good Rod),Monster,,Level,,Rarity (Good Rod),Monster,,Level,,1%,,Felyne,75,,Rarity (Good Rod),Monster,,Level
+,70%,,Fryesioth,10-30,,70%,,Fryesioth,10-30,,70%,,Fryesioth,10-30,,1%,,Felyne,75,,70%,,Fryesioth,10-30
+,20%,,Gicru,10-30,,20%,,Gicru,10-30,,20%,,Gicru,10-30,,,,,,,20%,,Hermitaur,10-30
+,20%,,Ludroth,10-30,,20%,,Ludroth,10-30,,20%,,Ludroth,10-30,,^(For Grinding)^,,,,,20%,,Hermitaur,10-30
+,Rarity (Super Rod),Monster,,Level,,Rarity (Super Rod),Monster,,Level,,Rarity (Super Rod),Monster,,Level,,,,,,,Rarity (Super Rod),Monster,,Level
+,40%,,Plesioth,30-35,,40%,,Plesioth,30-35,,40%,,Plesioth,30-35,,"Same for Artisan Cave, but they're Lvl 100",,,,,40%,,Plesioth,30-35
+,30%,,Royal Ludroth,30-35,,30%,,Royal Ludroth,30-35,,30%,,Royal Ludroth,30-35,,,,,,,30%,,Plesioth,30-35
+,15%,,Plesioth,25-30,,15%,,Plesioth,25-30,,15%,,Plesioth,25-30,,,,,,,15%,,Plesioth,30-35
+,10%,,Royal Ludroth,35-40,,10%,,Royal Ludroth,35-40,,10%,,Royal Ludroth,35-40,,,,,,,10%,,Plesioth,35-40
+,5%,,Lagiacrus,40-45,,5%,,Lagiacrus,40-45,,5%,,Lagiacrus,40-45,,,,,,,5%,,Green Plesioth,40-45
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,Victory Road #1,,,,,Victory Road #2,,,,,Victory Road #3,,,,,Victory Road #3 (F),,,,,Terra Cave,,
+,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,Rarity (Old Rod),Monster,,Level,,Rarity,Monster,,Level
+,20%,,Magnamalo,50,,20%,,Magnamalo,50,,20%,,Magnamalo,50,,70%,,Fryesioth,5-10,,Special Encounter,,Alatreon,70
+,20%,,Monoblos,50,,20%,,Monoblos,50,,20%,,Monoblos,50,,30%,,Gajau,5-10,,,,,
+,10%,,Xu Wu,50,,10%,,Xu Wu,50,,10%,,Xu Wu,50,,Rarity (Good Rod),Monster,,Level,,,Marine Cave,,
+,10%,,Brachydios,50,,10%,,Brachydios,50,,10%,,Brachydios,50,,70%,,Fryesioth,10-30,,Special Encounter,,Dire Miralis,70
+,10%,,Magnamalo,46,,10%,,Magnamalo,46,,10%,,Magnamalo,46,,20%,,Gicru,10-30,,,,,
+,10%,,Monoblos,46,,10%,,Monoblos,46,,10%,,Monoblos,46,,20%,,Ludroth,10-30,,,Sealed Chamber,,
+,5%,,Gore Magala,48,,5%,,Gore Magala,48,,5%,,Gore Magala,48,,Rarity (Super Rod),Monster,,Level,,100%,,Gobul,5-35
+,5%,,Zinogre,48,,5%,,Zinogre,48,,5%,,Zinogre,48,,40%,,Plesioth,25-30,,Special Encounter,,???,
+,4%,,Rajang,46,,4%,,Rajang,46,,4%,,Rajang,46,,30%,,Royal Ludroth,30-35,,,,;),
+,4%,,Deviljho,46,,4%,,Deviljho,46,,4%,,Deviljho,46,,15%,,Somnacanth,30-35,,,,,
+,1%,,Kirin,46,,1%,,Kirin,46,,1%,,Kirin,46,,10%,,Barlagual,35-40,,,,,
+,1%,,Kirin,46,,1%,,Kirin,46,,1%,,Kirin,46,,5%,,Lagiacrus,40-45,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,Victory Road #2 (R),,,,,Victory Road #3 (S),,,,,,,,,,,,
+,,,,,,Rarity,Monster,,Level,,Rarity,Monster,,Level,,,,,,,,,,
+,,,,,,60%,,Najarala,30-40,,60%,,Plesioth,30-35,,,,,,,,,,
+,,,,,,30%,,Najarala,30-40,,30%,,Daimyo Hermitaur,30-35,,,,,,,,,,
+,,,,,,5%,,Quarcephus,35-40,,5%,,Barlagual,35-40,,,,,,,,,,
+,,,,,,4%,,Quarcephus,35-40,,4%,,Barlagual,35-40,,,,,,,,,,
+,,,,,,1%,,Quarcephus,35-40,,1%,,Barlagual,35-40,,,,,,,,,,

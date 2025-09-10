@@ -1,0 +1,832 @@
+{
+  "moves": [],
+  "pokemon": {
+    "Velociprey": {
+      "types": [
+        "Normal"
+      ],
+      "bs": {
+        "hp": 40,
+        "atk": 70,
+        "def": 40,
+        "spa": 30,
+        "spd": 40,
+        "spe": 80
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Run Away",
+        "Limber"
+      ]
+    },
+    
+    "Velocidrome": {
+      "types": [
+        "Normal"
+      ],
+      "bs": {
+        "hp": 60,
+        "atk": 90,
+        "def": 40,
+        "spa": 50,
+        "spd": 70,
+        "spe": 110
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Run Away",
+        "Limber"
+      ]
+    },
+    
+    "Gendrome": {
+      "types": [
+        "Normal",
+        "Electric"
+      ],
+      "bs": {
+        "hp": 70,
+        "atk": 100,
+        "def": 40,
+        "spa": 50,
+        "spd": 80,
+        "spe": 90
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Sand Veil",
+        "Limber"
+      ]
+    },
+    
+    "Iodrome": {
+      "types": [
+        "Normal",
+        "Poison"
+      ],
+      "bs": {
+        "hp": 80,
+        "atk": 70,
+        "def": 55,
+        "spa": 120,
+        "spd": 50,
+        "spe": 65
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Liquid Ooze",
+        "Limber"
+      ]
+    },
+    
+    "Jaggi": {
+      "types": [
+        "Normal"
+      ],
+      "bs": {
+        "hp": 50,
+        "atk": 80,
+        "def": 50,
+        "spa": 40,
+        "spd": 30,
+        "spe": 50
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Inner Focus",
+        "Pickup"
+      ]
+    },
+    
+    "Great Jaggi": {
+      "types": [
+        "Normal"
+      ],
+      "bs": {
+        "hp": 80,
+        "atk": 100,
+        "def": 60,
+        "spa": 50,
+        "spd": 60,
+        "spe": 70
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Inner Focus",
+        "Pickup"
+      ]
+    },
+    
+    "Great Baggi": {
+      "types": [
+        "Normal",
+        "Psychic"
+      ],
+      "bs": {
+        "hp": 100,
+        "atk": 100,
+        "def": 30,
+        "spa": 50,
+        "spd": 30,
+        "spe": 120
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Vital Spirit",
+        "Pickup"
+      ]
+    },
+    
+    "Great Wroggi": {
+      "types": [
+        "Normal",
+        "Poison"
+      ],
+      "bs": {
+        "hp": 110,
+        "atk": 50,
+        "def": 70,
+        "spa": 90,
+        "spd": 70,
+        "spe": 50
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Serene Grace",
+        "Pickup"
+      ]
+    },
+    
+    "Jagras": {
+      "types": [
+        "Normal"
+      ],
+      "bs": {
+        "hp": 50,
+        "atk": 50,
+        "def": 60,
+        "spa": 50,
+        "spd": 30,
+        "spe": 60
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Thick Fat",
+        "Own Tempo"
+      ]
+    },
+    
+    "Great Jagras": {
+      "types": [
+        "Normal"
+      ],
+      "bs": {
+        "hp": 85,
+        "atk": 70,
+        "def": 100,
+        "spa": 55,
+        "spd": 80,
+        "spe": 30
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Thick Fat",
+        "Own Tempo"
+      ]
+    },
+    
+    "Great Girros": {
+      "types": [
+        "Normal",
+        "Electric"
+      ],
+      "bs": {
+        "hp": 60,
+        "atk": 135,
+        "def": 70,
+        "spa": 60,
+        "spd": 50,
+        "spe": 55
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Natural Cure",
+        "Own Tempo"
+      ]
+    },
+    
+    "Dodogama": {
+      "types": [
+        "Normal",
+        "Fire"
+      ],
+      "bs": {
+        "hp": 90,
+        "atk": 70,
+        "def": 100,
+        "spa": 65,
+        "spd": 85,
+        "spe": 30
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Flash Fire",
+        "Own Tempo"
+      ]
+    },
+    
+    "Aptoveal": {
+      "types": [
+        "Normal"
+      ],
+      "bs": {
+        "hp": 60,
+        "atk": 40,
+        "def": 60,
+        "spa": 35,
+        "spd": 40,
+        "spe": 40
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Oblivious",
+        "Run Away"
+      ]
+    },
+    
+    "Aptonoth": {
+      "types": [
+        "Normal"
+      ],
+      "bs": {
+        "hp": 100,
+        "atk": 55,
+        "def": 85,
+        "spa": 50,
+        "spd": 90,
+        "spe": 40
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Oblivious",
+        "Run Away"
+      ]
+    },
+    
+    "AptonothEX": {
+      "types": [
+        "Steel",
+        "Normal"
+      ],
+      "bs": {
+        "hp": 100,
+        "atk": 50,
+        "def": 90,
+        "spa": 115,
+        "spd": 100,
+        "spe": 55
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Blaze"
+      ]
+    },
+    
+    "Rhenoplos": {
+      "types": [
+        "Rock",
+        "Normal"
+      ],
+      "bs": {
+        "hp": 80,
+        "atk": 80,
+        "def": 135,
+        "spa": 20,
+        "spd": 70,
+        "spe": 55
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Rock Head",
+        "Run Away"
+      ]
+    },
+    
+    "Gajau": {
+      "types": [
+        "Ground"
+      ],
+      "bs": {
+        "hp": 50,
+        "atk": 80,
+        "def": 40,
+        "spa": 50,
+        "spd": 40,
+        "spe": 60
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Water Absorb",
+        "Swift Swim"
+      ]
+    },
+    
+    "Vespid": {
+      "types": [
+        "Bug"
+      ],
+      "bs": {
+        "hp": 40,
+        "atk": 40,
+        "def": 40,
+        "spa": 50,
+        "spd": 50,
+        "spe": 50
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Limber",
+        "Run Away"
+      ]
+    },
+    
+    "Vespoid": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "bs": {
+        "hp": 50,
+        "atk": 80,
+        "def": 40,
+        "spa": 50,
+        "spd": 50,
+        "spe": 130
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Static",
+        "Speed Boost"
+      ]
+    },
+    
+    "Vespoid Queen": {
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "bs": {
+        "hp": 75,
+        "atk": 50,
+        "def": 70,
+        "spa": 120,
+        "spd": 105,
+        "spe": 110
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Static",
+        "Speed Boost"
+      ]
+    },
+    
+    "Shakalaka": {
+      "types": [
+        "Fighting"
+      ],
+      "bs": {
+        "hp": 50,
+        "atk": 80,
+        "def": 50,
+        "spa": 20,
+        "spd": 50,
+        "spe": 50
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Hustle"
+      ]
+    },
+    
+    "Shakalaka King": {
+      "types": [
+        "Fighting"
+      ],
+      "bs": {
+        "hp": 75,
+        "atk": 95,
+        "def": 75,
+        "spa": 60,
+        "spd": 75,
+        "spe": 75
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Hustle"
+      ]
+    },
+    
+    "Kebabi": {
+      "types": [
+        "Normal",
+        "Grass"
+      ],
+      "bs": {
+        "hp": 45,
+        "atk": 60,
+        "def": 50,
+        "spa": 35,
+        "spd": 50,
+        "spe": 55
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Natural Cure",
+        "Chlorophyll"
+      ]
+    },
+    
+    "Kelbi ♂": {
+      "types": [
+        "Normal",
+        "Grass"
+      ],
+      "bs": {
+        "hp": 60,
+        "atk": 80,
+        "def": 70,
+        "spa": 60,
+        "spd": 65,
+        "spe": 85
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Natural Cure",
+        "Chlorophyll"
+      ]
+    },
+    
+    "Kelbi ♀": {
+      "types": [
+        "Normal",
+        "Grass"
+      ],
+      "bs": {
+        "hp": 85,
+        "atk": 70,
+        "def": 80,
+        "spa": 60,
+        "spd": 65,
+        "spe": 60
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Natural Cure",
+        "Chlorophyll"
+      ]
+    },
+    
+    "Remobat": {
+      "types": [
+        "Flying"
+      ],
+      "bs": {
+        "hp": 40,
+        "atk": 45,
+        "def": 35,
+        "spa": 30,
+        "spd": 40,
+        "spe": 65
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Pressure",
+        "Immunity"
+      ]
+    },
+    
+    "Remobra": {
+      "types": [
+        "Flying"
+      ],
+      "bs": {
+        "hp": 75,
+        "atk": 60,
+        "def": 65,
+        "spa": 60,
+        "spd": 50,
+        "spe": 90
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Pressure",
+        "Immunity"
+      ]
+    },
+    
+    "Thunderbug": {
+      "types": [
+        "Electric",
+        "Bug"
+      ],
+      "bs": {
+        "hp": 40,
+        "atk": 60,
+        "def": 10,
+        "spa": 110,
+        "spd": 20,
+        "spe": 100
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Volt Absorb",
+        "Lightning Rod"
+      ]
+    },
+    
+    "Thunderbug+": {
+      "types": [
+        "Electric",
+        "Bug"
+      ],
+      "bs": {
+        "hp": 50,
+        "atk": 60,
+        "def": 25,
+        "spa": 140,
+        "spd": 25,
+        "spe": 105
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Volt Absorb",
+        "Lightning Rod"
+      ]
+    },
+    
+    "Dracophage Bug": {
+      "types": [
+        "Dragon",
+        "Bug"
+      ],
+      "bs": {
+        "hp": 35,
+        "atk": 50,
+        "def": 15,
+        "spa": 120,
+        "spd": 30,
+        "spe": 100
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Shadow Tag",
+        "Rough Skin"
+      ]
+    },
+    
+    "Dracophage Bug+": {
+      "types": [
+        "Dragon",
+        "Bug"
+      ],
+      "bs": {
+        "hp": 55,
+        "atk": 50,
+        "def": 30,
+        "spa": 140,
+        "spd": 35,
+        "spe": 105
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Shadow Tag",
+        "Rough Skin"
+      ]
+    },
+    
+    "Bullfango": {
+      "types": [
+        "Normal"
+      ],
+      "bs": {
+        "hp": 40,
+        "atk": 75,
+        "def": 30,
+        "spa": 20,
+        "spd": 40,
+        "spe": 90
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Hustle",
+        "Vital Spirit"
+      ]
+    },
+    
+    "Bulldrome": {
+      "types": [
+        "Normal"
+      ],
+      "bs": {
+        "hp": 65,
+        "atk": 135,
+        "def": 40,
+        "spa": 20,
+        "spd": 40,
+        "spe": 125
+      },
+      "learnset_info": { "learnset": [], "tms": [] },
+      "abilities": [
+        "Hustle",
+        "Vital Spirit"
+      ]
+    }
+  },
+  "splits": [
+    {
+      "name": "Roxanne",
+      "position": 1,
+      "level_cap": 15,
+      "areas": [
+        {
+          "name": "Route 101",
+          "items": [],
+          "area_pokemon": [
+            { "species": "Aptoveal", "method": "Grass", "min_level": 2, "max_level": 2, "rate": 20 },
+            { "species": "Kebabi", "method": "Grass", "min_level": 2, "max_level": 2, "rate": 20 },
+            { "species": "Jaggi", "method": "Grass", "min_level": 2, "max_level": 2, "rate": 10 },
+            { "species": "Felyne", "method": "Grass", "min_level": 3, "max_level": 3, "rate": 10 },
+            { "species": "Kebabi", "method": "Grass", "min_level": 3, "max_level": 3, "rate": 10 },
+            { "species": "Shakalaka", "method": "Grass", "min_level": 3, "max_level": 3, "rate": 10 },
+            { "species": "Vespid", "method": "Grass", "min_level": 3, "max_level": 3, "rate": 5 },
+            { "species": "Gypsly", "method": "Grass", "min_level": 3, "max_level": 3, "rate": 5 },
+            { "species": "Gypsly", "method": "Grass", "min_level": 2, "max_level": 2, "rate": 4 },
+            { "species": "Felyne", "method": "Grass", "min_level": 2, "max_level": 2, "rate": 4 },
+            { "species": "Jaggi", "method": "Grass", "min_level": 3, "max_level": 3, "rate": 1 },
+            { "species": "Jaggi", "method": "Grass", "min_level": 3, "max_level": 3, "rate": 1 }
+          ],
+          "trainers": []
+        },
+        {
+          "name": "Route 102",
+          "items": [],
+          "area_pokemon": [
+            { "species": "Shakalaka", "method": "Grass", "min_level": 3, "max_level": 3, "rate": 20 },
+            { "species": "Felyne", "method": "Grass", "min_level": 3, "max_level": 3, "rate": 20 },
+            { "species": "Hornetaur", "method": "Grass", "min_level": 4, "max_level": 4, "rate": 10 },
+            { "species": "Thunderbug", "method": "Grass", "min_level": 4, "max_level": 4, "rate": 10 },
+            { "species": "Quoot", "method": "Grass", "min_level": 3, "max_level": 3, "rate": 10 },
+            { "species": "Aptoveal", "method": "Grass", "min_level": 4, "max_level": 4, "rate": 10 },
+            { "species": "Velociprey", "method": "Grass", "min_level": 3, "max_level": 3, "rate": 5 },
+            { "species": "Thunderbug", "method": "Grass", "min_level": 3, "max_level": 3, "rate": 5 },
+            { "species": "Velociprey", "method": "Grass", "min_level": 4, "max_level": 4, "rate": 4 },
+            { "species": "Gypsly", "method": "Grass", "min_level": 4, "max_level": 4, "rate": 4 },
+            { "species": "Tetnano", "method": "Grass", "min_level": 4, "max_level": 4, "rate": 1 },
+            { "species": "Jagras", "method": "Grass", "min_level": 3, "max_level": 3, "rate": 1 },
+
+            { "species": "Tetnano", "method": "Surf", "min_level": 20, "max_level": 30, "rate": 60 },
+            { "species": "Somnaps", "method": "Surf", "min_level": 10, "max_level": 20, "rate": 30 },
+            { "species": "Tetranadon", "method": "Surf", "min_level": 30, "max_level": 35, "rate": 5 },
+            { "species": "Tamami", "method": "Surf", "min_level": 5, "max_level": 10, "rate": 4 },
+            { "species": "Royal Ludroth", "method": "Surf", "min_level": 20, "max_level": 30, "rate": 1 },
+
+            { "species": "Gajau", "method": "Old Rod", "min_level": 5, "max_level": 10, "rate": 70 },
+            { "species": "Ludroth", "method": "Old Rod", "min_level": 5, "max_level": 10, "rate": 30 },
+
+            { "species": "Gajau", "method": "Good Rod", "min_level": 10, "max_level": 30, "rate": 70 },
+            { "species": "Tamami", "method": "Good Rod", "min_level": 10, "max_level": 30, "rate": 20 },
+            { "species": "Ludroth", "method": "Good Rod", "min_level": 10, "max_level": 30, "rate": 20 },
+
+            { "species": "Ludroth", "method": "Super Rod", "min_level": 25, "max_level": 30, "rate": 40 },
+            { "species": "Tamami", "method": "Super Rod", "min_level": 30, "max_level": 35, "rate": 30 },
+            { "species": "Ludroth", "method": "Super Rod", "min_level": 20, "max_level": 25, "rate": 15 },
+            { "species": "Ludroth", "method": "Super Rod", "min_level": 35, "max_level": 40, "rate": 10 },
+            { "species": "Ludroth", "method": "Super Rod", "min_level": 40, "max_level": 45, "rate": 5 }
+          ],
+          "trainers": []
+        },
+        {
+          "name": "Route 103",
+          "items": [],
+          "area_pokemon": [
+            { "species": "Aptoveal", "method": "Grass", "min_level": 2, "max_level": 2, "rate": 20 },
+            { "species": "Vespid", "method": "Grass", "min_level": 3, "max_level": 3, "rate": 20 },
+            { "species": "Shakalaka", "method": "Grass", "min_level": 3, "max_level": 3, "rate": 10 },
+            { "species": "Quoot", "method": "Grass", "min_level": 4, "max_level": 4, "rate": 10 },
+            { "species": "Vespid", "method": "Grass", "min_level": 2, "max_level": 2, "rate": 10 },
+            { "species": "Forkur", "method": "Grass", "min_level": 3, "max_level": 3, "rate": 10 },
+            { "species": "Bullfango", "method": "Grass", "min_level": 3, "max_level": 3, "rate": 5 },
+            { "species": "Konchu", "method": "Grass", "min_level": 4, "max_level": 4, "rate": 5 },
+            { "species": "Bullfango", "method": "Grass", "min_level": 3, "max_level": 3, "rate": 4 },
+            { "species": "Quoot", "method": "Grass", "min_level": 3, "max_level": 3, "rate": 4 },
+            { "species": "Velociprey", "method": "Grass", "min_level": 2, "max_level": 2, "rate": 1 },
+            { "species": "Velociprey", "method": "Grass", "min_level": 4, "max_level": 4, "rate": 1 },
+
+            { "species": "Fryesioth", "method": "Surf", "min_level": 5, "max_level": 35, "rate": 60 },
+            { "species": "Hermitaur", "method": "Surf", "min_level": 10, "max_level": 30, "rate": 30 },
+            { "species": "Tamami", "method": "Surf", "min_level": 10, "max_level": 25, "rate": 5 },
+            { "species": "Plesioth", "method": "Surf", "min_level": 25, "max_level": 30, "rate": 4 },
+            { "species": "Plesioth", "method": "Surf", "min_level": 25, "max_level": 30, "rate": 1 },
+
+            { "species": "Fryesioth", "method": "Old Rod", "min_level": 5, "max_level": 10, "rate": 70 },
+            { "species": "Gajau", "method": "Old Rod", "min_level": 5, "max_level": 10, "rate": 30 },
+
+            { "species": "Fryesioth", "method": "Good Rod", "min_level": 10, "max_level": 30, "rate": 70 },
+            { "species": "Hermitaur", "method": "Good Rod", "min_level": 10, "max_level": 30, "rate": 20 },
+            { "species": "Tamami", "method": "Good Rod", "min_level": 10, "max_level": 30, "rate": 20 },
+
+            { "species": "Plesioth", "method": "Super Rod", "min_level": 25, "max_level": 30, "rate": 40 },
+            { "species": "Daimyo Hermitaur", "method": "Super Rod", "min_level": 30, "max_level": 35, "rate": 30 },
+            { "species": "Tamami", "method": "Super Rod", "min_level": 20, "max_level": 25, "rate": 15 },
+            { "species": "Plesioth", "method": "Super Rod", "min_level": 35, "max_level": 40, "rate": 10 },
+            { "species": "Plesioth", "method": "Super Rod", "min_level": 40, "max_level": 45, "rate": 5 }
+          ],
+          "trainers": []
+        },
+        {
+          "name": "Route 104",
+          "items": [],
+          "area_pokemon": [
+            { "species": "Bullfango", "method": "Grass", "min_level": 4, "max_level": 4, "rate": 20 },
+            { "species": "Hatchling", "method": "Grass", "min_level": 4, "max_level": 4, "rate": 20 },
+            { "species": "Thunderbug", "method": "Grass", "min_level": 4, "max_level": 4, "rate": 10 },
+            { "species": "Bullfango", "method": "Grass", "min_level": 5, "max_level": 5, "rate": 10 },
+            { "species": "Konchu", "method": "Grass", "min_level": 5, "max_level": 5, "rate": 10 },
+            { "species": "Jaggi", "method": "Grass", "min_level": 4, "max_level": 4, "rate": 10 },
+            { "species": "Bishoo", "method": "Grass", "min_level": 4, "max_level": 4, "rate": 5 },
+            { "species": "Aptoveal", "method": "Grass", "min_level": 5, "max_level": 5, "rate": 5 },
+            { "species": "Kulu-Ya-Ku", "method": "Grass", "min_level": 4, "max_level": 4, "rate": 4 },
+            { "species": "Tetnano", "method": "Grass", "min_level": 4, "max_level": 4, "rate": 4 },
+            { "species": "Tetnano", "method": "Grass", "min_level": 3, "max_level": 3, "rate": 1 },
+            { "species": "Bishoo", "method": "Grass", "min_level": 5, "max_level": 5, "rate": 1 },
+
+            { "species": "Fryesioth", "method": "Surf", "min_level": 10, "max_level": 30, "rate": 60 },
+            { "species": "Fryesioth", "method": "Surf", "min_level": 15, "max_level": 25, "rate": 30 },
+            { "species": "Fryesioth", "method": "Surf", "min_level": 15, "max_level": 25, "rate": 5 },
+            { "species": "Plesioth", "method": "Surf", "min_level": 25, "max_level": 30, "rate": 4 },
+            { "species": "Plesioth", "method": "Surf", "min_level": 25, "max_level": 30, "rate": 1 },
+
+            { "species": "Fryesioth", "method": "Old Rod", "min_level": 5, "max_level": 10, "rate": 70 },
+            { "species": "Gajau", "method": "Old Rod", "min_level": 5, "max_level": 10, "rate": 30 },
+
+            { "species": "Fryesioth", "method": "Good Rod", "min_level": 10, "max_level": 30, "rate": 70 },
+            { "species": "Tamami", "method": "Good Rod", "min_level": 10, "max_level": 30, "rate": 20 },
+            { "species": "Somnaps", "method": "Good Rod", "min_level": 10, "max_level": 30, "rate": 20 },
+
+            { "species": "Plesioth", "method": "Super Rod", "min_level": 25, "max_level": 30, "rate": 40 },
+            { "species": "Plesioth", "method": "Super Rod", "min_level": 30, "max_level": 35, "rate": 30 },
+            { "species": "Tamami", "method": "Super Rod", "min_level": 20, "max_level": 25, "rate": 15 },
+            { "species": "Plesioth", "method": "Super Rod", "min_level": 35, "max_level": 40, "rate": 10 },
+            { "species": "Plesioth", "method": "Super Rod", "min_level": 40, "max_level": 45, "rate": 5 }
+          ],
+          "trainers": []
+        },
+        {
+          "name": "Petalburg Woods",
+          "items": [],
+          "area_pokemon": [
+            { "species": "Shakalaka", "method": "Grass", "min_level": 5, "max_level": 5, "rate": 20 },
+            { "species": "Vespid", "method": "Grass", "min_level": 5, "max_level": 5, "rate": 20 },
+            { "species": "Jagras", "method": "Grass", "min_level": 5, "max_level": 5, "rate": 10 },
+            { "species": "Kebabi", "method": "Grass", "min_level": 6, "max_level": 6, "rate": 10 },
+            { "species": "Kebabi", "method": "Grass", "min_level": 5, "max_level": 5, "rate": 10 },
+            { "species": "Thunderbug", "method": "Grass", "min_level": 5, "max_level": 5, "rate": 10 },
+            { "species": "Quoot", "method": "Grass", "min_level": 6, "max_level": 6, "rate": 5 },
+            { "species": "Bishoo", "method": "Grass", "min_level": 6, "max_level": 6, "rate": 5 },
+            { "species": "Pukaby", "method": "Grass", "min_level": 5, "max_level": 5, "rate": 4 },
+            { "species": "Anjarunt", "method": "Grass", "min_level": 5, "max_level": 5, "rate": 4 },
+            { "species": "Anjarunt", "method": "Grass", "min_level": 6, "max_level": 6, "rate": 1 },
+            { "species": "Pukaby", "method": "Grass", "min_level": 6, "max_level": 6, "rate": 1 }
+          ],
+          "trainers": []
+        },
+        {
+          "name": "Petalburg City",
+          "items": [],
+          "area_pokemon": [
+            { "species": "Ludroth", "method": "Surf", "min_level": 20, "max_level": 30, "rate": 60 },
+            { "species": "Ludroth", "method": "Surf", "min_level": 10, "max_level": 20, "rate": 30 },
+            { "species": "Ludroth", "method": "Surf", "min_level": 30, "max_level": 35, "rate": 5 },
+            { "species": "Somnaps", "method": "Surf", "min_level": 5, "max_level": 10, "rate": 4 },
+            { "species": "Somnaps", "method": "Surf", "min_level": 5, "max_level": 10, "rate": 1 },
+
+            { "species": "Gajau", "method": "Old Rod", "min_level": 5, "max_level": 10, "rate": 70 },
+            { "species": "Ludroth", "method": "Old Rod", "min_level": 5, "max_level": 10, "rate": 30 },
+
+            { "species": "Gajau", "method": "Good Rod", "min_level": 10, "max_level": 30, "rate": 70 },
+            { "species": "Ludroth", "method": "Good Rod", "min_level": 10, "max_level": 30, "rate": 20 },
+            { "species": "Hermitaur", "method": "Good Rod", "min_level": 10, "max_level": 30, "rate": 20 },
+
+            { "species": "Hermitaur", "method": "Super Rod", "min_level": 25, "max_level": 30, "rate": 40 },
+            { "species": "Daimyo Hermitaur", "method": "Super Rod", "min_level": 30, "max_level": 35, "rate": 30 },
+            { "species": "Tamami", "method": "Super Rod", "min_level": 20, "max_level": 25, "rate": 15 },
+            { "species": "Daimyo Hermitaur", "method": "Super Rod", "min_level": 35, "max_level": 40, "rate": 10 },
+            { "species": "Daimyo Hermitaur", "method": "Super Rod", "min_level": 40, "max_level": 45, "rate": 5 }
+          ],
+          "trainers": []
+        }
+      ]
+    }
+  ]
+
+}

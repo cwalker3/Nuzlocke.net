@@ -1,0 +1,201 @@
+ ,Name,Type 1,Type 2,Evolution,Health,Attack,Defense,Special Attack,Special Defense,Speed,Total,Ability 1,Ability 2,EVs,
+,Velociprey,Normal,,X,40,70,40,30,40,80,300,Run Away,Limber,1,
+,Velocidrome,Normal,,Level 20,60,90,40,50,70,110,420,Run Away,Limber,2,
+,Gendrome,Normal,Electric,Level 1 Stone,70,100,40,50,80,90,430,Sand Veil,Limber,1,1
+,Iodrome,Normal,Poison,Level 2 Stone,80,70,55,120,50,65,440,Liquid Ooze,Limber,1,1
+,Jaggi,Normal,,X,50,80,50,40,30,50,300,Inner Focus,Pickup,1,
+,Great Jaggi,Normal,,Level 20,80,100,60,50,60,70,420,Inner Focus,Pickup,2,
+,Great Baggi,Normal,Psychic,Level 1 Stone,100,100,30,50,30,120,430,Vital Spirit,Pickup,1,1
+,Great Wroggi,Normal,Poison,Level 2 Stone,110,50,70,90,70,50,440,Serene Grace,Pickup,2,
+,Jagras,Normal,,X,50,50,60,50,30,60,300,Thick Fat,Own Tempo,1,
+,Great Jagras,Normal,,Level 20,85,70,100,55,80,30,420,Thick Fat,Own Tempo,2,
+,Great Girros,Normal,Electric,Level 1 Stone,60,135,70,60,50,55,430,Natural Cure,Own Tempo,2,
+,Dodogama,Normal,Fire,Level 2 Stone,90,70,100,65,85,30,440,Flash Fire,Own Tempo,1,1
+,Aptoveal,Normal,,X,60,40,60,35,40,40,275,Oblivious,Run Away,1,
+,Aptonoth,Normal,,Level 25,100,55,85,50,90,40,420,Oblivious,Run Away,2,
+,AptonothEX,Steel,Normal,Level 4 Stone,100,50,90,115,100,55,510,Blaze,,3,
+,Rhenoplos,Rock,Normal,Level 1 Stone,80,80,135,20,70,55,440,Rock Head,Run Away,2,1
+,Gajau,Ground,,X,50,80,40,50,40,60,320,Water Absorb,Swift Swim,1,1
+,Vespid,Bug,,X,40,40,40,50,50,50,270,Limber,Run Away,1,
+,Vespoid,Bug,Flying,Level 10,50,80,40,50,50,130,400,Static,Speed Boost,2,
+,Vespoid Queen,Bug,Flying,Level 33,75,50,70,120,105,110,530,Static,Speed Boost,3,
+,Shakalaka,Fighting,,X,50,80,50,20,50,50,300,Hustle,,1,
+,Shakalaka King,Fighting,,Level 30,75,95,75,60,75,75,455,Hustle,,2,
+,Kebabi,Normal,Grass,X,45,60,50,35,50,55,295,Natural Cure,Chlorophyll,1,
+,Kelbi ♂,Normal,Grass,Level 18 if ♂,60,80,70,60,65,85,420,Natural Cure,Chlorophyll,1,1
+,Kelbi ♀,Normal,Grass,Level 18 if ♀,85,70,80,60,65,60,420,Natural Cure,Chlorophyll,1,1
+,Remobat,Flying,,X,40,45,35,30,40,65,255,Pressure,Immunity,1,
+,Remobra,Flying,,Level 20,75,60,65,60,50,90,400,Pressure,Immunity,2,
+,Thunderbug,Electric,Bug,X,40,60,10,110,20,100,340,Volt Absorb,Lightning Rod,3,
+,Thunderbug+,Electric,Bug,Level 22,50,60,25,140,25,105,405,Volt Absorb,Lightning Rod,3,
+,Dracophage Bug,Dragon,Bug,Level 1 Stone,35,50,15,120,30,100,350,Shadow Tag,Rough Skin,3,
+,Dracophage Bug+,Dragon,Bug,Level 22,55,50,30,140,35,105,415,Shadow Tag,Rough Skin,3,
+,Bullfango,Normal,,X,40,75,30,20,40,90,295,Hustle,Vital Spirit,1,
+,Bulldrome,Normal,,Level 20,65,135,40,20,40,125,425,Hustle,Vital Spirit,3,
+,Konchu,Bug,Steel,X,20,10,230,10,230,5,505,Shell Armor,Sturdy,3,
+,Tetnano,Water,Fighting,X,70,60,30,35,40,55,290,Swift Swim,Rain Dish,1,1
+,Tetranadon,Water,Fighting,Level 24,150,120,60,40,60,55,485,Swift Swim,Rain Dish,2,2
+,Kulu-Ya-Ku,Ground,,X,60,90,40,80,70,90,430,Pickup,,1,
+,Pukaby,Poison,Grass,X,50,55,45,50,50,65,315,Run Away,Stench,1,
+,Pukei Pukei,Poison,Grass,Level 23,60,70,65,100,105,85,485,Run Away,Stench,2,
+,Coral Pukei Pukei,Water,Grass,Level 2 Stone,70,60,75,125,80,100,510,Run Away,Rain Dish,3,
+,Quoot,Fire,Psychic,X,45,40,50,25,45,65,270,Trace,Synchronize,1,
+,Qurupeco,Fire,Psychic,Level 22,65,60,60,65,85,85,420,Trace,Synchronize,2,
+,Crimson Qurupeco,Electric,Psychic,Level 2 Stone,70,60,70,90,75,90,455,Trace,Synchronize,3,
+,Fryesioth,Water,,X,35,45,30,55,45,90,300,Swift Swim,Torrent,1,
+,Plesioth,Water,,Level 20,85,80,55,100,60,75,455,Swift Swim,Torrent,1,1
+,Green Plesioth,Water,,Level 3 Stone,100,90,60,125,70,85,530,Swift Swim,Torrent,1,2
+,Gypsly,Psychic,Poison,X,70,55,60,30,40,60,315,Lightning Rod,,1,1
+,Gypceros,Psychic,Poison,Level 25,85,85,80,85,50,75,460,Lightning Rod,,1,2
+,Purple Gypceros,Psychic,Poison,Level 3 Stone,95,95,80,100,50,80,500,Lightning Rod,,2,2
+,Barroth,Ground,Rock,X,80,95,85,55,90,80,485,Rock Head,Sturdy,2,
+,Jade Barroth,Ice,Rock,Level 2 Stone,95,115,100,40,60,90,500,Rock Head,Sturdy,1,2
+,Radobirr,Dark,Ground,X,65,45,60,30,60,50,310,Shield Dust,Battle Armor,2,
+,Radobaan,Dark,Ground,Level 28,80,80,110,50,80,55,455,Shield Dust,Battle Armor,3,
+,Tobi Kadachi,Electric,,X,70,75,60,100,80,90,475,Static,Lightning Rod,1,1
+,Viper Tobi Kadachi,Poison,Dark,Level 2 Stone,70,120,60,70,100,90,510,Poison Point,Lightning Rod,1,2
+,Giggi,Poison,,X,65,60,50,20,50,55,300,Clear Body,Hustle,1,
+,Gigginox,Poison,Ice,Level 24,95,90,80,55,85,65,470,Clear Body,Hustle,1,1
+,Baleful Gigginox,Poison,Electric,Level 2 Stone,120,70,80,115,45,70,500,Clear Body,Volt Absorb,1,2
+,Hermitaur,Water,,X,65,55,80,40,60,30,330,Sand Veil,Shell Armor,1,
+,Daimyo Hermitaur,Water,,Level 30,70,65,130,90,80,45,480,Sand Veil,Shell Armor,1,1
+,Plum Daimyo Hermitaur,Water,,Level 3 Stone,80,65,130,110,80,75,540,Sand Veil,Shell Armor,2,2
+,Basarios,Rock,,X,75,60,100,70,60,20,385,Battle Armor,Rock Head,3,
+,Ruby Basarios,Rock,Grass,Level 1 Stone,75,60,95,90,50,30,400,Battle Armor,Rough Skin,3,
+,Gravios,Rock,Fire,Level 32,100,65,100,105,90,60,520,Battle Armor,Rock Head,2,1
+,Black Gravios,Rock,Fire,Level 4 Stone,120,70,110,130,100,60,590,Battle Armor,Rock Head,3,2
+,Durambling,Grass,Ground,X,60,65,40,30,55,55,305,Own Tempo,Hustle,1,1
+,Duramboros,Grass,Ground,Level 30,95,115,95,55,55,85,500,Own Tempo,Hustle,2,1
+,Rust Duramboros,Steel,Ground,Level 3 Stone,140,120,100,40,80,60,540,Own Tempo,Hustle,1,2
+,Anoru,Ice,Dragon,X,55,55,45,25,40,85,305,Vital Spirit,Pressure,2,1
+,Anorpathis,Ice,Dragon,Level 33,85,115,85,75,65,85,510,Intimidate,Pressure,2,2
+,Ludroth,Water,,X,55,50,60,75,80,50,370,Water Absorb,Water Veil,1,
+,Royal Ludroth,Water,,Level 25,70,75,85,85,90,75,480,Water Absorb,Water Veil,2,
+,Purple Ludroth,Water,Poison,Level 2 Stone,90,85,80,95,70,80,500,Water Absorb,Liquid Ooze,1,2
+,Conga,Normal,,X,60,60,60,35,35,40,290,Truant,,2,
+,Congalala,Normal,,Level 32,120,100,100,80,65,40,505,Truant,,2,2
+,Emerald Congalala,Normal,,Level 4 Stone,160,160,120,110,65,40,655,Truant,,3,3
+,Narattle,Rock,,X,35,45,60,40,55,55,290,Sound Proof,,1,1
+,Najarala,Rock,,Level 30,75,80,95,65,80,80,475,Sound Proof,,2,1
+,Tidal Najarala,Water,Rock,Level 4 Stone,75,75,100,90,80,90,510,Sound Proof,,2,2
+,Seltas,Bug,Water,X,65,65,45,55,45,100,375,Compound Eyes,Rock Head,2,
+,Seltas Queen,Bug,Water,Level 38,115,90,100,70,75,50,500,Compound Eyes,Rock Head,3,
+,Desert Seltas,Bug,Ground,Level 3 Stone,45,105,45,75,45,80,395,Compound Eyes,Rock Head,2,
+,Desert Seltas Queen,Bug,Ground,Level 40,100,115,80,90,75,60,520,Compound Eyes,Rock Head,3,
+,Gobul,Water,Dark,X,100,90,110,55,85,55,495,Rough Skin,Poison Point,3,
+,Nibelsnarf,Ground,,X,105,85,70,90,65,80,495,Sand Stream,,2,1
+,Chicatrice,Psychic,Fighting,X,50,55,50,45,40,60,300,Inner Focus,Keen Eye,1,2
+,Hypnocatrice,Psychic,Fighting,Level 27,60,85,60,65,90,95,455,Inner Focus,Keen Eye,2,2
+,Breeding Hypnocatrice,Psychic,Fighting,Level 2 Stone,75,95,70,80,90,100,510,Inner Focus,Keen Eye,2,3
+,Silver Hypnocatrice,Psychic,Fighting,Level 4 Stone,90,110,75,90,100,110,575,Inner Focus,Keen Eye,3,3
+,Hatchling,Poison,Bug,X,40,40,40,30,40,60,250,Poison Point,Swarm,1,
+,Nerscylla,Poison,Bug,Level 24,70,90,70,50,70,70,420,Poison Point,Swarm,2,
+,Shrouded Nerscylla,Poison,Bug,Level 3 Stone,85,100,75,60,75,80,475,Static,Swarm,2,
+,Anjarunt,Fire,Dark,X,55,60,55,80,65,60,375,Intimidate,,2,
+,Anjanath,Fire,Dark,Level 34,80,100,70,105,70,70,495,Intimidate,,3,
+,Fulgur Anjanath,Electric,Dark,Level 4 Stone,90,90,75,130,60,75,520,Intimidate,,3,
+,Festivio,Psychic,Flying,X,60,30,30,40,55,50,265,Early Bird,Pressure,1,
+,Malfestio,Psychic,Flying,Level 32,75,65,70,115,95,75,495,Early Bird,Pressure,2,
+,Xu Yo,Dark,Steel,X,40,80,50,35,35,55,295,Levitate,,1,1
+,Xu Wu,Dark,Steel,Level 40,70,125,60,75,70,110,510,Shed Skin,Suction Cups,2,2
+,Uroktor,Fire,,X,65,50,45,65,45,50,320,Magma Armor,Flame Body,1,
+,Agnaktor,Fire,,Level 35,75,90,90,125,55,65,500,Magma Armor,Flame Body,2,
+,Glacial Agnaktor,Ice,Water,Level 3 Stone,95,80,110,105,90,60,540,Battle Armor,Marvel Scale,3,
+,Rathling,Fire,,X,40,50,40,60,50,65,305,Blaze,Immunity,1,
+,Rathian,Fire,Poison,24 if ♀,85,85,100,65,75,70,480,Blaze,Serene Grace,2,1
+,Pink Rathian,Fire,Poison,Level 3 Stone,90,95,110,70,90,75,530,Blaze,Serene Grace,3,
+,Gold Rathian,Fire,Poison,Level 5 Stone,100,120,120,80,100,80,600,Blaze,Serene Grace,3,3
+,Rathalos,Fire,Flying,30 if ♂,80,90,90,85,75,70,490,Blaze,Hustle,1,2
+,Azure Rathalos,Fire,Flying,Level 3 Stone,85,105,100,100,80,70,540,Blaze,Hustle,3,
+,Silver Rathalos,Fire,Flying,Level 5 Stone,90,110,110,130,80,80,600,Blaze,Hustle,3,3
+,Bishoo,Grass,,X,55,50,50,35,45,70,305,Effect Spore,,1,
+,Bishaten,Grass,,Level 26,80,90,80,60,70,100,480,Effect Spore,,2,
+,Blood Orange Bishaten,Grass,Fire,Level 3 Stone,90,110,85,65,70,100,520,Effect Spore,,3,
+,Somnaps,Water,Psychic,X,70,45,40,45,40,75,315,Inner Focus,Cloud Nine,1,1
+,Somnacanth,Water,Psychic,Level 29,90,70,70,60,60,90,440,Inner Focus,Cloud Nine,2,2
+,Aurora Somnacanth,Ice,Psychic,Level 4 Stone,80,55,100,120,70,90,515,Inner Focus,Cloud Nine,3,3
+,Miniblos,Fighting,Ground,X,50,90,40,15,40,65,300,Huge Power,Sand Veil,1,
+,Monoblos,Fighting,Ground,Level 32,95,85,110,25,70,90,475,Huge Power,Sand Veil,2,
+,White Monoblos,Fighting,Ground,Level 4 Stone,100,105,110,25,75,105,520,Huge Power,Sand Veil,3,
+,Hornetaur,Bug,Dark,X,70,55,50,50,50,75,350,Stench,Compoundeyes,1,
+,Gossling,Ghost,Ice,X,55,70,40,60,40,40,305,Shadow Tag,,1,1
+,Goss Harag,Ghost,Ice,Level 38,95,130,80,70,80,50,505,Shadow Tag,,2,2
+,Astil,Electric,Flying,X,50,55,65,55,50,70,345,Volt Absorb,Vital Spirit,2,
+,Astalos,Electric,Flying,Level 34,90,90,80,105,70,85,520,Volt Absorb,Vital Spirit,3,
+,Gladius,Fire,Steel,X,50,65,55,60,60,55,345,Hyper Cutter,,2,
+,Glavenus,Fire,Steel,Level 36,80,110,90,80,80,80,520,Hyper Cutter,,3,
+,Acidic Glavenus,Rock,Steel,Level 4 Stone,85,105,120,50,100,95,555,Hyper Cutter,,3,
+,Rachnoid,Bug,,X,60,50,45,50,80,35,320,Shield Dust,Compound Eyes,1,
+,Rakna Kadaki,Bug,Fire,Level 32,70,60,60,100,100,75,465,Shield Dust,Compound Eyes,2,
+,Pyre Rakna Kadaki,Bug,Fire,Level 3 Stone,90,70,75,125,100,80,540,Shield Dust,Compound Eyes,3,
+,Tiggy,Fighting,Normal,X,50,70,45,20,60,60,305,Vital Spirit,Soundproof,2,
+,Tigrex,Fighting,Normal,Level 32,75,120,75,55,75,90,490,Vital Spirit,Soundproof,3,
+,Brute Tigrex,Fighting,Normal,Level 4 Stone,75,90,85,120,75,95,540,Vital Spirit,Soundproof,3,
+,Molten Tigrex,Fighting,Normal,Level 5 Stone,90,150,100,95,85,80,600,Speed Boost,Speed Boost,3,3
+,Magnitten,Fire,Ghost,X,50,60,50,70,50,65,345,White Smoke,Battle Armor,1,1
+,Magnamalo,Fire,Ghost,Level 40,100,100,100,90,65,85,540,White Smoke,Battle Armor,2,2
+,Barlagual,Psychic,,X,115,80,100,80,90,55,520,Arena Trap,Thick Fat,3,
+,Gicru,Water,Electric,X,50,55,40,65,35,60,305,Lightning Rod,Water Veil,1,
+,Lagiacrus,Water,Electric,Level 33,75,105,80,75,75,80,490,Lightning Rod,Water Veil,2,
+,Ivory Lagiacrus,Water,Electric,Level 4 Stone,80,105,90,110,75,90,550,Lightning Rod,Water Veil,3,
+,Abyssal Lagiacrus,Water,Electric,Level 5 Stone,100,105,90,140,75,90,600,Lightning Rod,Water Veil,3,3
+,Lunapup,Steel,Ice,X,50,70,40,35,45,80,320,Pressure,,1,1
+,Lunagaron,Steel,Ice,Level 40,80,100,75,65,85,95,500,Pressure,,2,2
+,Quarlite,Rock,Electric,X,60,35,50,75,60,35,315,Lightning Rod,Drizzle,2,1
+,Quarcephus,Rock,Electric,Level 36,90,60,100,130,110,50,540,Lightning Rod,Drizzle,3,2
+,Guga,Ghost,Fighting,X,50,50,50,35,50,70,305,Hyper Cutter,,1,
+,Nargacuga,Ghost,Fighting,Level 30,70,85,75,55,75,130,490,Hyper Cutter,,2,
+,Green Nargacuga,Ghost,Fighting,Level 3 Stone,85,90,80,75,75,135,540,Hyper Cutter,,3,
+,Lucent Nargacuga,Ghost,Fighting,Level 5 Stone,100,100,85,95,80,140,600,Clear Body,,3,3
+,Ceanataur,Water,,X,55,65,40,65,50,55,330,Hyper Cutter,Immunity,1,
+,Shogun Ceanataur,Water,Steel,Level 35,55,130,100,65,50,75,475,Hyper Cutter,Shell Armor,2,
+,Terra Shogun Ceanataur,Water,Steel,Level 4 Stone,70,135,100,80,55,80,520,Hyper Cutter,Shell Armor,3,
+,Bahala,Ground,Water,X,35,40,55,40,45,80,295,Arena Trap,,1,1
+,Balahara,Ground,Water,Level 25,85,50,95,80,85,85,480,Arena Trap,,2,2
+,Dogaron,Dark,Fighting,X,55,60,45,40,40,95,335,Guts,,1,1
+,Odogaron,Dark,Fighting,Level 35,70,115,65,50,50,150,500,Guts,,2,1
+,Ebony Odogaron,Dark,Dragon,Level 4 Stone,70,110,60,100,70,140,550,Guts,,2,1
+,Qurio,Ghost,Psychic,X,50,70,50,80,50,100,400,Levitate,,3,
+,Gore Magala,Dark,Ghost,X,75,90,80,90,75,70,480,Shed Skin,Shield Dust,1,
+,Shagaru Magala,Dragon,Ghost,Level 50,100,110,90,145,120,85,650,Shed Skin,Shield Dust,3,
+,Chaotic Gore Magala,Dark,Ghost,Cancel Evolution,80,150,60,150,60,100,600,Hustle,Shield Dust,2,
+,Rajankey,Electric,Fighting,X,50,60,60,75,60,95,400,Huge Power,,2,
+,Rajang,Electric,Fighting,Level 45,70,90,85,145,75,135,600,Huge Power,,3,
+,Incujho,Dark,,X,90,90,45,80,35,60,400,Intimidate,,2,
+,Deviljho,Dark,,Level 45,135,120,90,110,65,80,600,Intimidate,,3,
+,Ponyn,Electric,,X,50,60,50,70,50,120,400,Pressure,,3,
+,Kirin,Electric,,Level 50,60,95,60,125,60,200,600,Pressure,,3,3
+,Oroshi Kirin,Ice,,Level 5 Stone,80,60,100,100,85,175,600,Pressure,,3,3
+,Dire Miralis,Dragon,,X,140,120,170,120,120,30,700,Drought,,3,
+,Alatreon,Dragon,,X,100,130,120,140,90,120,700,Rough Skin,,3,
+,Fatalis,Dragon,,X,125,130,100,155,95,95,700,Air Lock,,3,
+Extra:,,,,,,,,,,,,,,,
+,Felyne,Normal,,X,50,50,50,50,50,50,300,Cute Charm,Pickup,0,
+,Chatadra,Rock,,X,45,60,60,25,40,55,285,Drought,,1,
+,Chatacabra,Rock,,Level 18,75,90,90,30,70,75,430,Drought,,2,
+,Kwhelp,Electric,,X,60,50,60,35,60,20,285,Volt Absorb,Sticky Hold	,1,
+,Khezu,Electric,,Level 24,85,80,90,90,85,50,480,Volt Absorb,Sticky Hold	,2,
+,Red Khezu,Electric,,Level 3 Stone,90,80,95,110,90,60,525,Volt Absorb,Sticky Hold	,3,
+,Lavasmolt,Fire,Rock,X,50,70,80,30,40,70,340,Flame Body,Magma Armor,1,
+,Lavasioth,Fire,Rock,Level 30,80,90,130,70,55,55,480,Flame Body,Magma Armor,2,
+,Red Lavasioth,Fire,Rock,Level 4 Stone,85,100,130,80,55,70,520,Flame Body,Magma Armor,3,
+,Barbabian,Fighting,,X,55,65,50,30,60,70,330,Drizzle,,1,
+,Barbaceros,Fighting,,Level 29,80,105,75,40,100,95,495,Drizzle,,2,
+,Forkur,Grass,Flying,X,40,30,40,60,65,60,295,Serene Grace,Natural Cure,2,
+,Foroclore,Grass,Flying,Level 26,70,40,50,100,120,90,470,Serene Grace,Natural Cure,3,
+,Arogu,Fire,Dragon,X,65,75,50,40,50,60,340,Blaze,Flash Fire,2,
+,Abiogladius,Fire,Dragon,Level 33,90,110,70,75,85,80,510,Blaze,Flash Fire,3,
+,Serechic,Flying,Fighting,X,50,70,50,35,65,70,340,Rough Skin,Keen Eye,2,
+,Seregios,Flying,Fighting,Level 33,85,95,70,50,90,120,510,Rough Skin,Keen Eye,3,
+,Tamami,Water,,X,50,50,40,70,55,80,345,Marvel Scale,Rain Dish,1,
+,Mizutsune,Water,,Level 32,85,60,75,95,90,115,520,Marvel Scale,Rain Dish,2,
+,Violet Mizutsune,Water,Fire,Level 5 Stone,90,60,80,115,110,120,575,Marvel Scale,Rain Dish,3,
+,Gamuzo,Ground,Ice,X,90,60,80,50,55,35,370,Thick Fat,,2,
+,Gammoth,Ground,Ice,Level 43,140,115,150,70,80,35,590,Thick Fat,,3,
+,Zupper,Electric,,X,65,70,45,75,60,55,370,Vital Spirit,Static,1,1
+,Zinogre,Electric,,Level 36,90,100,50,105,90,75,510,Vital Spirit,Static,2,2
+,Stygian Zinogre,Dragon,,Level 4 Stone,90,105,70,115,95,85,560,Vital Spirit,Own Tempo,3,3
+,Brachid,Fighting,Rock,X,60,70,60,30,50,65,335,Rock Head,Shell Armor,2,1
+,Brachydios,Fighting,Rock,Level 40,75,125,100,50,80,100,530,Rock Head,Shell Armor,3,2
+,Arkven,Steel,Ghost,X,60,80,75,60,60,65,400,Battle Armor,,2,2
+,Arkveld,Steel,Ghost,Level 45,85,130,115,100,85,85,600,Battle Armor,,3,3
