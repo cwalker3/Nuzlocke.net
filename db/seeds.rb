@@ -201,7 +201,7 @@ def import_game_from_json(json_path, title, create_pokemon: false, custom_dex_ba
           base = Pokemon.find_by(species: tp['species'])
           TrainerPokemon.create!({
             trainer: trainer,
-            game_pokemon: GamePokemon.find_by(pokemon_id: base.id),
+            game_pokemon: GamePokemon.find_by(pokemon_id: base.id, game_id: game_rec.id),
             level: tp['level'],
             position: tp['position'],
             move1: Move.find_by(name: tp['moves'][0]),
@@ -215,7 +215,7 @@ def import_game_from_json(json_path, title, create_pokemon: false, custom_dex_ba
 
       Array(area_data['area_pokemon']).each do |ap|
         base = Pokemon.find_by(species: ap['species'])
-        gp = base && GamePokemon.find_by(pokemon_id: base.id)
+        gp = base && GamePokemon.find_by(pokemon_id: base.id, game_id: game_rec.id)
         next unless gp
 
         AreaPokemon.create!(
@@ -231,12 +231,12 @@ def import_game_from_json(json_path, title, create_pokemon: false, custom_dex_ba
   end
 end
 
-# Import Sterling Silver (expects base Pokémon already present; doesn't create new)
-import_game_from_json(
-  Rails.root.join('db', 'JSON', 'games', 'sterling-silver.json'),
-  'sterling-silver',
-  create_pokemon: false
-)
+# Import Sterling Silver (disabled)
+# import_game_from_json(
+#   Rails.root.join('db', 'JSON', 'games', 'sterling-silver.json'),
+#   'sterling-silver',
+#   create_pokemon: false
+# )
 
 # Import Monster Hunter Emerald (creates species with custom dex numbers starting at 10000)
 import_game_from_json(
@@ -246,3 +246,14 @@ import_game_from_json(
   custom_dex_base: 10_000
 )
 
+# Also import the full encounter table for MHE from the CSV
+begin
+  require_relative '../lib/mhe/spawns_importer'
+  mhe_game = Game.find_by(title: 'mhe')
+  csv_path = Rails.root.join('db', 'JSON', 'games', 'Monster Hunter Emerald Documentation - Spawns.csv')
+  if mhe_game && File.exist?(csv_path)
+    Mhe::SpawnsImporter.new(game: mhe_game, csv_path: csv_path).import!
+  end
+rescue => e
+  puts "Warning: MHE spawn import failed: #{e.message}"
+end
