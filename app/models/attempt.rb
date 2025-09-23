@@ -39,7 +39,7 @@ class Attempt < ApplicationRecord
   end
 
   def box
-    attempt_pokemon.includes(game_pokemon: :pokemon).where.not(box_position: nil).order(:box_position)
+    attempt_pokemon.includes(game_pokemon: :pokemon).order(:box_position)
   end
 
   def party

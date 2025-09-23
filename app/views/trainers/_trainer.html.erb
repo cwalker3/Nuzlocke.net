@@ -1,7 +1,5 @@
 <li class="trainer">
-  <%= link_to image_tag('expand.png'), trainer_basic_path(trainer.id) %>
   <div class="trainer__left">
-    <%= button_to 
     <%= trainer.name %>
     <%= link_to trainer_path(trainer), data: { turbo_frame: 'trainer-modal' } do %>
       <%= image_tag trainer.sprite_url %>
@@ -11,7 +9,7 @@
   <% trainer.trainer_pokemon.each do |trainer_pokemon| %>
     <%= render partial: 'trainer_pokemon/trainer_pokemon', 
                locals: { link_path: trainer_pokemon_path(trainer_pokemon),
-                         turbo_frame: 'trainer-pokemon-modal',
+                         turbo_frame: 'game-content.left',
                          trainer_pokemon: trainer_pokemon } %>
   <% end %>
     

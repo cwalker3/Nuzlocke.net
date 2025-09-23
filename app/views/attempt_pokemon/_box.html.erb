@@ -1,0 +1,14 @@
+<%= turbo_frame_tag 'box' do %>
+  <ul class="box" id="box" data-controller='drag'>
+    <% box.each do |box_pokemon| %>
+      <li class="box__pokemon">
+        <% if box_pokemon.present? %>
+          <%= link_to attempt_pokemon_path(box_pokemon), data: { turbo_frame: 'attempt-pokemon-modal' } do %>
+            <%= image_tag box_pokemon.pokemon.image_url,
+                class: 'box__pokemon-img' %>
+          <% end %>
+        <% end %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>

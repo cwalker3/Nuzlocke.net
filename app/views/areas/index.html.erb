@@ -1,9 +1,9 @@
-<%= turbo_frame_tag 'game-dashboard-content' do %>
-  <div class="area-dashboard">
-    <nav class='area-dashboard__nav' data-controller='select' >
-      <ul class='area-dashboard__nav-list'>
+<%= turbo_frame_tag 'game-content-main' do %>
+  <div class="area-index">
+    <nav class='area-index__nav' data-controller='select' >
+      <ul class='area-index__nav-list'>
         <% @areas.each do |area| %>
-          <li class='area-dashboard__nav-list-area'>
+          <li class='area-index__nav-list-area'>
             <%= link_to area.name,
                         area_path_with_attempt(area, @attempt),
                         data: { turbo_frame: 'area',

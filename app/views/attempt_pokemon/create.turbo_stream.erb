@@ -1,0 +1,12 @@
+<%= turbo_stream.update 'box' do %>
+  <%= render partial: 'attempt_pokemon/box', locals: { box: @box} %>
+  
+<% end %>
+<%= turbo_stream.update 'area' do %>
+  <%= render partial: 'areas/area', locals: { area: @area, 
+                                                attempt: @attempt, 
+                                                content: @content, 
+                                                trainers: @trainers,
+                                                encounter_methods: @encounter_methods} %>
+<% end %>
+

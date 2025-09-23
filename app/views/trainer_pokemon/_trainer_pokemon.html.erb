@@ -22,7 +22,7 @@
   <% trainer_pokemon.moves.each do |move| %>
     <% if move.present? %>
       <div class="trainer__pokemon-move">
-        <%= link_to move.name, move_path(move), data: { turbo_frame: 'move-modal' }, class: "type-#{move.type.name}" %>
+        <%= link_to move.name, move_path(move), data: { turbo_frame: 'game-content-left' }, class: "type-#{move.type.name}" %>
         <p> <%= move.pp %> </p>
       </div>
     <% else %>

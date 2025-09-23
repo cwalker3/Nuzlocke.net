@@ -1,0 +1,9 @@
+.box {
+  overflow-y: auto;
+  height: 100%;
+
+  &__pokemon {
+    border: 1px solid black;
+  }
+
+}

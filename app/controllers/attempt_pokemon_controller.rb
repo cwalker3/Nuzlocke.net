@@ -13,8 +13,15 @@ class AttemptPokemonController < ApplicationController
     @attempt_pokemon = AttemptPokemon.new(attempt_pokemon_params)
     @attempt = Attempt.find(@attempt_pokemon.attempt_id)
     @area = Area.find(params[:attempt_pokemon][:area_id])
+    @box = @attempt.box
+    @encounter_methods = @area.area_pokemon_by_method
+    @trainers = @area.trainers_for(@attempt)
+    @content = 'Pokemon'
+
     if @attempt_pokemon.save
-      redirect_to area_path(@area, attempt_id: @attempt.id)
+      respond_to do |format|
+        format.turbo_stream
+      end
     else
       redirect_to game_areas_path(@attempt_pokemon.game, attempt_id: @attempt.id)
     end

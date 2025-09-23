@@ -28,7 +28,7 @@ class AttemptPokemon < ApplicationRecord
 
   acts_as_list scope: :attempt, column: :box_position
 
-  after_create :add_to_party_if_room
+  # after_create :add_to_party_if_room
 
   def swap(pokemon2)
     pokemon_1_party_position = self.party_position
@@ -45,10 +45,10 @@ class AttemptPokemon < ApplicationRecord
     end
   end
 
-  def remove_from_party
-    update!(party_position: nil)
-    insert_at((attempt.attempt_pokemon.maximum(:box_position) || 0) + 1)
-  end
+  # def remove_from_party
+  #   update!(party_position: nil)
+  #   insert_at((attempt.attempt_pokemon.maximum(:box_position) || 0) + 1)
+  # end
 
   def to_s
     nickname || species
@@ -56,10 +56,10 @@ class AttemptPokemon < ApplicationRecord
 
   private
 
-  def add_to_party_if_room
-    return unless attempt.party_has_room?
+  # def add_to_party_if_room
+  #   return unless attempt.party_has_room?
 
-    attempt.add_to_party(self)
-    update_column(:box_position, nil)
-  end
+  #   attempt.add_to_party(self)
+  #   update_column(:box_position, nil)
+  # end
 end

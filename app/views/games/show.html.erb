@@ -1,21 +1,14 @@
- <div class='game-dashboard'>
-  <nav class='game-dashboard__nav'>
-  <div>
-
-  </div>
-    <h2>
-      <%= @game.pretty_title %>
-    </h2>
-    <div>
-      <%= link_to 'Pokedex',
-                  pokedex_path(@game),
-                  data: { turbo_frame: 'pokedex-modal' } %>
-
+<div class="game">
+  <nav class="game__nav"></nav>
+  <div class="game__content">
+    <div class="game__content-left">
+      <%= turbo_frame_tag 'game-content-left' %>
     </div>
-  </nav>
-  <% if @content == 'box' %>
-    <%= turbo_frame_tag 'game-dashboard-content', src: attempt_pokemon_index_path(attempt_id: @attempt.id) %>
-  <% else %>
-    <%=  turbo_frame_tag 'game-dashboard-content', src: game_areas_path_with_attempt(@game, @attempt), class: 'game-dashboard__content' %>
-  <% end %>
+    <div class="game__content-main">
+      <%=  turbo_frame_tag 'game-content-main', src: game_areas_path_with_attempt(@game, @attempt) %>
+    </div>
+    <div class="game__content-right">
+      <%= render partial: 'attempt_pokemon/box', locals: { box: @box } %>
+    </div>
+  </div>
 </div>

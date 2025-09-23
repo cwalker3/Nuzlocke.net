@@ -5,6 +5,7 @@ class GamesController < ApplicationController
 
   def show
     # @game, @attempt, @area
+    @box = @attempt.box
   end
 
   def index

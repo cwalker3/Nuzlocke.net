@@ -1,6 +1,3 @@
-<%= turbo_stream.update 'party' do %>
-  <%= render partial: 'attempt_pokemon/party', locals: { party: @party } %>
-<% end %>
-<%= turbo_stream.update 'mini-box' do %>
-  <%= render partial: 'attempt_pokemon/mini_box', locals: { box: @box} %>
+<%= turbo_stream.update 'box' do %>
+  <%= render partial: 'attempt_pokemon/box', locals: { box: @box} %>
 <% end %>
